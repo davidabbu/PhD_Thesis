@@ -1,7 +1,8 @@
 \documentclass[
 	11pt, % Default font size, select one of 10pt, 11pt or 12pt
 	fleqn, % Left align equations
-	a4paper, % Paper size, use either 'a4paper' for A4 size or 'letterpaper' for US letter size
+	b5paper,
+	% Paper size, use either 'a4paper' for A4 size or 'letterpaper' for US letter size
 	%oneside, % Uncomment for oneside mode, this doesn't start new chapters and parts on odd pages (adding an empty page if required), this mode is more suitable if the book is to be read on a screen instead of printed
 ]{LegrandOrangeBook}
 
@@ -14,8 +15,10 @@
 	pdfcreator={LaTeX}, % Content creator field
 }
 
+% Bibliography files
 \addbibresource{Aging_Schelling.bib}
-\addbibresource{Aging_Threshold.bib} % Bibliography file
+\addbibresource{Aging_Threshold.bib}
+\addbibresource{Aging_STM.bib}
 
 \definecolor{ocre}{RGB}{0, 153, 0} % Define the color used for highlighting throughout the book
 
@@ -35,11 +38,11 @@
 	{\includegraphics[width=\paperwidth]{background.pdf}} % Code to output the background image, which should be the same dimensions as the paper to fill the page entirely; leave empty for no background image
 	{ % Title(s) and author(s)
 		\centering\sffamily % Font styling
-		{\Huge\bfseries Exploring the Physical Manifestation of Humanity's Subconscious Desires\par} % Book title
+		{\Huge\bfseries Aging in the idealista model for complex systems housing \par} % Book title
 		\vspace{16pt} % Vertical whitespace
-		{\LARGE A Practical Guide\par} % Subtitle
+		{\LARGE PhD thesis \par} % Subtitle
 		\vspace{24pt} % Vertical whitespace
-		{\huge\bfseries Goro Akechi\par} % Author name
+		{\huge\bfseries David Abella Bujalance \par} % Author name
 	}
 
 %----------------------------------------------------------------------------------------
@@ -50,15 +53,15 @@
 
 ~\vfill % Push the text down to the bottom of the page
 
-\noindent Copyright \copyright\ 2022 Goro Akechi\\ % Copyright notice
+\noindent Copyright \copyright\ 2024 David Abella \\ % Copyright notice
 
-\noindent \textsc{Published by Publisher}\\ % Publisher
+\noindent \textsc{Published by No one}\\ % Publisher
 
 \noindent \textsc{\href{https://www.latextemplates.com/template/legrand-orange-book}{book-website.com}}\\ % URL
 
 \noindent Licensed under the Creative Commons Attribution-NonCommercial 4.0 License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{https://creativecommons.org/licenses/by-nc-sa/4.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information, replace this with your own license (if any)
 
-\noindent \textit{First printing, March 2022} % Printing/edition date
+\noindent \textit{First printing, June 2024} % Printing/edition date
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
