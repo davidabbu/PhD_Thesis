@@ -1,0 +1,37 @@
+Since we restrain ourselves to the region $\rho_{v} < 0.5$, the increase/decrease of the number of vacancies does not change dramatically the behaviour. Above this value, we approach the segregated-dilute transition ($\rho_v \sim 0.62$). Nevertheless, it is worth to mention a few features we observe on the coarsening dynamics.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{Figs/Appendix_Schelling/FigS3_1.png} 
+\caption{ Average interface density $ \langle \rho (t) \rangle$ as a function of time steps for different values of the tolerance parameter $T$ fr the Schelling model (\textbf{a}) and the version with aging (\textbf{b}). The different plots show a the evolution at a different value of the vacancy density, increasing from left to right $\rho_v = 0.005$, $0.15$, $0.2$, $0.3$ and $0.45$. Average performed over $10^{3}$ realisations with system size $100$ $x$ $100$.}
+\label{Fig1}
+\end{figure}
+
+Essentially, when we  set a higher vacancy density, the number of agents which see vacancies at their surroundings increases. This results in a family of similar power-law decays towards the segregated state for every meaningful value of $T$ (see Fig. \ref{Fig1}). 
+
+Moreover, a higher $\rho_v$ allows us to study the coarsening phenomena for lower values of $T$ according to the phase diagram for the original Schelling model. For those particular cases, when the aging is introduced, we observe a power law decay faster than without aging (Fig. \ref{Fig1}b). Therefore, the aging effect accelerates segregation in this region of the phase diagram, contrary as for lower values of $\rho_v$. This acceleration is not caused by reaching the 2-clusters state in less time. Since there is a large presence of vacancies, aging causes a formation of vacancy clusters at the interface. Fig. \ref{Fig2} shows the final segregated state with and without aging. This spontaneous behaviour is result of the low tolerance combined with the persistence of clusters (once formed) due to aging effect and the large number of vacancies that allows the possibility of the formation of clusters at the interface.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Figs/Appendix_Schelling/Fig2_S3.png} 
+\caption{Snapshots of the system at the final segregated state (after $10^{6}$ MC steps) for the Schelling model (\textbf{a}) and the version with (\textbf{b}). System size $200$ $x$ $200$ with $\rho_{v} = 0.45$ and $T = 0.29$.}
+\label{Fig2}
+\end{figure}
+
+In order to quantify this vacancy cluster formation, we define a measure inspired in the segregation coefficient:
+
+\begin{equation}
+    s_v = \frac{1}{\left(L^{2}\rho_v\right)^{2}} \sum_{\{c\}} n_{c}^{2}
+\end{equation}
+
+where $c$ is the size of a vacancy cluster and ${n_c}$ is the number of clusters with size $c$. The sample average of $s_{v}$ after reaching equilibrium is called the cluster coefficient of vacancies $\langle s_{v} \rangle$. 
+
+The results of this measure as a function of $\rho_v$ for a few values of $T$ are represented in Fig.\ref{Fig3} for the Schelling model with and without aging. We observe an increasing dependence of $\langle s_v \rangle$ with $\rho_v$ for both models, but the effect reducing tolerance changes dramatically the behaviour for the case with aging, highlighting the vacancy cluster formation.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\linewidth]{Figs/Appendix_Schelling/FigS2_3.png} 
+\caption{Cluster coefficient of vacancies as a function of the vacancy density $\rho_v$ for the Schelling model (\textbf{a}) and the version with (\textbf{b}) for different values of the tolerance $T$.}
+\label{Fig3}
+\end{figure}
