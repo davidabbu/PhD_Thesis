@@ -15,6 +15,8 @@
 	pdfcreator={LaTeX}, % Content creator field
 }
 
+\DeclareUnicodeCharacter{0301}{*************************************}
+
 % Bibliography files
 \addbibresource{Aging_Schelling.bib}
 \addbibresource{Aging_Threshold.bib}
@@ -22,7 +24,7 @@
 
 \definecolor{ocre}{RGB}{0, 153, 0} % Define the color used for highlighting throughout the book
 
-\chapterimage{orange1.jpg} % Chapter heading image
+\chapterimage{} % Chapter heading image
 \chapterspaceabove{6.5cm} % Default whitespace from the top of the page to the chapter title on chapter pages
 \chapterspacebelow{6.75cm} % Default amount of vertical whitespace from the top margin to the start of the text on chapter pages
 
@@ -78,6 +80,33 @@
 \pagestyle{fancy} % Enable default headers and footers again
 
 \cleardoublepage % Start the following content on a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{} % Chapter heading image
+\chapterspaceabove{6.75cm} % Whitespace from the top of the page to the chapter title on chapter pages
+\chapterspacebelow{7.25cm} % Amount of vertical whitespace from the top margin to the start of the text on chapter pages
+
+\chapter*{List of publications}
+
+\begin{enumerate}
+	\item \fullcite{Abella-2022}
+	% Leave some space between the publications
+	\vspace{0.5 cm}
+	\item \fullcite{Abella-2022-AME}
+	\vspace{0.5 cm}
+	\item Aging in Symmetrical Threshold Models
+	\vspace{0.5 cm}
+	\item Aging in Ising model. Transition with connectivity.
+	\vspace{0.5 cm}
+	\item Idealista model for complex systems housing
+	\vspace{0.5 cm}
+	\item Idealista spatial segmentation of the real state market
+	\vspace{0.5 cm}
+\end{enumerate}
+
 
 %----------------------------------------------------------------------------------------
 %	CHAPTER 1
@@ -165,17 +194,19 @@
 
 \chapter*{Bibliography}
 \markboth{\sffamily\normalsize\bfseries Bibliography}{\sffamily\normalsize\bfseries Bibliography} % Set the page headers to display a Bibliography chapter name
-\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}} % Add a Bibliography heading to the table of contents
+\printbibliography
 
-\section*{Articles}
-\addcontentsline{toc}{section}{Articles} % Add the Articles subheading to the table of contents
+%\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}} % Add a Bibliography heading to the table of contents
 
-\printbibliography[heading=bibempty, type=article] % Output article bibliography entries
+%\section*{Articles}
+%\addcontentsline{toc}{section}{Articles} % Add the Articles subheading to the table of contents
 
-\section*{Books}
-\addcontentsline{toc}{section}{Books} % Add the Books subheading to the table of contents
+%\printbibliography[heading=bibempty, type=article] % Output article bibliography entries
 
-\printbibliography[heading=bibempty, type=book] % Output book bibliography entries
+%\section*{Books}
+%\addcontentsline{toc}{section}{Books} % Add the Books subheading to the table of contents
+
+%\printbibliography[heading=bibempty, type=book] % Output book bibliography entries
 
 %----------------------------------------------------------------------------------------
 %	INDEX
