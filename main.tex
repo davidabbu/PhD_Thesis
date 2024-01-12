@@ -33,19 +33,16 @@
 \begin{document}
 
 %----------------------------------------------------------------------------------------
+%	COVER PAGE
+%----------------------------------------------------------------------------------------
+
+\input{Front/cover.tex}
+
+%----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\titlepage % Output the title page
-	{\includegraphics[width=\paperwidth]{background.pdf}} % Code to output the background image, which should be the same dimensions as the paper to fill the page entirely; leave empty for no background image
-	{ % Title(s) and author(s)
-		\centering\sffamily % Font styling
-		{\Huge\bfseries Aging in the idealista model for complex systems housing \par} % Book title
-		\vspace{16pt} % Vertical whitespace
-		{\LARGE PhD thesis \par} % Subtitle
-		\vspace{24pt} % Vertical whitespace
-		{\huge\bfseries David Abella Bujalance \par} % Author name
-	}
+\input{Front/title_page.tex}
 
 %----------------------------------------------------------------------------------------
 %	COPYRIGHT PAGE
@@ -54,16 +51,67 @@
 \thispagestyle{empty} % Suppress headers and footers on this page
 
 ~\vfill % Push the text down to the bottom of the page
+\sffamily
 
-\noindent Copyright \copyright\ 2024 David Abella \\ % Copyright notice
+\noindent \textbf{Supervisors:}
 
-\noindent \textsc{Published by No one}\\ % Publisher
+\noindent Jos\'e Javier Ramasco Sukia
 
-\noindent \textsc{\href{https://www.latextemplates.com/template/legrand-orange-book}{book-website.com}}\\ % URL
+\noindent Maxi San Miguel \\
 
-\noindent Licensed under the Creative Commons Attribution-NonCommercial 4.0 License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{https://creativecommons.org/licenses/by-nc-sa/4.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information, replace this with your own license (if any)
+\noindent David Abella Bujalance.
 
-\noindent \textit{First printing, June 2024} % Printing/edition date
+\noindent \textit{Aging in the idealista model for complex systems housing.} \copyright
+
+\noindent Palma de Mallorca, June 2024
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+\input{Front/Dedication.tex}
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
+%----------------------------------------------------------------------------------------
+%	INTERNATIONAL PhD PROGRAM IN PHYSICS
+%----------------------------------------------------------------------------------------
+
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+\input{Front/International.tex}
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\input{Front/Acknowledgements.tex}
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
+%----------------------------------------------------------------------------------------
+%	RESUM
+%----------------------------------------------------------------------------------------
+
+\input{Front/Resum.tex}
+
+%----------------------------------------------------------------------------------------
+%	RESUMEN
+%----------------------------------------------------------------------------------------
+
+\input{Front/Resumen.tex}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\input{Front/Abstract.tex}
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
