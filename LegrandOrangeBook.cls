@@ -392,6 +392,18 @@
 
 %------------------------------------------------
 
+% List of figures entries (just the first sentence of the caption)
+
+\titlecontents{figure}
+	[0cm] % Left indentation
+	{\addvspace{2pt}\sffamily\small} % Before code
+	{\thecontentslabel\hspace*{1em}} % Formatting of numbered sections of this type
+	{} % Formatting of numberless sections of this type
+	{~\titlerule*[6pt]{.}~\thecontentspage} % Formatting of the filler to the right of the heading and the page number
+	[] % After code
+
+%------------------------------------------------
+
 % List of tables entries
 \titlecontents{table} % Section type being modified
 	[0cm] % Left indentation
