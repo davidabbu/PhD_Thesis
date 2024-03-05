@@ -342,9 +342,9 @@
 %------------------------------------------------
 
 \titlecontents{chapter} % Section type being modified
-	[1.25cm] % Left indentation
+	[0.75cm] % Left indentation
 	{\addvspace{12pt}\large\sffamily\bfseries\hypersetup{linkcolor=ocre}} % Before code
-	{\color{ocre}\contentslabel[\Large\thecontentslabel]{1.25cm}} % Formatting of numbered sections of this type
+	{\color{ocre}\contentslabel[\Large\thecontentslabel]{0.75cm}} % Formatting of numbered sections of this type
 	{} % Formatting of numberless sections of this type
 	{\color{ocre!60}\normalsize\;\titlerule*[6pt]{.}\;\color{ocre}\thecontentspage} % Formatting of the filler to the right of the heading and the page number
 	[] % After code
