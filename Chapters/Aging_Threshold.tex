@@ -40,7 +40,7 @@ For exogenous aging, the internal time accounts for the time since the last atte
 \section{\label{sec:Complex networks} Dynamics on Complex networks}
 
 \begin{figure}[]
-\includegraphics[width=1\columnwidth]{Figs/Aging_Threshold/cascade.pdf}
+\includegraphics[width=0.4\columnwidth]{Figs/Aging_Threshold/cascade.pdf}
 \caption[Average density $\rho$ of adopters for an Erd\H{o}s-R\'enyi graph]{\label{fig:umbral} Average density $\rho$ of adopters for an Erd\H{o}s-R\'enyi graph of mean degree $z$ using a model with threshold $T$. Color-coded values of $\rho$ are from Monte Carlo simulations of the model without aging in a graph with $N = 10,000$ agents.  Black dashed and white dotted lines correspond to $T_c$ value obtained numerically for the model with exogenous and endogenous aging, respectively.  Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations. The red solid line is the analytical approximation of the cascade boundary, from Eq. \eqref{eq:linear}, which is the same with and without aging.}
 \end{figure}
 
@@ -49,7 +49,7 @@ In this section we discuss the Threshold model with endogenous and exogenous agi
 \subsection{\label{subsec:Numerical results} Numerical results}
 
 \begin{figure}
-\includegraphics[width=1\columnwidth]{Figs/Aging_Threshold/GRAPH_PLOT.pdf}
+\includegraphics[width=0.4\columnwidth]{Figs/Aging_Threshold/GRAPH_PLOT.pdf}
 \caption[Cascade spreading for the Threshold model]{\label{fig:graph_plot} Cascade spreading for the original Threshold model (a), and the versions with endogenous (b) and exogenous (c) aging. Yellow nodes are adopters and purple nodes are non-adopters. Time increases from left to right. Monte Carlo simulations are performed in an Erd\H{o}s-R\'enyi network with mean degree $z = 3$ and $T = 0.22$. System size is $N = 8,000$.}
 \end{figure}
 
@@ -65,7 +65,7 @@ From Monte Carlo simulations in a random regular graph we find that, without agi
 where $\rho_0$ is the initial fraction of adopters (seed). This behavior is universal for all values of the control parameters $z$ and $T$ below the cascade condition. In addition, we investigated the approach to the full-adopt state ($\rho = 1$) and we found that the number of non-adopters follows an exponential decay $1 - \rho(t) \sim e^{-t}$ for all values of the control parameters (see inset in Fig.\ref{fig:models}a).
 
 \begin{figure}
-\includegraphics[width=\columnwidth]{Figs/Aging_Threshold/EVO_MOD.pdf}
+\includegraphics[width=0.5\columnwidth]{Figs/Aging_Threshold/EVO_MOD.pdf}
 \caption[Cascade dynamics and fall to the full-adopt state ($\rho \sim 1$)]{\label{fig:models} Cascade dynamics and fall to the full-adopt state ($\rho \sim 1$) of the Threshold model without aging (a) and the versions with endogenous (b) and exogenous (c) aging effects. At (b-c), the evolution is plotted as a function of the logarithm of time $\log{(t)}$ in Monte Carlo steps, as in the insets. The underlying network is a 3-regular random graph and the threshold is $T = 0.2$. The exponent values are $\alpha \simeq 1.0$, $\beta \simeq 1.14$, $\gamma \simeq 0.38$ and $\delta \simeq 1.0$. Numerically integrated solutions of Eq. \eqref{eq:AME_Threshold} (solid lines) describe accurately the numerical results. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations in a network of $N = 1.6 \times 10^5$ nodes.}
 \end{figure}
 
@@ -82,7 +82,7 @@ For exogenous aging, we observe a slow adoption spread at the beginning followed
 For both aging mechanisms, in the last stages of evolution, a few ``stubborn'' non-adopters remain, although the environment favors the adoption. Due to the chosen activation probability, the number of non-adopters decay with a power law $1 - \rho(t) \sim 1/(t+2)$ in both cases (see insets at Fig. \ref{fig:models}(b-c)).
 
 \begin{figure}
-\includegraphics[width=0.95\columnwidth]{Figs/Aging_Threshold/time_steady.pdf}
+\includegraphics[width=0.5\columnwidth]{Figs/Aging_Threshold/time_steady.pdf}
 \caption[Average time to reach the steady state $\tau$]{\label{fig:time_steady} Average time to reach the steady state ($\rho > 0.9$) $\tau$ as a function of the system size $N$ for the original Threshold model and the versions with endogenous and exogenous aging. The underlying network is a 5-regular random graph and the threshold is $T = 0.12$. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations. Solid lines are the system size-dependent timescale: For the original model, $\tau_{\rm{NO AG.}} = (1/\alpha)\log(N)$, for the endogenous $(\tau_{\rm{ENDO}} = 2N^{1/\delta} - 2)$ and for the exogenous aging ($\tau_{\rm{EXO}} = 2(\log(N)/\beta)^{1/\gamma} - 2$), which follows from the dynamics from Eq. \eqref{eq:exponential}, \eqref{eq:power law} and \eqref{eq:streched_exp}. The exponents $\alpha$, $\beta$, $\gamma$ and $\delta$ are fitted exponents.}
 \end{figure}
 
