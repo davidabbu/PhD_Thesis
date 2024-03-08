@@ -507,6 +507,7 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{hyperref}
+\usepackage{caption}
 
 \hypersetup{
 	colorlinks=true, % Whether to color links (a thin box is output around links if this is false)
