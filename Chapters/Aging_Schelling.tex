@@ -24,7 +24,7 @@ In this paper, aging is introduced in the Schelling model by considering that ag
 % Esto no es comun in Sci Reports
 %The outline of the paper is as follows. We first introduce the NCSM including aging effects, we describe its numerical implementation and define different measures of segregation. In our results we show the obtained phase diagram and compare it with the case without aging. We also analyze the specific interface properties of the final segregated state. We next report on our findings for the dynamical properties of the model. A last section includes a summary of the main results.
 
-\section{Model}
+\section{Aging in the Sakoda-Schelling model}
 
 The model considered in this work is a variant of the noisy constrained Schelling model \cite{Gauvin_2009} in which we explicitly include aging effects. For simplicity, we refer to this variant as the Schelling model during the rest of the paper to compare with the model presented here: the Schelling model with aging. For both, the system is established on a $L \times L$ Moore lattice with $8$ neighbors per site and periodic boundary conditions, where agents of two kinds (representing, for instance, wealth levels, race, language, etc) occupy the sites. There are also empty sites (vacancies), where agents can move to, depending on their state and on the vacancy neighborhood. The condition of each site $i$ of the lattice will be described with a variable  $\sigma_i$ that takes three possible values: $\sigma_i = \pm 1$ for the two kinds of agents and $\sigma_i = 0$ for vacancies. In addition, depending on the local environment, agents can be in two states: satisfied or unsatisfied. In our case, agents are satisfied if their neighborhood is constituted by a fraction of unlike agents lower than a fixed homogeneous parameter $T$. Otherwise, they are unsatisfied. Therefore, this control parameter $T$ is a measure of how tolerant the population of the system is. We also need a non-zero vacancy density, $\rho_v > 0$, for agents to change their location. This $\rho_v$ is understood as an extra parameter of the model. The initial configuration is built by randomly distributing the agents ($N_{\rm agents} = L^2 \, (1 - \rho_v)$). We always consider one half of agents of each kind.
 
@@ -34,7 +34,7 @@ The aging mechanism in our model is introduced by considering an activation prob
 
 Given the number of neighbors available in the Moore lattice, numerical simulations are only performed for a finite set of meaningful tolerance values: $\{1/8,1/7,1/6, \cdots ,6/7,7/8 \}$. During all our analysis, we focus on the low vacancy density region of the phase diagram. In this region, there is an even smaller number of meaningful $T$ values $\{1/8,2/8,...,7/8\}$, because the majority of agents do not see vacancies in their surroundings.
 
-\section{Metrics of segregation}
+\section{Segregation coefficient}
 
 Many metrics have been introduced in the literature to discern if the final state is segregated or not \cite{Gauvin_2009,lenormand-2015,randomwalks,urban}. The number of clusters is known to be directly related to the segregation because a high presence of small clusters indicates a mixing between agents. As for the Schelling model\cite{Gauvin_2009}, we compute the following metric related to the second moment of the cluster size distribution:
 \begin{equation}

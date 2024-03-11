@@ -14,6 +14,8 @@ A main difference between the threshold model and other binary-state models, suc
 %The interaction dynamics of the Symmetrical Threshold model are motivated by the threshold model introduced by M. Granovetter \cite{granovetter-1973}. While the original binary-state model only considers the propagation of one state through the system (asymmetric model), in this study we consider the symmetric case, where both states are allowed to propagate. 
 The system consists of a set of $N$ agents located at the nodes of a network. The variable describing the state of each agent $i$ takes one of the two possible values: $s_i = \pm 1$. Every agent has assigned a fixed threshold $0 \leq T \leq 1$, which determines the fraction of different neighbors required to change state. Even though this value might be agent-dependent, we will consider here only the case with a homogeneous $T$ value for all the agents of the system. In each update attempt, an agent $i$ (called active agent) is randomly selected, and if the fraction of neighbors with a different state is larger than the threshold $T$, the active agent changes state $s_i \to -s_i$. In other words, if $m$ is the number of neighbors in state $-1$ out of the total number of neighbors $k$, the condition to change is $\theta(m/k - T)$, for a node in state $+1$, and $\theta((k-m)/k - T)$, for a node in state $-1$, where $\theta(x)$ is the Heaviside step function. Notice that this update rule is equivalent to ``shifted'' Glauber dynamics \cite{glauber1963time}, with swapping probability $1/(1+\exp[\beta(\Delta E + C)]$ (where $\beta$ is the inverse temperature, $\Delta E$ the energy loss to swap the state of a node according to Ising Hamiltonian and $C$ a shifting constant), at the limit of zero temperature ($\beta \to \infty$). We analyze the model dynamics using numerical simulations. Simulation time is measured in Monte Carlo (MC) steps, i.e., $N$ update attempts. Numerical simulations run until the system reaches a frozen configuration (absorbing state) or until the average magnetization, $m = (1/N) \sum_i s_i$, fluctuates around a constant value.
 
+\section{\label{sec:Dynamics on networks} Dynamics on networks}
+
 \subsection{Mean-field}
 
 \begin{figure}
@@ -92,7 +94,7 @@ The Approximate Master Equation is based is based in the same basic assumptions 
 
 An alternative simpler approximation is to consider a heterogeneous mean-field approximation (HMF) (refer to \ref{appendix} for further details). This approximation is very useful when we work with networks with high clustering, close to the complete graph scenario ($\langle k \rangle /N \to 1$), a regime where the AME does not work properly because the clustering is not negligible. For our networks, HMF captures the qualitative behavior but the numerically integrated solutions do not agree with numerical simulations (see red dashed lines in Figs. \ref{ER_REG_PD}a and \ref{ER_REG_PD}b, and the colored dotted lines in Fig. \ref{ER_REG_PD}c), and the frozen phase is not predicted by this framework. These findings demonstrate that threshold models (in networks far from $\langle k \rangle/N = 1$) need approximations beyond mean-field to achieve accuracy, in agreement with the findings in Refs. \cite{gleeson-2007,gleeson-2013,Abella-2022-AME}.
 
-\section{\label{appendix} Heterogeneous mean-field (HMF)}
+\subsection{\label{appendix} Heterogeneous mean-field (HMF)}
 
 When the transition and aging probabilities do not depend on $j$, $T^{\pm}_{k,m,j} = T^{\pm}_{k,m}$ and $A^{\pm}_{k,m,j} = A^{\pm}_{k,m}$, if we are not interested in the solutions $x^{\pm}_{k,m,j} (t)$ and we just want the final magnetization, Eq. \ref{eq:AME_age} is reduced to Gleeson's AME \cite{gleeson-2013} by summing variable $j$. If we truncate the degree distribution at a reasonable large degree $k_{\rm max}$, Gleeson's AME is a system of $(k_{\rm max}+1)(k_{\rm max}+1)$ differential equations without loss of accuracy.
 
@@ -131,7 +133,7 @@ All metrics exhibit a strong agreement between the numerical simulations and the
 
 We note that the dynamical characterization discussed above holds for all possible $m_0$ except for the symmetric initial condition $m_0 = 0$. In this case, an order-disorder transition arises at a critical mean degree $k_c$, whose value depends on the size of the system $N$ \cite{Konstantin}.
 
-\section{\label{sec: Symmetrical Threshold model in a Moore_Lattice}  Symmetrical Threshold model in a Moore Lattice}
+\section{\label{sec: Dynamics on a Moore Lattice}  Dynamics on a Moore Lattice}
 
 \begin{figure}
 		\centering \captionsetup{font=sf}

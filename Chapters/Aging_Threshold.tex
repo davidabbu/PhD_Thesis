@@ -27,7 +27,7 @@ Theoretical predictions are matched with extensive Monte Carlo simulations in di
 
 The paper is organized as follows. In the next section, we describe the original Threshold model and introduce exogenous and endogenous aging in the model. In section \ref{sec:Complex networks}, numerical results are reported and contrasted with theoretical predictions for different complex networks. For completeness, in section \ref{sec:Lattice} the case of a 2D-lattice is analyzed. The final section contains a summary and a discussion of the results. The derivation of the Approximate Master Equation for general binary-state dynamics with aging effects is given in the Appendix.
 
-\section{\label{sec:Threshold model with aging} Aging and the Threshold model}
+\section{\label{sec:Threshold model with aging} Aging in the Threshold model}
 
 In the standard Threshold model \cite{granovetter-1978,watts-2002}, one considers a network of $N$ interacting agents. Each node of the network represents an agent $i$ with a binary-state variable $\sigma_i = \left\{ 0,1 \right\}$  and a given threshold $T$ ($0<T<1$). The state indicates if the agent has adopted a technology (or joined a riot, spread a meme or fake news, etc.) or not. We use the wording of a technology adoption process for the rest of the paper. If a node $i$ (with $k$ neighbors) has not adopted  ($\sigma_i = 0$) the technology, becomes adopter ($\sigma_i = 1$) if the fraction $m / k$ of neighbors adopters exceeds the threshold $T$. Adopter nodes cannot go back to the non-adopter state.
 
@@ -86,7 +86,7 @@ For both aging mechanisms, in the last stages of evolution, a few ``stubborn'' n
 
 \begin{figure}
 \centering \captionsetup{font=sf}
-\includegraphics[width=0.7\columnwidth]{Figs/Aging_Threshold/time_steady.pdf}
+\includegraphics[width=0.6\columnwidth]{Figs/Aging_Threshold/time_steady.pdf}
 \caption[Average time to reach the steady state $\tau$]{\label{fig:time_steady} Average time to reach the steady state ($\rho > 0.9$) $\tau$ as a function of the system size $N$ for the original Threshold model and the versions with endogenous and exogenous aging. The underlying network is a 5-regular random graph and the threshold is $T = 0.12$. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations. Solid lines are the system size-dependent timescale: For the original model, $\tau_{\rm{NO AG.}} = (1/\alpha)\log(N)$, for the endogenous $(\tau_{\rm{ENDO}} = 2N^{1/\delta} - 2)$ and for the exogenous aging ($\tau_{\rm{EXO}} = 2(\log(N)/\beta)^{1/\gamma} - 2$), which follows from the dynamics from Eq. \eqref{eq:exponential}, \eqref{eq:power law} and \eqref{eq:streched_exp}. The exponents $\alpha$, $\beta$, $\gamma$ and $\delta$ are fitted exponents.}
 \end{figure}
 
@@ -273,7 +273,7 @@ Fig.\ref{fig:evo_lat}c shows the dynamics towards global adoption for endogenous
 
 \begin{figure}
     \centering \captionsetup{font=sf}
-    \includegraphics[width=0.6\columnwidth]{Figs/Aging_Threshold/FIG_EVO.png}
+    \includegraphics[width=\columnwidth]{Figs/Aging_Threshold/FIG_EVO2.png}
     \caption[Cascade dynamics snapshots in a lattice]{\label{fig:lattice} Cascade dynamics of the Threshold model with exogenous (a) and endogenous (b) aging on a Moore neighborhood lattice. Different colors indicate different values of the threshold $T$. Different markers indicate the results of Monte Carlo simulations with different system size $N = L \times L$:  $L = 50$ (crosses), $100$ (triangles), $200$ (circles) and $400$ (squares). In (a), time is scaled according to size $\tau = L^{2 / \zeta}$. Discontinuous solid lines indicate a power law behavior with exponent $ \zeta = 4/3$ (blue), $1$ (red) and $2/3$ (green). In (b), the system sizes are not scaled due to the slow dynamics. Discontinuous solid lines indicate a power-logarithmic behavior, $\rho(t) \, N \sim \log(t)^{\nu} $, with exponent $ \nu = 7/3$ (blue), $2$ (red) and $5/3$ (green).}
 \end{figure}
     
