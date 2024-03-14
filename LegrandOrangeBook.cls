@@ -77,6 +77,8 @@
 
 \usepackage{microtype} % Improve typography
 
+\usepackage{setspace} % Required for line spacing
+
 %----------------------------------------------------------------------------------------
 %	HEADERS AND FOOTERS
 %----------------------------------------------------------------------------------------

@@ -26,6 +26,11 @@ Theoretical predictions are matched with extensive Monte Carlo simulations in di
 %This effect causes a particular dynamical dependence with the threshold parameter of the model that was not present for the original version.
 
 The chapter is organized as follows. In the next section, we describe the original Threshold model and introduce exogenous and endogenous aging in the model. In section \ref{sec:Complex networks}, numerical results are reported and contrasted with theoretical predictions for different complex networks. For completeness, in section \ref{sec:Lattice} the case of a 2D-lattice is analyzed. The final section contains a summary and a discussion of the results. The derivation of the Approximate Master Equation for general binary-state dynamics with aging effects is given in \ref{app:DERIVATION OF MASTER EQUATION WITH AGING}.
+\begin{figure}[bh!]
+    \centering \captionsetup{font=sf}
+    \includegraphics[width=0.65\columnwidth]{Figs/Aging_Threshold/cascade.pdf}
+    \caption[Average density $x^{-}$ of adopters for an Erd\H{o}s-R\'enyi graph]{\label{fig:umbral} Average density $x^{-}$ of adopters for an Erd\H{o}s-R\'enyi graph of mean degree $z$ using a model with threshold $T$. Color-coded values of $x^{-}$ are from Monte Carlo simulations of the model without aging in a graph with $N = 10,000$ agents.  Black dashed and white dotted lines correspond to $T_c$ value obtained numerically for the model with exogenous and endogenous aging, respectively.  Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations. The red solid line is the analytical approximation of the cascade boundary, from Eq. \eqref{eq:linear}, which is the same with and without aging.}
+\end{figure}
 
 \section{\label{sec:Threshold model with aging} Aging in the Threshold model}
 
@@ -37,25 +42,19 @@ For exogenous aging, the internal time accounts for the time since the last atte
 
 %In this chapter, we explore the effects of another aging mechanism: the exogenous aging \cite{fernandez-gracia-2013}. In this case, we consider failed adoption attempts as separate events in which the persistence time is reset. In other words, if an agent activates and does not change state (the case when $m/k \leq T$), the internal time is also reset to $j = 0$. Therefore, the internal time $j$ accounts for the time spent in the current state or since the last attempt to change state. This mechanism is introduced to model the propensity of some agents to change by some external influence (social media, political situation...) even if they are surrounded by an unfavorable environment. In addition, this type of aging allows us to explore how temporal heterogeneities affect the cascade dynamics.
 
-\section{\label{sec:Complex networks} Dynamics on Complex networks}
+\begin{figure}[bh!]
+    \centering \captionsetup{font=sf}
+    \includegraphics[width=0.55\columnwidth]{Figs/Aging_Threshold/GRAPH_PLOT.pdf}
+    \caption[Cascade spreading for the Threshold model]{\label{fig:graph_plot} Cascade spreading for the original Threshold model \textbf{(a)}, and the versions with endogenous \textbf{(b)} and exogenous \textbf{(c)} aging. Yellow nodes are adopters and purple nodes are non-adopters. Time increases from left to right. Monte Carlo simulations are performed in an Erd\H{o}s-R\'enyi network with mean degree $z = 3$ and $T = 0.22$. System size is $N = 8,000$.}
+    \end{figure}
 
-\begin{figure}
-\centering \captionsetup{font=sf}
-\includegraphics[width=0.65\columnwidth]{Figs/Aging_Threshold/cascade.pdf}
-\caption[Average density $x^{-}$ of adopters for an Erd\H{o}s-R\'enyi graph]{\label{fig:umbral} Average density $x^{-}$ of adopters for an Erd\H{o}s-R\'enyi graph of mean degree $z$ using a model with threshold $T$. Color-coded values of $x^{-}$ are from Monte Carlo simulations of the model without aging in a graph with $N = 10,000$ agents.  Black dashed and white dotted lines correspond to $T_c$ value obtained numerically for the model with exogenous and endogenous aging, respectively.  Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations. The red solid line is the analytical approximation of the cascade boundary, from Eq. \eqref{eq:linear}, which is the same with and without aging.}
-\end{figure}
+\section{\label{sec:Complex networks} Dynamics on Complex networks}
 
 In this section we discuss the Threshold model with endogenous and exogenous aging in three different complex networks: random-regular \cite{wormald1999models}, Erd\H{o}s-R\'enyi \cite{erdos1960evolution} and Barab\'asi-Albert \cite{barabasi2009scale}.
 
 \subsection{\label{subsec:Numerical results} Numerical results}
 
 For the networks considered, the Threshold model undergoes a discontinuous phase transition at a certain critical value $T_{c}$ (cascade condition) \cite{watts-2002}. For $T<T_c$, a small initial seed of adopters triggers a global cascade where, on average, a significant proportion of agents in the system adopt the technology (change from $\sigma_i = 0 \mbox{ to } \; 1$). In our analysis, the initial condition is set to favor cascades: one agent $i$ with degree $k_i = z$ is selected randomly and all her neighbors are initially adopters, as in Ref. \cite{centola-2007,singh-2013}. For $T>T_c$, there are few cascade occurrences and none of them is global. The cascade condition dependence with the average degree $z$ of the underlying network has been studied in Refs. \cite{watts-2002, gleeson-2007}. For the two aging mechanisms considered, Monte Carlo simulations in random graphs show that the $T_c$ dependence on $z$ is very similar to the one for the model without aging (see Fig. \ref{fig:umbral}). Therefore, for large connected networks, tends to the same cascade condition derived for the original Threshold model (which for ER graphs is $T_{c} = 1 / z$ \cite{watts-2002}). This result is not obvious a priory because aging has been shown to modify the final state in several models \cite{fernandez-gracia-2013,artime-2018,peralta-2020C,peralta-2020A,chen-2020,fernandez-gracia-2011,perez-2016,stark-2008}. 
-
-\begin{figure}
-    \centering \captionsetup{font=sf}
-    \includegraphics[width=0.55\columnwidth]{Figs/Aging_Threshold/GRAPH_PLOT.pdf}
-    \caption[Cascade spreading for the Threshold model]{\label{fig:graph_plot} Cascade spreading for the original Threshold model \textbf{(a)}, and the versions with endogenous \textbf{(b)} and exogenous \textbf{(c)} aging. Yellow nodes are adopters and purple nodes are non-adopters. Time increases from left to right. Monte Carlo simulations are performed in an Erd\H{o}s-R\'enyi network with mean degree $z = 3$ and $T = 0.22$. System size is $N = 8,000$.}
-    \end{figure}
 
 Even though aging in the Threshold model does not modify the cascade condition, it has a large impact in the complex contagion cascade dynamics (Fig.\ref{fig:graph_plot}). 
 %In Refs. \cite{gleeson-2008,gleeson-2013}, the authors described the fraction of adopted agents $x^{-}(t)$ evolution as a solution of a master equation. 
@@ -92,12 +91,6 @@ For both aging mechanisms, in the last stages of evolution, a few ``stubborn'' n
 
 Comparing the evolution of the original model with one of the versions with aging, we observe an important separation of time scales. While for the original model, the time to reach the steady state follows a logarithmic increase with the system size, the versions with endogenous and exogenous aging show a power law and a power-logarithmic dependence, respectively (see Fig.\ref{fig:time_steady}). Therefore, the time scale separation between the original model and the versions with aging increases as we increase the system size, and thus, the aging effects are more relevant for large systems.
 
-\begin{figure*}
-\centering \captionsetup{font=sf}
-\includegraphics[width=\linewidth]{Figs/Aging_Threshold/FIG_EVO_EXO_ENDO.pdf}
-\caption[Cascade dynamics of the Threshold model in graphs]{\label{fig:exo_endo_evo} Cascade dynamics of the Threshold model with endogenous (a - c) and exogenous (d - f) aging. From the left column to the right: a random regular graph with degree $z=5$ (a and d), an Erd\H{o}s-R\'enyi graph with average degree $z = 5$ (b and e) and a Barab\'asi-Albert graph with average degree $z = 8$ (c and f). Different colors indicate different values of $T$ and markers correspond to different system sizes: $N = 2,500$ (plus), $10,000$ (circles), $40,000$ (triangles), $160,000$ (crosses) and $640,000$ (squares). Time is scaled according to the system size for each model: $\tau_{\rm{EXO}} = 2(\log(N)/\beta)^{1/\gamma} - 2$, $\tau_{\rm{ENDO}} = 2N^{1/\delta} - 2$, where $\beta$,$\gamma$ and $\delta$ are the fitted exponents from the behavior according to Eq. \eqref{eq:power law} and \eqref{eq:streched_exp}. Solid lines are obtained from the solutions of Eq. \eqref{eq:PA}. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations.}
-\end{figure*}
-
 The power law and the stretched exponential dynamics for endogenous and exogenous aging, respectively, are observed for all parameter values $z$ and $T$ below the cascade condition ($T < T_c$) and for all system sizes. This is shown in Fig. \ref{fig:exo_endo_evo} for a random regular, Erd\H{o}s-R\'enyi and  Barab\'asi-Albert networks. In particular, we show that the time-dependent behavior for different system sizes collapses to a single curve when time is scaled with the system size-dependent timescale (previously analyzed in Fig. \ref{fig:time_steady}) that follows from either the power law dynamics $(\tau_{\rm{ENDO}} = 2N^{1/\delta} - 2)$  or the stretched exponential law  $(\tau_{\rm{EXO}} = 2( \log(N)/\beta )^{1/\gamma} - 2)$. Notice that the scaling of the y-axis is necessary for Fig.\ref{fig:exo_endo_evo}(d-f) to show a linear dependence (for all system sizes) due to the stretched exponential increase.
 
 %d for the different system sizes considering the numerically fitted dependence: stretched exponential for exogenous aging and power law for the endogenous case. Thus, these cascade dynamics are universal for any system size. The variation of parameters $z$ and $T$ only change the exponent values: $\gamma(z,T)$ and $\delta(z,T)$. The exponent dependence is different for graphs with different degree distribution $p_k$. Fig.\ref{fig:exo_endo_evo} shows the particular case for the 3 networks chosen. In particular, for a random-regular graph, the exponents do not depend on the parameter $T$ ($\gamma(z)$ and $\delta(z)$). For the other graphs considered, approaching $T$ to $T_c$ slows cascade dynamics in both cases ($\gamma(z,T)$ and $\delta(z,T)$ decrease). 
@@ -106,30 +99,33 @@ A different question is the dependence of the exponents of the power law and str
 
 \subsection{\label{subsec:Approximate master equation and solutions} General mathematical description}
 
+\begin{figure*}
+    \centering \captionsetup{font=sf}
+    \includegraphics[width=\linewidth]{Figs/Aging_Threshold/FIG_EVO_EXO_ENDO.pdf}
+    \caption[Cascade dynamics of the Threshold model in graphs]{\label{fig:exo_endo_evo} Cascade dynamics of the Threshold model with endogenous (a - c) and exogenous (d - f) aging. From the left column to the right: a random regular graph with degree $z=5$ (a and d), an Erd\H{o}s-R\'enyi graph with average degree $z = 5$ (b and e) and a Barab\'asi-Albert graph with average degree $z = 8$ (c and f). Different colors indicate different values of $T$ and markers correspond to different system sizes: $N = 2,500$ (plus), $10,000$ (circles), $40,000$ (triangles), $160,000$ (crosses) and $640,000$ (squares). Time is scaled according to the system size for each model: $\tau_{\rm{EXO}} = 2(\log(N)/\beta)^{1/\gamma} - 2$, $\tau_{\rm{ENDO}} = 2N^{1/\delta} - 2$, where $\beta$,$\gamma$ and $\delta$ are the fitted exponents from the behavior according to Eq. \eqref{eq:power law} and \eqref{eq:streched_exp}. Solid lines are obtained from the solutions of Eq. \eqref{eq:PA}. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations.}
+\end{figure*}
+
 To account for the non-Markovian dynamics introduced by the aging mechanism, we need to go beyond the standard mathematical descriptions of the Threshold model \cite{gleeson-2007,gleeson-2008,gleeson-2013}. We do so using a Markovian description by enlarging the number of variables \cite{peralta-2020C,peralta-2020A}. Namely, we classify the agents with degree $k$, number of adopter neighbors $m$ and age $j$ as different sets in a compartmental model in a general framework for binary-state dynamics in complex networks \cite{watts-2002, gleeson-2011,gleeson-2013}. Assuming a local tree-like network structure, as the one generated using the configuration model for a generic degree distribution $p_k$ \cite{molloy-1995,newman-2001} or Erd\H{o}s-R\'enyi model, we derive a general master equation \footnote{We use here the term  ``master equation'' for consistency with  Refs. \cite{gleeson-2011,gleeson-2013}, but the word ``master'' has a different meaning than the one used to describe an equation for the probability distribution \cite{peralta-2020B}} for binary-state dynamics with temporal activity patterns in complex networks considering the following possible transitions (see Appendix \ref{app:DERIVATION OF MASTER EQUATION WITH AGING} for details):
 \begin{itemize}
     \item A susceptible (infected) node changes state and resets internal age with probability $F (k,m,j)$ ($R (k,m,j)$);
     \item A susceptible (infected) node remains in the same state and resets internal age to zero ($j \to 0$) with probability $F_R (k,m,j)$ ($R_R (k,m,j)$);
-    \item A susceptible (infected) node remains in the same state and ages ($j \to j+1$) with probability $F_{A} (k,m,j)$ ($R_{A} (k,m,j)$).
+    \item A susceptible (infected) node remains in the same state and ages ($j \to j+1$) with probability $A^{\pm} (k,m,j)$ ($R_{A} (k,m,j)$).
 \end{itemize}
-See a schematic representation in Fig. \ref{fig:ame_plot1}. Note that we introduce here epidemics notation of susceptible/infected nodes \cite{gleeson-2011,gleeson-2013}, but it is immediately translated to the non-adopter/adopter situation of our model. For the specific case of the Threshold model, dynamics are monotonic and $R (k,m,j) = 0$ (no adopter becomes a non-adopter). Moreover, when an agent becomes an adopter, there are neither resetting nor aging events $R_R (k,m,j) = R_A (k,m,j) = 0$. This means as well that equations for the non-adopters $s_{k,m,j}$ and adopters $i_{k,m,j}$ nodes are independent. Thus, we can write the following rate equations for the evolution of the fraction $s_{k,m,j} (t)$ of $k$-degree non-adopters nodes with $m$ infected neighbors and age $j$:
+See a schematic representation in Fig. \ref{fig:ame_plot1}. Note that we introduce here epidemics notation of susceptible/infected nodes \cite{gleeson-2011,gleeson-2013}, but it is immediately translated to the non-adopter/adopter situation of our model. For the specific case of the Threshold model, dynamics are monotonic and $R (k,m,j) = 0$ (no adopter becomes a non-adopter). Moreover, when an agent becomes an adopter, there are neither resetting nor aging events $R_R (k,m,j) = R_A (k,m,j) = 0$. This means as well that equations for the non-adopters $x^{+}_{k,m,j}$ and adopters $i_{k,m,j}$ nodes are independent. Thus, we can write the following rate equations for the evolution of the fraction $x^{+}_{k,m,j} (t)$ of $k$-degree non-adopters nodes with $m$ infected neighbors and age $j$:
 \begin{align}
 \label{eq:AME_Threshold}
-   \frac{d s_{k,m,j}}{dt} = & \,  - s_{k,m,j} - (k-m)\, \beta^s \, s_{k,m,j} \nonumber\\ 
-   & + (k-m+1) \, \beta^s \, s_{k,m-1,j-1}  \nonumber\\
-   & + F_{A} (k,m,j-1)\, s_{k,m,j-1},  \\
-     \frac{d s_{k,m,0}}{dt}  = & \,   - s_{k,m,0} - (k - m)\, \beta^s   \,s_{k,m,0} \nonumber \\
-    & + \sum_{l = 0} F_{R} (k,m,l)\, s_{k,m,l}, \nonumber 
+\frac{d x^{+}_{k,m,j}}{dt} = & \,  - x^{+}_{k,m,j} - (k-m)\, \beta^s \, x^{+}_{k,m,j} + (k-m+1) \, \beta^s \, x^{+}_{k,m-1,j-1} + A^{\pm} (k,m,j-1)\, x^{+}_{k,m,j-1},  \\
+\frac{d x^{+}_{k,m,0}}{dt}  = & \,   - x^{+}_{k,m,0} - (k - m)\, \beta^s   \,x^{+}_{k,m,0} + \sum_{l = 0} R^{\pm} (k,m,l)\, x^{+}_{k,m,l}, \nonumber 
 \end{align}
-where $\beta^s$ is a non-linear function of $s_{k',m',j'}$ for all values of $k'$,$m'$ and $j'$  (see Eq. \eqref{beta_s}). The remaining step is to define explicitly the transition probabilities for our aging mechanisms. For both exogenous and endogenous aging, the adoption probability is the probability that an agent is activated and has a fraction of adopters that exceeds the threshold $T$, which means that 
+where $\beta^s$ is a non-linear function of $x^{+}_{k',m',j'}$ for all values of $k'$,$m'$ and $j'$  (see Eq. \eqref{beta_s}). The remaining step is to define explicitly the transition probabilities for our aging mechanisms. For both exogenous and endogenous aging, the adoption probability is the probability that an agent is activated and has a fraction of adopters that exceeds the threshold $T$, which means that 
 \begin{equation}
 F(k,m,j) = p_A(j) \, \theta(m/k - T),
 \end{equation} 
 where $\theta(\cdot)$ is the Heaviside step function. 
 
-The reset and aging probabilities for endogenous and exogenous aging mechanisms are different. The simplest case is endogenous aging where there is no reset $F_{R} (k,m,j) = 0$ and agents increase by one the age with probability 
+The reset and aging probabilities for endogenous and exogenous aging mechanisms are different. The simplest case is endogenous aging where there is no reset $R^{\pm} (k,m,j) = 0$ and agents increase by one the age with probability 
 \begin{equation}
-F_{A} (k,m,j) = \,  1 - F(k,m,j) = \, 1 - p_{A}(j)\, \theta \left( m/k - T \right).
+A^{\pm} (k,m,j) = \,  1 - F(k,m,j) = \, 1 - p_{A}(j)\, \theta \left( m/k - T \right).
 \end{equation}
 When aging is exogenous, the reset probability is the probability to activate and not adopt 
 \begin{equation}
@@ -137,46 +133,46 @@ F_R (k,m,j) = p_A (j)\, \left(1 - \theta \left(m/k - T\right)\right).
 \end{equation}
 Thus, agents that age are just the ones that do not activate, $F_A (k,m,j) = 1 - p_A(j)$.
 
-Using these definitions, we have integrated numerically Eq. \eqref{eq:AME_Threshold} for the Threshold model with both endogenous and exogenous aging. Numerical solutions give  good agreement with Monte Carlo simulations (see Fig. \ref{fig:models}). However, in a general network, considering a cutoff for the degree $k = 0,\dots,k_{\rm{max}}$ and age $j = 0,\dots,j_{\rm{max}}$, the number of differential equations to solve is $(k_{\rm{max}} + 1)\, (k_{\rm{max}} + 1)\, (j_{\rm{max}} + 1)$ according to the three subindexes of the variable $s_{k,m,j}$. This number grows with the largest degree square and largest age considered and thus, some further approximations are needed to obtain a convenient reduced system of differential equations. 
+Using these definitions, we have integrated numerically Eq. \eqref{eq:AME_Threshold} for the Threshold model with both endogenous and exogenous aging. Numerical solutions give  good agreement with Monte Carlo simulations (see Fig. \ref{fig:models}). However, in a general network, considering a cutoff for the degree $k = 0,\dots,k_{\rm{max}}$ and age $j = 0,\dots,j_{\rm{max}}$, the number of differential equations to solve is $(k_{\rm{max}} + 1)\, (k_{\rm{max}} + 1)\, (j_{\rm{max}} + 1)$ according to the three subindexes of the variable $x^{+}_{k,m,j}$. This number grows with the largest degree square and largest age considered and thus, some further approximations are needed to obtain a convenient reduced system of differential equations. 
 
 As an ansatz, we assume that timing interactions can be effectively decoupled from the adoption process so the solution of Eq. \eqref{eq:AME_Threshold} can be written as
 \begin{equation}
     \label{eq:assumption1}
-    s_{k,m,j}(t) = s_{k,m}(t) \, G_{j} (t),
+    x^{+}_{k,m,j}(t) = x^{+}_{k,m}(t) \, G_{j} (t),
 \end{equation}
-where $s_{k,m}$ is the fraction of non-adopters with degree $k$ and $m$ infected neighbors $s_{k,m} = \sum_{j} s_{k,m,j}$ and there is an age distribution $G_{j} (t)$, independent of the adoption process.
+where $x^{+}_{k,m}$ is the fraction of non-adopters with degree $k$ and $m$ infected neighbors $x^{+}_{k,m} = \sum_{j} x^{+}_{k,m,j}$ and there is an age distribution $G_{j} (t)$, independent of the adoption process.
 
-If we sum over the variable age $j$ in Eq. \eqref{eq:AME_Threshold}, we can rewrite the following rate equations for the variables $s_{k,m}$
+If we sum over the variable age $j$ in Eq. \eqref{eq:AME_Threshold}, we can rewrite the following rate equations for the variables $x^{+}_{k,m}$
 \begin{equation}
     \label{eq:threshold_AME_red}
-    \frac{d s_{k,m}}{dt}  = \,  - \langle p_A \rangle \, \theta(m - kT)\, s_{k,m} - (k - m) \, \beta^s \,  s_{k,m} + (k - m + 1)\, \beta^s \,  s_{k,m-1},
+    \frac{d x^{+}_{k,m}}{dt}  = \,  - \langle p_A \rangle \, \theta(m - kT)\, x^{+}_{k,m} - (k - m) \, \beta^s \,  x^{+}_{k,m} + (k - m + 1)\, \beta^s \,  x^{+}_{k,m-1},
 \end{equation}
 where aging effects are  just included in $\langle p_A \rangle(t)$: 
 \begin{equation}
     \langle p_A \rangle(t) = \sum_{j = 0}^{\infty} p_A(j) \, G_j (t).
 \end{equation}
 
-Using the definition of the fraction of k-degree agents adopters $\rho_k (t)$,
+Using the definition of the fraction of k-degree agents adopters $x^{-}_{k} (t)$,
 \begin{equation}
-    \rho_k(t) = 1 - \sum_{j=0}^{\infty} \sum_{m = 0}^k s_{k,m,j},
+    x^{-}_{k}(t) = 1 - \sum_{j=0}^{\infty} \sum_{m = 0}^k x^{+}_{k,m,j},
 \end{equation}
 
 and along lines of Ref. \cite{gleeson-2013}, we use the exact solution
 
 \begin{equation}
-    s_{k,m} = (1 - \rho_k (0)) \, B_{k,m}[\phi],
+    x^{+}_{k,m} = (1 - x^{-}_{k} (0)) \, B_{k,m}[\phi],
 \end{equation}
 
-where $B_{k,m}[\phi]$ is the binomial distribution with $k$ attempts, $m$ successes and with success probability $\phi$. From this point, we derive from Eq. \eqref{eq:threshold_AME_red} a reduced system of two coupled differential equations for the fraction of adopters $x^{-}(t) = \sum_k p_k \rho_k (t)$ and an auxiliary variable $\phi (t)$ (see details in Ref. \cite{gleeson-2013}):
+where $B_{k,m}[\phi]$ is the binomial distribution with $k$ attempts, $m$ successes and with success probability $\phi$. From this point, we derive from Eq. \eqref{eq:threshold_AME_red} a reduced system of two coupled differential equations for the fraction of adopters $x^{-}(t) = \sum_k p_k x^{-}_{k} (t)$ and an auxiliary variable $\phi (t)$ (see details in Ref. \cite{gleeson-2013}):
 \begin{equation}
     \label{eq:PA}
         \frac{d x^{-}}{dt} = \langle p_A \rangle [ h(\phi) - x^{-} ], \quad \quad \frac{d \phi}{dt} = \langle p_A \rangle [ g(\phi) - \phi ],
 \end{equation}
 where $\phi(t)$ can be understood as the probability that a randomly chosen neighbor of a non-adopter node is an adopter at time $t$. The functions $h(\phi)$ and $g(\phi)$ are nonlinear functions of this variable $\phi$
 \begin{align}
-    h (\phi)  = & \,  \sum_{k=0}^{\infty} p_k\,  \left( \rho_k (0) + (1 - \rho_k (0))\,  \sum_{m = kT}^{k} B_{k,m}[\phi]\right),\nonumber\\
+    h (\phi)  = & \,  \sum_{k=0}^{\infty} p_k\,  \left( x^{-}_{k} (0) + (1 - x^{-}_{k} (0))\,  \sum_{m = kT}^{k} B_{k,m}[\phi]\right),\nonumber\\
     \\
-    g (\phi)  = & \, \sum_{k=0}^{\infty} \frac{k}{z}\,  p_k \,  \left( \rho_k (0) + (1 - \rho_k (0)) \, \sum_{m = kT}^{k} B_{k-1,m}[\phi]\right). \nonumber
+    g (\phi)  = & \, \sum_{k=0}^{\infty} \frac{k}{z}\,  p_k \,  \left( x^{-}_{k} (0) + (1 - x^{-}_{k} (0)) \, \sum_{m = kT}^{k} B_{k-1,m}[\phi]\right). \nonumber
 \end{align}
  When $\langle p_A \rangle$ is replaced by a constant, Eqs. \eqref{eq:PA} reduce to previous results for the original model \cite{gleeson-2008}.
  
@@ -189,7 +185,7 @@ To obtain an analytical result for the cascade condition and for the exponents o
 %Although the approximate master equation solutions give a good agreement with Monte Carlo simulations, are not able to confirm the cascade condition and the predicted exponential, stretched-exponential and power law cascade dynamics that we fitted from Monte Carlo simulations. We need further approximations to derive analytically the dynamics and the exponent dependence with the control parameters.
 
 %To obtain the cascade condition, we follow the methodology from Ref. \cite{gleeson-2007}. 
-For a global cascade to occur, it is needed that the variable $\phi(t)$ grows with time. If we assume a small initial seed ($\rho_k (0) \; \to \; 0$), Eq. \eqref{eq:PA} can be rewritten as in Ref. \cite{gleeson-2007}
+For a global cascade to occur, it is needed that the variable $\phi(t)$ grows with time. If we assume a small initial seed ($x^{-}_{k} (0) \; \to \; 0$), Eq. \eqref{eq:PA} can be rewritten as in Ref. \cite{gleeson-2007}
 \begin{equation} % Revisar la ecuacion y el papel de k
     \label{eq:pre_lin}
     \frac{d \phi}{dt}  = \langle p_A \rangle \, \left( -\phi + \sum_{k=1}^{\infty} \frac{k}{z} \, p_k \, \sum_{m = k\, T}^{k} B_{k-1,m} [\phi] \right).
@@ -255,15 +251,15 @@ For endogenous aging, the same derivation is valid to determine the exponents $\
 \end{equation}
 The exponent reported for the power law cascade dynamics $\delta(z,T)$ turns out to be, therefore, the same exponent as the one for the exponential behavior where there is no aging:  $\delta(z,T)= \alpha(z,T)= C_{1} - 1$. Fig. \ref{fig:endo_exp} compares the prediction of Eq. \eqref{eq:alpha} with the results computed from Monte Carlo simulations. There is a good agreement for both Barab\'asi-Albert and Erd\H{o}s-R\'enyi networks for all values of $T$ and $z$. For a random-regular graph, the predicted dependence, $\alpha(z) = z - 2$, is not a good approximation for large $z$. This is because the presence of small cycles increases importantly in a random-regular graph as the average degree $z$ grows \cite{wormald_1999} and the locally-tree assumption made for the derivation of the rate equations (Eq. \eqref{eq:AME_Threshold}) is not valid anymore. A different approach is necessary for clustered networks (as in Ref.\cite{Leah2022} for the Threshold model).
 
+\begin{figure}
+    \centering \captionsetup{font=sf}
+    \includegraphics[width=0.5\columnwidth]{Figs/Aging_Threshold/LATT_PLOT.png}
+    \caption[Cascade spreading of the Threshold model in a lattice]{\label{fig:evo_lat} Cascade spreading of the original Threshold model \textbf{(a)} and the versions with exogenous \textbf{(b)} and endogenous \textbf{(c)} aging on a Moore neighborhood lattice with size $N = L \times L$, $L = 405$. Yellow and purple nodes are adopters and non-adopters, respectively. Time increases from left to right. Initial seeds are selected favoring cascades: one agent and all him/her neighbors are set as adopters at the center of the system.}
+\end{figure}
+
 For exogenous aging, an analytical expression for the exponent $\gamma(z,T)$ is not obtained following this methodology. Still, we can fit the exponent from the numerical solutions in Fig. \ref{fig:exo_endo_evo} (d-f). Fig.\ref{fig:exo_exp} shows a good comparison between the exponent calculated from the numerical solutions (from the AME) and the one calculated from  Monte Carlo simulations. The dependence of $\gamma(z,T)$ with the parameters $z$ and $T$ is qualitatively similar to the dependence of  $\alpha(z,T)$.
 
 \section{\label{sec:Lattice} Dynamics on a Moore lattice}
-
-\begin{figure}
-\centering \captionsetup{font=sf}
-\includegraphics[width=0.6\columnwidth]{Figs/Aging_Threshold/LATT_PLOT.png}
-\caption[Cascade spreading of the Threshold model in a lattice]{\label{fig:evo_lat} Cascade spreading of the original Threshold model \textbf{(a)} and the versions with exogenous \textbf{(b)} and endogenous \textbf{(c)} aging on a Moore neighborhood lattice with size $N = L \times L$, $L = 405$. Yellow and purple nodes are adopters and non-adopters, respectively. Time increases from left to right. Initial seeds are selected favoring cascades: one agent and all him/her neighbors are set as adopters at the center of the system.}
-\end{figure}
 
 The Threshold model in a two-dimensional regular lattice with a Moore neighborhood (nearest and next nearest neighbors) is known to have a critical threshold (cascade condition) $T_c = 3/8$ \cite{centola-2007}. Below this value, cascade dynamics follows a power law increase in the density of adopters $x^{-}(t) \sim t^2$, which does not depend on the threshold value $T$. In Fig. \ref{fig:evo_lat}a, we show a typical realization of this model: From an initial seed, the adoption radius increases linearly with time until all agents adopt the technology.
 
