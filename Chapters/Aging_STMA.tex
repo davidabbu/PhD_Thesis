@@ -11,23 +11,23 @@ In this chapter, we investigate the effects of aging in the Symmetrical threshol
 \section{\label{Symmetrical Threshold model with aging} Symmetrical Threshold model with aging}
 	
 In contrast to the original Symmetrical Threshold model, which assumes that agents update their state at a constant rate, the Symmetrical Threshold model with aging introduces an activation function $p_A (j)$ that is inversely proportional to the agent's internal time $j$. At each time step, the following two steps are performed:
+
 \begin{enumerate}
     \item A node $i$ with age $j$ is selected at random and activated with probability $p_A(j)$;
     \item If the fraction of neighbors in a different state is greater than the threshold $T$, the activated node changes its state from $s_i$ to $-s_i$ and resets its internal time to $j=0$.
 \end{enumerate}
+
 As in previous chapters in this thesis, we make the choice of $p_A(j) = 1/(j+2)$ for the aging probability. This particular choice is motivated by the fact that it allows to reproduce inter-event time distributions observed empirically \cite{rybski-2009,artime-2017}. 
 
 \section{\label{sec:Dynamics on networks} Dynamics on networks}
 
 \subsection{Mean-field}
-
+Figure \ref{fig:COM_AGING} compares the evolution of the average magnetization and mean internal time on a complete graph of the original Symmetrical Threshold model and the version with aging in phases I, II, and III. We observe that, for all considered threshold values, aging introduces a delay. However, the final stationary state coincides with the one observed for the original model. To explain these dynamics, we use a heterogeneous mean-field approach that considers the effects of aging (HMFA), as in Ref. \cite{chen-2020} for other binary-state models (we use a general HMF description to be applied for a complete graph and to random networks in next section). In this case, the AME does not work well due to the high density of the network. For a general network with degree distribution $p_k$, we define the fraction of agents in state $\pm 1$ with $k$ neighbors and age $j$ at time $t$ as $x^{\pm}_{k,j} (t)$. The probability of finding a neighbor in state $\pm 1$ is $\tilde{x}^{\pm}$, which can be written as 
 \begin{figure}
 	\centering \captionsetup{font=sf}
 	\includegraphics[width=\textwidth]{Figs/Aging_STM/FIG4.pdf}
 	\caption[Aging effects in the complete graph]{\label{fig:COM_AGING} Evolution of the average magnetization $m(t)$ \textbf{(a)} and the mean internal time $\bar{\tau}(t)$ \textbf{(b)} in a complete graph of $N=2500$ nodes. Results are shown for the Symmetrical Threshold Model (pluses) and the version with aging (crosses) obtained from simulations. Different colors correspond to different values of the threshold $T$: red ($T = 0.1$) belongs to Phase ${\rm I}$, green ($T = 0.5$) belongs to Phase ${\rm II}$, and purple ($T = 0.9$) to Phase ${\rm III}$. The initial magnetization is fixed at $m_0 = 0.5$. The solid and dashed lines correspond to the numerically integrated solutions from Eq. \ref{eq:HMFaging2} for the original model ($p_A(j) = 1$) and the version with aging ($p_A(j) = 1/(t+2)$), respectively. The dashed lines in (b) show $\bar{\tau}(t) = t$ (purple) and the solution from the recursive relation in Eq. (\ref{eq:RR}) (red).}
 \end{figure}
-
-Figure \ref{fig:COM_AGING} compares the evolution of the average magnetization and mean internal time on a complete graph of the original Symmetrical Threshold model and the version with aging in phases I, II, and III. We observe that, for all considered threshold values, aging introduces a delay. However, the final stationary state coincides with the one observed for the original model. To explain these dynamics, we use a heterogeneous mean-field approach that considers the effects of aging (HMFA), as in Ref. \cite{chen-2020} for other binary-state models (we use a general HMF description to be applied for a complete graph and to random networks in next section). In this case, the AME does not work well due to the high density of the network. For a general network with degree distribution $p_k$, we define the fraction of agents in state $\pm 1$ with $k$ neighbors and age $j$ at time $t$ as $x^{\pm}_{k,j} (t)$. The probability of finding a neighbor in state $\pm 1$ is $\tilde{x}^{\pm}$, which can be written as 
 \begin{equation}
     \tilde{x}^{\pm} = \sum_k p_k \frac{k}{\langle k \rangle} \,  \sum_{j=0}^{\infty} x^{\pm}_{k,j},
 \end{equation}
@@ -41,10 +41,10 @@ where $B_{k,m}[x]$ is the binomial distribution with $k$ attempts, $m$ successes
     \item It remains at its state and the age increases by one time step $j = j + 1$.
 \end{itemize}
 According to these possible events, we can write the rate equations for the variables  $x^{\pm}_{k,j}$ and $x^{\pm}_{k,0}$ as
-\begin{eqnarray}
+\begin{flalign}
     \frac{dx^{\pm}_{k,0}}{dt} & = \sum_{j=0}^{\infty} x^{\mp}_{k,j} \,  \omega_{k,j}^{\mp} - x^{\pm}_{k,0},\nonumber\\
     \frac{dx^{\pm}_{k,j}}{dt} & =  x^{\pm}_{k,j-1} \,  ( 1 - \omega_{k,j-1}^{\pm}) - x^{\pm}_{k,j} \qquad j > 0. \label{eq:HMFaging2}
-\end{eqnarray}
+\end{flalign}
 It can be shown from Eq. (\ref{eq:HMFaging2}) that the stationary solution  for the fraction of agents in state $+1$, $x_f$, obeys the following implicit equation for a complete graph (see \ref{appendix_HMFA} for a detailed explanation):
 \begin{equation}
     x_f = \frac{F(1 - x_f)}{F(x_f) + F(1-x_f)},
