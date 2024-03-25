@@ -109,10 +109,9 @@ As it occurred for the non-aging version of the model, the dynamical characteriz
 $m_0$ except for the symmetric initial condition $m_0 = 0$. The implications of the order-disorder transition (that occurs at a critical mean degree $k_c (N)$) \cite{Konstantin} are still present in the model with aging.
 
 To account for the results of our Monte Carlo simulations, we use the same mathematical framework as described in Equation (\ref{eq:AME_age}). According to the update rules of the Symmetrical Threshold Model with aging, the transition probabilities now depend on the age $j$, as given by the activation probability  $p_A (j)$:
-\begin{eqnarray}
-    &T^{+}_{k,m,j} = p_A(j) \, \theta(m/k - T) \quad \quad T^{-}_{k,m,j} = p_A(j) \, \theta((k-m)/k - T), \nonumber\\
-    &A^{\pm}_{k,m,j} = 1 - T^{\pm}_{k,m,j}.
-\end{eqnarray}
+\begin{equation}
+    T^{+}_{k,m,j} = p_A(j) \, \theta(m/k - T) \quad \quad T^{-}_{k,m,j} = p_A(j) \, \theta((k-m)/k - T) \quad \quad A^{\pm}_{k,m,j} = 1 - T^{\pm}_{k,m,j}.
+\end{equation}
 We show in Figure \ref{ER_REG_PDAGING} the mixed-ordered and ordered-frozen transition lines predicted by the integration of the AME equations until a time cutoff $t_{\rm max}$. We find good agreement between the theoretical predictions and the simulations both for ER and RR networks (see RR results in \ref{RR_phase_diagram}). Regarding dynamical properties, the AME integrated solutions exhibit a remarkable concordance with the evolution of all the metrics as shown in Figure \ref{fig:evolution_random_aging}. Minor discrepancies between the numerical simulations and the integrated solutions are attributed to the different assumptions, discussed previously, on which the AME is based.  
 \begin{figure}
         \centering \captionsetup{font=sf}
