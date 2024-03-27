@@ -1,20 +1,17 @@
 %\section{\label{appendix_HMFA} Derivation of the stationary solution via the Heterogeneous mean-field taking into account aging (HMFA)}
 
 Setting the time derivatives to 0 in Eqs. (\ref{eq:HMFaging2}), we obtain the relations for the stationary state:
-
-\begin{eqnarray}
-     x^{\pm}_{k,0} = & \sum_{j=0}^{\infty} x^{\mp}_{k,j} \,  \omega_{k,j}^{\mp} \nonumber \\
-     x^{\pm}_{k,j} = & x^{\pm}_{k,j-1} \, ( 1 - \omega_{k,j-1}^{\pm})  \qquad j > 0, \label{eq:SSaging4}
-\end{eqnarray}
+\begin{equation}
+    x^{\pm}_{k,0} = \sum_{j=0}^{\infty} x^{\mp}_{k,j} \,  \omega_{k,j}^{\mp}, \quad \quad x^{\pm}_{k,j} = x^{\pm}_{k,j-1} \, ( 1 - \omega_{k,j-1}^{\pm})  \qquad j > 0, \label{eq:SSaging4}
+\end{equation}
 from where we extract the stationary condition $x^{-}_{k,0} = x^{+}_{k,0}$, as in Ref. \cite{chen-2020}. Notice that by setting $p_A(j) = 1$ and summing over all ages $j$, we recover the HMF approximation (Eq. \ref{eq:HMF}) for the model without aging. Defining $x^{\pm}_{j}(t)$ as the fraction of agents in state $\pm 1$ with age $j$:
 \begin{equation}
     x^{\pm}_{j} = \sum_k p_k \, x^{\pm}_{k,j},
 \end{equation}
 and using the degree distribution of a complete graph $p_k = \delta(k-N+1)$ (where $\delta(\cdot)$ is the Dirac delta), we sum over the variable $k$ and rewrite Eq. (\ref{eq:SSaging4}) in terms of $x^{\pm}_{j}$:
-\begin{eqnarray}
-     x^{\pm}_{0} = & \sum_{j=0}^{\infty} x^{\mp}_{j} \, \omega_{j}^{\mp}, \nonumber \\
-     x^{\pm}_{j} = & x^{\pm}_{j-1} \, ( 1 - \omega_{j-1}^{\pm})  \qquad j > 0,   \label{eq:SSSaging2}
-\end{eqnarray}
+\begin{equation}
+    x^{\pm}_{0} = \sum_{j=0}^{\infty} x^{\mp}_{j} \, \omega_{j}^{\mp},  \quad \quad x^{\pm}_{j} = x^{\pm}_{j-1} \, ( 1 - \omega_{j-1}^{\pm})  \qquad j > 0,   \label{eq:SSSaging2}
+\end{equation}
 where $\omega_{j}^{\pm} \equiv \omega_{N-1,j}^{\pm}$. Note that the stationary condition $x^{-}_{0} = x^{+}_{0}$ remains valid after summing over the degree variable. We compute the solution $x^{\pm}_{j}$ recursively as a function of $x^{\pm}_0$:
 \begin{equation}
     x^{\pm}_{j} = x^{\pm}_0 \, F_j^{\pm} \qquad {\rm where} \qquad F_j^{\pm} = \prod_{a = 0}^{j-1} (1 - \omega_a^{\pm}),
@@ -23,12 +20,10 @@ and summing all $j$,
 \begin{equation}
     x^{\pm} = x^{\pm}_0 \, F^{\pm}  \qquad {\rm where} \qquad F^{\pm} = 1 + \sum_{j=1}^{\infty} F_j^{\pm}.
 \end{equation}
-
 Using the stationary condition $x^{-}_0 = x^{+}_0$, we reach:
 \begin{equation}
     \frac{x^{+}}{x^{-}} = \frac{F^{+}}{F^{-}}.
 \end{equation}
-
 Notice that, for the complete graph, $\tilde{x}^{+} = x$, $\tilde{x}^{-} = 1 - x$. Therefore, $F^{\pm}$ is a function of the variable $x^{\mp}$ ($F^{+} = F(1 - x)$). Thus, we rewrite the previous expression just in terms of the variable $x$:
 \begin{equation}
     \frac{x}{1- x} = \frac{F(1 - x)}{F(x)}.
