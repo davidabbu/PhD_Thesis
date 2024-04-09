@@ -44,15 +44,22 @@ When we talk about threshold models, the model that comes to our minds is the th
     \centering
     \captionsetup{font=sf}
     \includegraphics[width=\textwidth]{Figs/cascade_gleeson.pdf}
-    \caption[Cascade diagram of the Granovetter-Watts model]{Average density $n$ of active nodes in a Poisson random graph of mean degree $z$ and uniform threshold value $R$  \textbf{(a)} and threshold distributed is Gaussian with mean $R$ and standard deviation $0.2$ \textbf{(b)} (from \cite{gleeson-2007}). Seed fraction is set $n_0 = 0.01$. Lines show approximations to the global cascade boundaries. The phase transition is discontinuous.}
+    \caption[Cascade diagram of the Granovetter-Watts model]{Average density $n$ of active nodes in a Poisson random graph of mean degree $z$ and uniform threshold value $R$  \textbf{(a)} and threshold distributed is Gaussian with mean $R$ and standard deviation $0.2$ \textbf{(b)} (from Ref. \cite{gleeson-2007}). Seed fraction is set $n_0 = 0.01$. Lines show approximations to the global cascade boundaries. The phase transition is discontinuous.}
     \label{fig:Cascade_gleeson}
 \end{figure}
 
--> Describe phase transition between 2 phases. explain phases.
+\begin{theorem}[Granovetter-Watts model]
+    An individual time step of the model is defined as follows:
+    \begin{enumerate}
+        \item Each node $i$ has a threshold $R_i$.
+        \item At each time step, a node $i$ is selected at random.
+        \item If the fraction of active neighbors of $i$ is greater than $R_i$, then $i$ becomes active.
+    \end{enumerate}
+\end{theorem}
 
-- This model exhibits a phase transition from a regime where the adoption of an idea is rare to a regime where the adoption of an idea is common. This phase transition is discontinuous.
+The Granovetter-Watts model exhibits a phase transition from a regime where the adoption is rare, where there are only small cascades and none of them is global, to a regime where the adoption is widespread, where there are large cascades that reach all the system. This phase transition is discontinuous \cite{watts-2002,gleeson-2007}, and it is characterized by a critical threshold value $R_c$ that separates the two regimes (refer to Fig. \ref{fig:Cascade_gleeson}). In the regime where the global cascades are rare, the system is in a supercritical state $R > R_c$, and the cascades are small and localized. In the regime where all the system reaches adoption, the system is in a subcritical state $R > R_c$, and the cascades are fast and global. The phase transition is driven by the interplay between the individual thresholds (homogeneous or heterogeneous) and the network structure, and it is a result of the collective dynamics of the system.
 
-- This model has been studied for many social networks and many variants of the model have been proposed\dots
+The exploration of this model has been widespread, encompassing studies on various types of networks including regular lattices and small-world networks \cite{centola-2007}, as well as on random graphs \cite{gleeson-2007}. It has also been examined within the contexts of networks with modular and community structures \cite{gleeson-2008}, networks that exhibit clustering \cite{hackett-2011,hackett-2013}, hypergraphs \cite{de-arruda-2020}, and networks characterized by homophily \cite{diaz-diaz-2022}, among others. In addition, the literature has expanded to cover the effects of varying the rules for adoption, such as incorporating social reinforcement across multiple layers \cite{chen-2018}, examining the influence of opinion leaders and initial seed size on the process \cite{liu-2018, singh-2013}, the introduction of on-off thresholds \cite{dodds-2013}, and analyzing the dynamics when simple contagions compete with complex ones \cite{czaplicka-2016, min-2018, diaz-diaz-2022}. Further, empirical data have been used to test the predictions of the Granovetter-Watts model, demonstrating its applicability across a wide range of real-world situations \cite{centola-2010, karimi-2013, karsai-2014, rosenthal-2015, karsai-2016, mnsted-2017, unicomb-2018, guilbeault-2021}.
 
 \section{\label{sec:The Sakoda-Schelling model} The Sakoda-Schelling model}
 
