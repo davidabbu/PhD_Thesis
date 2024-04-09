@@ -38,15 +38,17 @@ In this thesis, we focus on the dynamics of complex contagion driven by multiple
 
 Threshold models represent a critical conceptual framework in understanding how individual behaviors aggregate to produce collective outcomes, especially in contexts where decisions are influenced by the actions of others \cite{granovetter-1973,granovetter-1978}. By defining a "threshold" — the point at which an individual's perception of the collective behavior of others prompts them to act — these models offer insights into the pivotal role of social influence and network structure in driving large-scale changes from small initial actions \cite{dodds-2004}. Rooted in the interdisciplinary nexus of sociology, economics, and network theory, these models illuminate the mechanics behind phenomena as diverse as social movements, technological adoption, market dynamics, and even cascading failures within infrastructures. All these phenomena share a common thread: the need for a critical mass of adopters or actors to trigger a collective response, a threshold that must be crossed to initiate a cascade of actions or behaviors \cite{centola-2007,centola-2010}.
 
-When we talk about threshold models, the model that comes to our minds is the threshold mdoel introduced by Mark Granovetter...
+When we talk about threshold models, the model that comes to our minds is the threshold mdoel introduced by Mark Granovetter in 1978 \cite{granovetter-1978}, highlighting how individuals' actions are influenced by the number of others participating in a behavior. In this model, each individual has a threshold that determines the number of neighbors they need to observe adopting a behavior before they themselves adopt it. This threshold can be interpreted as a measure of an individual's susceptibility to social influence, capturing the idea that some people are more likely to adopt a behavior if they see many others doing the same, while others may require more convincing or reinforcement before they act. Duncan J. Watts in 2002 \cite{watts-2002} built upon Granovetter's concept, applying mathematical analysis to explore the model within complex networks. His work, particularly on how minor initial actions can lead to large cascades, further elucidated the relationship between individual thresholds and network structures. This model, known as the Granovetter-Watts threshold model, has since become a cornerstone of research on social contagion and collective behavior, offering a powerful lens through which to study the dynamics of complex contagion in social networks.
 
-The so-called Threshold model was introduced to capture a situation in which the adoption of new ideas or technologies requires a certain redundancy in the social environment of each agent to take effect. This model has become a paradigm for complex contagion.
+\begin{figure}
+    \centering
+    \captionsetup{font=sf}
+    \includegraphics[width=\textwidth]{Figs/cascade_gleeson.pdf}
+    \caption[Cascade diagram of the Granovetter-Watts model]{Average density $n$ of active nodes in a Poisson random graph of mean degree $z$ and uniform threshold value $R$  \textbf{(a)} and threshold distributed is Gaussian with mean $R$ and standard deviation $0.2$ \textbf{(b)} (from \cite{gleeson-2007}). Seed fraction is set $n_0 = 0.01$. Lines show approximations to the global cascade boundaries. The phase transition is discontinuous.}
+    \label{fig:Cascade_gleeson}
+\end{figure}
 
-- The threshold model is used to describe processes of complex contagion based on the idea that individuals have a threshold that needs to be reached in order to adopt an idea.
-
-- Watts (2002) proposed a simple model to study the dynamics of complex contagion based on the idea that individuals have a threshold that needs to be reached in order to adopt an idea. 
-
-- Should I describe what is a phase transition? Maybe with a foot note.
+-> Describe phase transition between 2 phases. explain phases.
 
 - This model exhibits a phase transition from a regime where the adoption of an idea is rare to a regime where the adoption of an idea is common. This phase transition is discontinuous.
 
