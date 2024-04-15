@@ -1,0 +1,83 @@
+\contentsline {chapter}{\numberline {1}Introduction and positioning}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1} Scientific Landscape}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2} Challenges of Computational Social Science}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1} Data availability}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2} Data analysis}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3} Modeling}{2}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4} Applications}{2}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3} Terminology and general concepts}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4} Datasets}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Models, temporal patterns and aging}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1} Introduction}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2} Simple and Complex Contagion}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3} Granovetter-Watts threshold model}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.4} The Sakoda-Schelling model}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5} Bursty Human Dynamics}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.6} Aging mechanism}{9}{section.2.6}%
+\contentsline {section}{\numberline {2.7} Aging in Simple Contagion Models}{10}{section.2.7}%
+\contentsline {part}{\numberline {I}Aging in threshold models}{11}{part.1}%
+\contentsline {chapter}{\numberline {3} Aging in binary state dynamics: The Granovetter-Watts model}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1} Introduction}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2} Aging in the Granovetter-Watts model}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3} Dynamics on Complex networks}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1} Numerical results}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2} General mathematical description}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3} Analytical results}{21}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4} Dynamics on a Moore lattice}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5} Summary and discussion}{24}{section.3.5}%
+\contentsline {chapter}{\numberline {4} Aging effects in the Sakoda-Schelling segregation model}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Aging in the Sakoda-Schelling model}{28}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Segregation coefficient}{29}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Results}{30}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Phase diagram}{30}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Segregated phase: final state}{31}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Segregated phase: coarsening dynamics}{31}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Aging breaks the asymptotic time-translational invariance}{34}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5} Summary and discussion}{36}{section.4.5}%
+\contentsline {chapter}{\numberline {5A} Ordering dynamics in the Symmetrical Threshold model}{37}{chapter.5}%
+\contentsline {section}{\numberline {5A.1} Introduction}{37}{section.5.1}%
+\contentsline {section}{\numberline {5A.2} Symmetrical Threshold model}{38}{section.5.2}%
+\contentsline {section}{\numberline {5A.3} Dynamics on networks}{38}{section.5.3}%
+\contentsline {subsection}{\numberline {5A.3.1}Mean-field}{38}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5A.3.2}Random networks}{39}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5A.4} Dynamics on a Moore Lattice}{42}{section.5.4}%
+\contentsline {section}{\numberline {5A.5} Summary and discussion}{44}{section.5.5}%
+\contentsline {chapter}{\numberline {5B} Aging implications in the Symmetrical Threshold model}{47}{chapter.6}%
+\contentsline {section}{\numberline {5B.1} Introduction}{47}{section.6.1}%
+\contentsline {section}{\numberline {5B.2} Symmetrical Threshold model with aging}{48}{section.6.2}%
+\contentsline {section}{\numberline {5B.3} Dynamics on networks}{48}{section.6.3}%
+\contentsline {subsection}{\numberline {5B.3.1}Mean-field}{48}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {5B.3.2} Random networks}{50}{subsection.6.3.2}%
+\contentsline {section}{\numberline {5B.4} Dynamics on a Moore Lattice}{54}{section.6.4}%
+\contentsline {section}{\numberline {5B.5} Summary and discussion}{56}{section.6.5}%
+\contentsline {part}{\numberline {II}Real estate market dynamics}{59}{part.2}%
+\contentsline {chapter}{\numberline {7}Dynamics of the real state market}{61}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Theorems}{61}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Several equations}{61}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Single Line}{61}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Definitions}{61}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Notations}{61}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Remarks}{62}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Corollaries}{62}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Propositions}{62}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Several equations}{62}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Single Line}{62}{subsection.7.6.2}%
+\contentsline {section}{\numberline {7.7}Examples}{62}{section.7.7}%
+\contentsline {subsection}{\numberline {7.7.1}Equation Example}{62}{subsection.7.7.1}%
+\contentsline {subsection}{\numberline {7.7.2}Text Example}{62}{subsection.7.7.2}%
+\contentsline {section}{\numberline {7.8}Exercises}{62}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Problems}{62}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Vocabulary}{63}{section.7.10}%
+\contentsline {chapter}{\numberline {8}Assessing the real state market segmentation}{65}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Table}{65}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Figure}{65}{section.8.2}%
+\contentsline {chapter}{\leavevmode {\color {ocre}Index}}{79}{section*.36}%
+\contentsline {chapter}{Appendices}{79}{section*.37}%
+\contentsline {chapter}{\numberline {A} Generalized master equation for binary state dynamics with aging}{79}{appendix.a.A}%
+\contentsline {section}{\numberline {A.1} Reduction to Markovian dynamics}{82}{section.a.A.1}%
+\contentsline {section}{\numberline {A.2} Heterogeneous mean-field approximation (HMF)}{82}{section.a.A.2}%
+\contentsline {chapter}{\numberline {B} Vacancy density effect on the Schelling model dynamics}{83}{appendix.a.B}%
+\contentsline {chapter}{\numberline {C} Heterogeneous mean-field taking into account aging (HMFA)}{85}{appendix.a.C}%
+\contentsline {chapter}{\numberline {D} Internal time recursive relation in Phase ${\rm {\bf I}}$/${\rm {\bf I}}^{*}$}{87}{appendix.a.D}%
+\contentsfinish 

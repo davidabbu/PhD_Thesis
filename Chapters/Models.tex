@@ -69,6 +69,18 @@ The exploration of this model has been widespread, encompassing studies on vario
 
 - On the other hand, this model was already studied by Sakoda in 1971, in a paper that was published in Japanese, and that was not known by the scientific community. In this work, the author proposed a model to study the dynamics of segregation based on the idea that individuals have a threshold that needs to be reached in order to move to a different location.
 
+\begin{theorem}[Sakoda-Schelling model]
+    An individual time step of the model is defined as follows:
+    \begin{enumerate}
+        \item Each node $i$ has a tolerance threshold $T_i$.
+        \item At each time step, a node $i$ is selected at random.
+        \item If the fraction of different kind neighbors of $i$ is greater than $T_i$, then $i$ moves to a location where the fraction of different kind neighbors is less than $T_i$.
+            \begin{itemize}
+                \item If there is no available location, then $i$ remains in the same location.
+            \end{itemize}
+    \end{enumerate}
+\end{theorem}
+
 - Schelling model is a particular case of the Sakoda model.
 
 - This model exhibits a phase transition from a regime where the segregation is low to a regime where the segregation is high. This phase transition is discontinuous. 

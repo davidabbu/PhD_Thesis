@@ -5,6 +5,9 @@
 	%oneside, % Uncomment for oneside mode, this doesn't start new chapters and parts on odd pages (adding an empty page if required), this mode is more suitable if the book is to be read on a screen instead of printed
 ]{LegrandOrangeBook}
 
+\usepackage{etoolbox}
+
+
 % Book information for PDF metadata, remove/comment this block if not required 
 \hypersetup{
 	pdftitle={Title}, % Title field
@@ -194,16 +197,6 @@ Other publications published during the PhD period are also included in the foll
 \part{Aging in threshold models}
 
 %----------------------------------------------------------------------------------------
-%	AGING IN THRESHOLD
-%----------------------------------------------------------------------------------------
-\chapterimage{Images/threshold_cover.png}
-\chapterspaceabove{6.75cm}
-\chapterspacebelow{7.25cm}
-
-\chapter{\label{ch:Aging in binary state dynamics: The Granovetter-Watts model} Aging in binary state dynamics: The Granovetter-Watts model}
-\input{Chapters/Aging_Threshold.tex}
-
-%----------------------------------------------------------------------------------------
 %	AGING IN SCHELLING MODEL
 %----------------------------------------------------------------------------------------
 \chapterimage{Images/buildings_cambrils.pdf}
@@ -214,15 +207,38 @@ Other publications published during the PhD period are also included in the foll
 \input{Chapters/Aging_Schelling.tex}
 
 %----------------------------------------------------------------------------------------
+%	AGING IN BINARY STATE DYNAMICS
+%----------------------------------------------------------------------------------------
+\chapterimage{Images/threshold_cover.png}
+\chapterspaceabove{6.75cm}
+\chapterspacebelow{7.25cm}
+
+\chapter{\label{ch:Aging in binary state dynamics} Aging in binary state dynamics: The Approximate Master Equation}
+\input{Chapters/Appendix2_Threshold.tex}
+
+%----------------------------------------------------------------------------------------
+%	AGING IN THRESHOLD
+%----------------------------------------------------------------------------------------
+\chapterimage{Images/threshold_cover.png}
+\chapterspaceabove{6.75cm}
+\chapterspacebelow{7.25cm}
+
+\chapter{\label{ch:Aging in the Granovetter-Watts model} Impact of Aging in the Granovetter-Watts model}
+\input{Chapters/Aging_Threshold.tex}
+
+\renewcommand{\thechapter}{6A} % Change chapter number display
+%----------------------------------------------------------------------------------------
 %	AGING IN THE SYMMETRICAL THRESHOLD MODEL
 %----------------------------------------------------------------------------------------
 \chapterimage{Images/STM2.pdf}
 \chapterspaceabove{6.75cm}
 \chapterspacebelow{7.25cm}
 
-\chapter{\label{ch:Ordering dynamics in the Symmetrical Threshold model} Ordering dynamics in the Symmetrical Threshold model}
+% We set this chapter as the chapter 5A instead of 
+\chapter{\label{ch:Ordering dynamics in the Symmetrical Threshold model} Symmetrical Threshold model: Ordering dynamics}
 \input{Chapters/Aging_STM.tex}
 
+\renewcommand{\thechapter}{6B} % Change chapter number display
 %----------------------------------------------------------------------------------------
 %	AGING IN THE SYMMETRICAL THRESHOLD MODEL
 %----------------------------------------------------------------------------------------
@@ -230,9 +246,11 @@ Other publications published during the PhD period are also included in the foll
 \chapterspaceabove{6.75cm}
 \chapterspacebelow{7.25cm}
 
-\chapter{\label{ch:Aging implications in the Symmetrical Threshold model} Aging implications in the Symmetrical Threshold model}
+\chapter{\label{ch:Aging implications in the Symmetrical Threshold model} Symmetrical Threshold model: Aging implications}
 \input{Chapters/Aging_STMA.tex}
 
+\renewcommand{\thechapter}{\arabic{chapter}} % Change chapter number display
+\setcounter{chapter}{7}
 %----------------------------------------------------------------------------------------
 %	PART 2: REAL ESTATE MARKET DYNAMICS
 %----------------------------------------------------------------------------------------
@@ -306,16 +324,6 @@ Other publications published during the PhD period are also included in the foll
 \begin{appendices}
 
 \renewcommand{\chaptername}{Appendix} % Change the chapter name to Appendix, i.e. "Appendix A: Title", instead of "Chapter A: Title" in the headers
-
-%------------------------------------------------
-%	APPENDIX A: Master equation with aging 
-%------------------------------------------------
-
-\chapterspaceabove{6.75cm}
-\chapterspacebelow{7cm}
-
-\chapter{\label{app:DERIVATION OF MASTER EQUATION WITH AGING} Generalized master equation for binary state dynamics with aging}
-\input{Chapters/Appendix2_Threshold.tex}
 
 %------------------------------------------------
 %	APPENDIX B: Effect of vacancy density 

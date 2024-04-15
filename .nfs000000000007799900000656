@@ -1,0 +1,1835 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\zref@newlabel[2]{}
+\abx@aux@refcontext{nyt/global//global/global}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\providecommand\BKM@entry[2]{}
+\pgfsyspdfmark {pgfid1}{5594039}{48266511}
+\pgfsyspdfmark {pgfid2}{5594039}{48266511}
+\abx@aux@cite{0}{Abella-2022}
+\abx@aux@segm{0}{0}{Abella-2022}
+\abx@aux@cite{0}{Abella-2022-AME}
+\abx@aux@segm{0}{0}{Abella-2022-AME}
+\abx@aux@cite{0}{Abella_2024}
+\abx@aux@segm{0}{0}{Abella_2024}
+\abx@aux@cite{0}{abella2023many}
+\abx@aux@segm{0}{0}{abella2023many}
+\pgfsyspdfmark {pgfid3}{5594039}{48266511}
+\abx@aux@backref{1}{Abella-2022}{0}{17}{17}
+\abx@aux@backref{2}{Abella-2022-AME}{0}{17}{17}
+\abx@aux@backref{3}{Abella_2024}{0}{17}{17}
+\abx@aux@backref{4}{abella2023many}{0}{17}{17}
+\BKM@entry{id=1,open,dest={636861707465722E31},flags=2,srcline={180}}{5C3337365C3337375C303030315C3030305C3034305C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030705C3030306F5C303030735C303030695C303030745C303030695C3030306F5C3030306E5C303030695C3030306E5C30303067}
+\BKM@entry{id=2,open,dest={73656374696F6E2E312E31},srcline={3}}{5C3337365C3337375C303030315C3030302E5C303030315C3030305C3034305C3030305C3034305C303030535C303030635C303030695C303030655C3030306E5C303030745C303030695C303030665C303030695C303030635C3030305C3034305C3030304C5C303030615C3030306E5C303030645C303030735C303030635C303030615C303030705C30303065}
+\BKM@entry{id=3,open,dest={73656374696F6E2E312E32},srcline={28}}{5C3337365C3337375C303030315C3030302E5C303030325C3030305C3034305C3030305C3034305C303030435C303030685C303030615C3030306C5C3030306C5C303030655C3030306E5C303030675C303030655C303030735C3030305C3034305C3030306F5C303030665C3030305C3034305C303030435C3030306F5C3030306D5C303030705C303030755C303030745C303030615C303030745C303030695C3030306F5C3030306E5C303030615C3030306C5C3030305C3034305C303030535C3030306F5C303030635C303030695C303030615C3030306C5C3030305C3034305C303030535C303030635C303030695C303030655C3030306E5C303030635C30303065}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction and positioning}{1}{chapter.1}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\pgfsyspdfmark {pgfid4}{5594039}{48224478}
+\newlabel{sec:scie_lands}{{1.1}{1}{\label {sec:scie_lands} Scientific Landscape}{section.1.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1} Scientific Landscape}{1}{section.1.1}\protected@file@percent }
+\newlabel{sec:Challenges of Computational Social Science}{{1.2}{1}{\label {sec:Challenges of Computational Social Science} Challenges of Computational Social Science}{section.1.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2} Challenges of Computational Social Science}{1}{section.1.2}\protected@file@percent }
+\BKM@entry{id=4,open,dest={73756273656374696F6E2E312E322E31},srcline={34}}{5C3337365C3337375C303030315C3030302E5C303030325C3030302E5C303030315C3030305C3034305C3030305C3034305C303030445C303030615C303030745C303030615C3030305C3034305C303030615C303030765C303030615C303030695C3030306C5C303030615C303030625C303030695C3030306C5C303030695C303030745C30303079}
+\BKM@entry{id=5,open,dest={73756273656374696F6E2E312E322E32},srcline={40}}{5C3337365C3337375C303030315C3030302E5C303030325C3030302E5C303030325C3030305C3034305C3030305C3034305C303030445C303030615C303030745C303030615C3030305C3034305C303030615C3030306E5C303030615C3030306C5C303030795C303030735C303030695C30303073}
+\BKM@entry{id=6,open,dest={73756273656374696F6E2E312E322E33},srcline={48}}{5C3337365C3337375C303030315C3030302E5C303030325C3030302E5C303030335C3030305C3034305C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C5C303030695C3030306E5C30303067}
+\BKM@entry{id=7,open,dest={73756273656374696F6E2E312E322E34},srcline={59}}{5C3337365C3337375C303030315C3030302E5C303030325C3030302E5C303030345C3030305C3034305C3030305C3034305C303030415C303030705C303030705C3030306C5C303030695C303030635C303030615C303030745C303030695C3030306F5C3030306E5C30303073}
+\BKM@entry{id=8,open,dest={73656374696F6E2E312E33},srcline={67}}{5C3337365C3337375C303030315C3030302E5C303030335C3030305C3034305C3030305C3034305C303030545C303030655C303030725C3030306D5C303030695C3030306E5C3030306F5C3030306C5C3030306F5C303030675C303030795C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030675C303030655C3030306E5C303030655C303030725C303030615C3030306C5C3030305C3034305C303030635C3030306F5C3030306E5C303030635C303030655C303030705C303030745C30303073}
+\BKM@entry{id=9,open,dest={73656374696F6E2E312E34},srcline={75}}{5C3337365C3337375C303030315C3030302E5C303030345C3030305C3034305C3030305C3034305C303030445C303030615C303030745C303030615C303030735C303030655C303030745C30303073}
+\newlabel{subsec:Data availability}{{1.2.1}{2}{\label {subsec:Data availability} Data availability}{subsection.1.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1} Data availability}{2}{subsection.1.2.1}\protected@file@percent }
+\newlabel{subsec:Data analysis}{{1.2.2}{2}{\label {subsec:Data analysis} Data analysis}{subsection.1.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2} Data analysis}{2}{subsection.1.2.2}\protected@file@percent }
+\newlabel{subsec:Modeling}{{1.2.3}{2}{\label {subsec:Modeling} Modeling}{subsection.1.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3} Modeling}{2}{subsection.1.2.3}\protected@file@percent }
+\newlabel{subsec:Applications}{{1.2.4}{2}{\label {subsec:Applications} Applications}{subsection.1.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4} Applications}{2}{subsection.1.2.4}\protected@file@percent }
+\newlabel{sec:Terminology and general concepts}{{1.3}{2}{\label {sec:Terminology and general concepts} Terminology and general concepts}{section.1.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3} Terminology and general concepts}{2}{section.1.3}\protected@file@percent }
+\newlabel{sec:Datasets}{{1.4}{2}{\label {sec:Datasets} Datasets}{section.1.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4} Datasets}{2}{section.1.4}\protected@file@percent }
+\BKM@entry{id=10,open,dest={636861707465722E32},flags=2,srcline={190}}{5C3337365C3337375C303030325C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C5C303030735C3030302C5C3030305C3034305C303030745C303030655C3030306D5C303030705C3030306F5C303030725C303030615C3030306C5C3030305C3034305C303030705C303030615C303030745C303030745C303030655C303030725C3030306E5C303030735C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030615C303030675C303030695C3030306E5C30303067}
+\BKM@entry{id=11,open,dest={73656374696F6E2E322E31},srcline={1}}{5C3337365C3337375C303030325C3030302E5C303030315C3030305C3034305C3030305C3034305C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{Voter-original}
+\abx@aux@segm{0}{0}{Voter-original}
+\abx@aux@cite{0}{sood-2005}
+\abx@aux@segm{0}{0}{sood-2005}
+\abx@aux@cite{0}{fernandez-gracia-2014}
+\abx@aux@segm{0}{0}{fernandez-gracia-2014}
+\abx@aux@cite{0}{redner-2019}
+\abx@aux@segm{0}{0}{redner-2019}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{pastor-satorras-2015}
+\abx@aux@segm{0}{0}{pastor-satorras-2015}
+\abx@aux@cite{0}{diakonova-2014}
+\abx@aux@segm{0}{0}{diakonova-2014}
+\abx@aux@cite{0}{diakonova-2016}
+\abx@aux@segm{0}{0}{diakonova-2016}
+\abx@aux@cite{0}{amato-2017}
+\abx@aux@segm{0}{0}{amato-2017}
+\abx@aux@cite{0}{vazquez-2008}
+\abx@aux@segm{0}{0}{vazquez-2008}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{iacopini-2019}
+\abx@aux@segm{0}{0}{iacopini-2019}
+\abx@aux@cite{0}{cencetti-2021}
+\abx@aux@segm{0}{0}{cencetti-2021}
+\abx@aux@cite{0}{castellano-2009}
+\abx@aux@segm{0}{0}{castellano-2009}
+\abx@aux@cite{0}{peralta-2018}
+\abx@aux@segm{0}{0}{peralta-2018}
+\abx@aux@cite{0}{carro-2016}
+\abx@aux@segm{0}{0}{carro-2016}
+\abx@aux@cite{0}{van-mieghem-2013}
+\abx@aux@segm{0}{0}{van-mieghem-2013}
+\abx@aux@cite{0}{starnini-2017}
+\abx@aux@segm{0}{0}{starnini-2017}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\abx@aux@cite{0}{watts1998collective}
+\abx@aux@segm{0}{0}{watts1998collective}
+\abx@aux@cite{0}{barabasi2009scale}
+\abx@aux@segm{0}{0}{barabasi2009scale}
+\abx@aux@cite{0}{online-platforms}
+\abx@aux@segm{0}{0}{online-platforms}
+\abx@aux@cite{0}{jstor}
+\abx@aux@segm{0}{0}{jstor}
+\abx@aux@cite{0}{ferrara-2015}
+\abx@aux@segm{0}{0}{ferrara-2015}
+\abx@aux@cite{0}{steinert-2022}
+\abx@aux@segm{0}{0}{steinert-2022}
+\abx@aux@cite{0}{jensen-2015}
+\abx@aux@segm{0}{0}{jensen-2015}
+\abx@aux@cite{0}{rogers2014}
+\abx@aux@segm{0}{0}{rogers2014}
+\abx@aux@cite{0}{valente-1996}
+\abx@aux@segm{0}{0}{valente-1996}
+\abx@aux@cite{0}{bollinger-2012}
+\abx@aux@segm{0}{0}{bollinger-2012}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Models, temporal patterns and aging}{5}{chapter.2}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\pgfsyspdfmark {pgfid5}{5594039}{48176008}
+\newlabel{sec:Introduction}{{2.1}{5}{\label {sec:Introduction} Introduction}{section.2.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1} Introduction}{5}{section.2.1}\protected@file@percent }
+\abx@aux@backref{5}{fernandez-gracia-2014}{0}{5}{5}
+\abx@aux@backref{6}{Voter-original}{0}{5}{5}
+\abx@aux@backref{7}{redner-2019}{0}{5}{5}
+\abx@aux@backref{8}{sood-2005}{0}{5}{5}
+\abx@aux@backref{9}{granovetter-1978}{0}{5}{5}
+\abx@aux@backref{10}{pastor-satorras-2015}{0}{5}{5}
+\abx@aux@backref{11}{amato-2017}{0}{5}{5}
+\abx@aux@backref{12}{diakonova-2014}{0}{5}{5}
+\abx@aux@backref{13}{diakonova-2016}{0}{5}{5}
+\abx@aux@backref{14}{vazquez-2008}{0}{5}{5}
+\abx@aux@backref{15}{de-arruda-2020}{0}{5}{5}
+\abx@aux@backref{16}{cencetti-2021}{0}{5}{5}
+\abx@aux@backref{17}{iacopini-2019}{0}{5}{5}
+\abx@aux@backref{18}{castellano-2009}{0}{5}{5}
+\abx@aux@backref{19}{peralta-2018}{0}{5}{5}
+\abx@aux@backref{20}{carro-2016}{0}{5}{5}
+\abx@aux@backref{21}{chen-2020}{0}{5}{5}
+\abx@aux@backref{22}{peralta-2020A}{0}{5}{5}
+\abx@aux@backref{23}{starnini-2017}{0}{5}{5}
+\abx@aux@backref{24}{van-mieghem-2013}{0}{5}{5}
+\abx@aux@backref{25}{watts1998collective}{0}{5}{5}
+\abx@aux@backref{26}{barabasi2009scale}{0}{5}{5}
+\abx@aux@backref{27}{jstor}{0}{5}{5}
+\abx@aux@backref{28}{online-platforms}{0}{5}{5}
+\abx@aux@backref{29}{ferrara-2015}{0}{5}{5}
+\abx@aux@backref{30}{steinert-2022}{0}{5}{5}
+\abx@aux@backref{31}{jensen-2015}{0}{5}{5}
+\BKM@entry{id=12,open,dest={73656374696F6E2E322E32},srcline={13}}{5C3337365C3337375C303030325C3030302E5C303030325C3030305C3034305C3030305C3034305C303030535C303030695C3030306D5C303030705C3030306C5C303030655C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030435C3030306F5C3030306D5C303030705C3030306C5C303030655C303030785C3030305C3034305C303030435C3030306F5C3030306E5C303030745C303030615C303030675C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{christakis2007spread}
+\abx@aux@segm{0}{0}{christakis2007spread}
+\abx@aux@cite{0}{fowler2009cooperative}
+\abx@aux@segm{0}{0}{fowler2009cooperative}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{centola-2010}
+\abx@aux@segm{0}{0}{centola-2010}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{pastor2001epidemic}
+\abx@aux@segm{0}{0}{pastor2001epidemic}
+\abx@aux@cite{0}{newman2002spread}
+\abx@aux@segm{0}{0}{newman2002spread}
+\abx@aux@cite{0}{christakis2007spread}
+\abx@aux@segm{0}{0}{christakis2007spread}
+\abx@aux@cite{0}{fowler2009cooperative}
+\abx@aux@segm{0}{0}{fowler2009cooperative}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{centola-2010}
+\abx@aux@segm{0}{0}{centola-2010}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Simple and complex contagion processes}}{6}{figure.caption.4}\protected@file@percent }
+\abx@aux@backref{41}{de-arruda-2020}{0}{6}{6}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:SimpleComplexContagion}{{2.1}{6}{Simple and complex contagion processes}{figure.caption.4}{}}
+\abx@aux@backref{32}{rogers2014}{0}{6}{6}
+\abx@aux@backref{33}{bollinger-2012}{0}{6}{6}
+\abx@aux@backref{34}{valente-1996}{0}{6}{6}
+\newlabel{sec:Simple and Complex Contagion}{{2.2}{6}{\label {sec:Simple and Complex Contagion} Simple and Complex Contagion}{section.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2} Simple and Complex Contagion}{6}{section.2.2}\protected@file@percent }
+\abx@aux@backref{35}{christakis2007spread}{0}{6}{6}
+\abx@aux@backref{36}{fowler2009cooperative}{0}{6}{6}
+\abx@aux@backref{37}{granovetter-1978}{0}{6}{6}
+\abx@aux@backref{38}{centola-2010}{0}{6}{6}
+\abx@aux@backref{39}{centola-2007}{0}{6}{6}
+\abx@aux@backref{42}{newman2002spread}{0}{6}{6}
+\abx@aux@backref{43}{pastor2001epidemic}{0}{6}{6}
+\abx@aux@backref{44}{christakis2007spread}{0}{6}{6}
+\abx@aux@backref{45}{fowler2009cooperative}{0}{6}{6}
+\abx@aux@backref{46}{centola-2010}{0}{6}{6}
+\abx@aux@backref{47}{centola-2007}{0}{6}{6}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{centola-2010}
+\abx@aux@segm{0}{0}{centola-2010}
+\abx@aux@cite{0}{iacopini-2019}
+\abx@aux@segm{0}{0}{iacopini-2019}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{battiston-2021}
+\abx@aux@segm{0}{0}{battiston-2021}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{min-2018}
+\abx@aux@segm{0}{0}{min-2018}
+\abx@aux@cite{0}{diaz-diaz-2022}
+\abx@aux@segm{0}{0}{diaz-diaz-2022}
+\abx@aux@cite{0}{cencetti-2023}
+\abx@aux@segm{0}{0}{cencetti-2023}
+\BKM@entry{id=13,open,dest={73656374696F6E2E322E33},srcline={35}}{5C3337365C3337375C303030325C3030302E5C303030335C3030305C3034305C3030305C3034305C303030475C303030725C303030615C3030306E5C3030306F5C303030765C303030655C303030745C303030745C303030655C303030725C3030302D5C303030575C303030615C303030745C303030745C303030735C3030305C3034305C303030745C303030685C303030725C303030655C303030735C303030685C3030306F5C3030306C5C303030645C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\abx@aux@cite{0}{granovetter-1973}
+\abx@aux@segm{0}{0}{granovetter-1973}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{dodds-2004}
+\abx@aux@segm{0}{0}{dodds-2004}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{centola-2010}
+\abx@aux@segm{0}{0}{centola-2010}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@backref{48}{granovetter-1978}{0}{7}{7}
+\abx@aux@backref{49}{centola-2010}{0}{7}{7}
+\abx@aux@backref{50}{centola-2007}{0}{7}{7}
+\abx@aux@backref{51}{de-arruda-2020}{0}{7}{7}
+\abx@aux@backref{52}{battiston-2021}{0}{7}{7}
+\abx@aux@backref{53}{iacopini-2019}{0}{7}{7}
+\abx@aux@backref{54}{de-arruda-2020}{0}{7}{7}
+\abx@aux@backref{55}{diaz-diaz-2022}{0}{7}{7}
+\abx@aux@backref{56}{min-2018}{0}{7}{7}
+\abx@aux@backref{57}{cencetti-2023}{0}{7}{7}
+\newlabel{sec:Granovetter-Watts threshold model}{{2.3}{7}{\label {sec:Granovetter-Watts threshold model} Granovetter-Watts threshold model}{section.2.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3} Granovetter-Watts threshold model}{7}{section.2.3}\protected@file@percent }
+\abx@aux@backref{58}{granovetter-1978}{0}{7}{7}
+\abx@aux@backref{59}{granovetter-1973}{0}{7}{7}
+\abx@aux@backref{60}{dodds-2004}{0}{7}{7}
+\abx@aux@backref{61}{centola-2010}{0}{7}{7}
+\abx@aux@backref{62}{centola-2007}{0}{7}{7}
+\abx@aux@backref{63}{granovetter-1978}{0}{7}{7}
+\abx@aux@backref{64}{watts-2002}{0}{7}{7}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{gleeson-2008}
+\abx@aux@segm{0}{0}{gleeson-2008}
+\abx@aux@cite{0}{hackett-2011}
+\abx@aux@segm{0}{0}{hackett-2011}
+\abx@aux@cite{0}{hackett-2013}
+\abx@aux@segm{0}{0}{hackett-2013}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{diaz-diaz-2022}
+\abx@aux@segm{0}{0}{diaz-diaz-2022}
+\abx@aux@cite{0}{chen-2018}
+\abx@aux@segm{0}{0}{chen-2018}
+\abx@aux@cite{0}{liu-2018}
+\abx@aux@segm{0}{0}{liu-2018}
+\abx@aux@cite{0}{singh-2013}
+\abx@aux@segm{0}{0}{singh-2013}
+\abx@aux@cite{0}{dodds-2013}
+\abx@aux@segm{0}{0}{dodds-2013}
+\abx@aux@cite{0}{czaplicka-2016}
+\abx@aux@segm{0}{0}{czaplicka-2016}
+\abx@aux@cite{0}{min-2018}
+\abx@aux@segm{0}{0}{min-2018}
+\abx@aux@cite{0}{diaz-diaz-2022}
+\abx@aux@segm{0}{0}{diaz-diaz-2022}
+\abx@aux@cite{0}{centola-2010}
+\abx@aux@segm{0}{0}{centola-2010}
+\abx@aux@cite{0}{karimi-2013}
+\abx@aux@segm{0}{0}{karimi-2013}
+\abx@aux@cite{0}{karsai-2014}
+\abx@aux@segm{0}{0}{karsai-2014}
+\abx@aux@cite{0}{rosenthal-2015}
+\abx@aux@segm{0}{0}{rosenthal-2015}
+\abx@aux@cite{0}{karsai-2016}
+\abx@aux@segm{0}{0}{karsai-2016}
+\abx@aux@cite{0}{mnsted-2017}
+\abx@aux@segm{0}{0}{mnsted-2017}
+\abx@aux@cite{0}{unicomb-2018}
+\abx@aux@segm{0}{0}{unicomb-2018}
+\abx@aux@cite{0}{guilbeault-2021}
+\abx@aux@segm{0}{0}{guilbeault-2021}
+\BKM@entry{id=14,open,dest={73656374696F6E2E322E34},srcline={64}}{5C3337365C3337375C303030325C3030302E5C303030345C3030305C3034305C3030305C3034305C303030545C303030685C303030655C3030305C3034305C303030535C303030615C3030306B5C3030306F5C303030645C303030615C3030302D5C303030535C303030635C303030685C303030655C3030306C5C3030306C5C303030695C3030306E5C303030675C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Cascade diagram of the Granovetter-Watts model}}{8}{figure.caption.5}\protected@file@percent }
+\abx@aux@backref{66}{gleeson-2007}{0}{8}{8}
+\newlabel{fig:Cascade_gleeson}{{2.2}{8}{Cascade diagram of the Granovetter-Watts model}{figure.caption.5}{}}
+\zref@newlabel{mdf@pagelabel-1}{\default{2.3}\page{8}\abspage{28}\mdf@pagevalue{8}}
+\abx@aux@backref{67}{gleeson-2007}{0}{8}{8}
+\abx@aux@backref{68}{watts-2002}{0}{8}{8}
+\abx@aux@backref{69}{centola-2007}{0}{8}{8}
+\abx@aux@backref{70}{gleeson-2007}{0}{8}{8}
+\abx@aux@backref{71}{gleeson-2008}{0}{8}{8}
+\abx@aux@backref{72}{hackett-2013}{0}{8}{8}
+\abx@aux@backref{73}{hackett-2011}{0}{8}{8}
+\abx@aux@backref{74}{de-arruda-2020}{0}{8}{8}
+\abx@aux@backref{75}{diaz-diaz-2022}{0}{8}{8}
+\abx@aux@backref{76}{chen-2018}{0}{8}{8}
+\abx@aux@backref{77}{liu-2018}{0}{8}{8}
+\abx@aux@backref{78}{singh-2013}{0}{8}{8}
+\abx@aux@backref{79}{dodds-2013}{0}{8}{8}
+\abx@aux@backref{80}{czaplicka-2016}{0}{8}{8}
+\abx@aux@backref{81}{diaz-diaz-2022}{0}{8}{8}
+\abx@aux@backref{82}{min-2018}{0}{8}{8}
+\abx@aux@backref{83}{centola-2010}{0}{8}{8}
+\abx@aux@backref{84}{guilbeault-2021}{0}{8}{8}
+\abx@aux@backref{85}{karimi-2013}{0}{8}{8}
+\abx@aux@backref{86}{karsai-2014}{0}{8}{8}
+\abx@aux@backref{87}{karsai-2016}{0}{8}{8}
+\abx@aux@backref{88}{mnsted-2017}{0}{8}{8}
+\abx@aux@backref{89}{rosenthal-2015}{0}{8}{8}
+\abx@aux@backref{90}{unicomb-2018}{0}{8}{8}
+\abx@aux@cite{0}{schelling-1969}
+\abx@aux@segm{0}{0}{schelling-1969}
+\abx@aux@cite{0}{Schelling}
+\abx@aux@segm{0}{0}{Schelling}
+\abx@aux@cite{0}{schellingbook}
+\abx@aux@segm{0}{0}{schellingbook}
+\abx@aux@cite{0}{hegselmann-2017}
+\abx@aux@segm{0}{0}{hegselmann-2017}
+\BKM@entry{id=15,open,dest={73656374696F6E2E322E35},srcline={92}}{5C3337365C3337375C303030325C3030302E5C303030355C3030305C3034305C3030305C3034305C303030425C303030755C303030725C303030735C303030745C303030795C3030305C3034305C303030485C303030755C3030306D5C303030615C3030306E5C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C30303073}
+\BKM@entry{id=16,open,dest={73656374696F6E2E322E36},srcline={106}}{5C3337365C3337375C303030325C3030302E5C303030365C3030305C3034305C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C3030306D5C303030655C303030635C303030685C303030615C3030306E5C303030695C303030735C3030306D}
+\newlabel{sec:The Sakoda-Schelling model}{{2.4}{9}{\label {sec:The Sakoda-Schelling model} The Sakoda-Schelling model}{section.2.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4} The Sakoda-Schelling model}{9}{section.2.4}\protected@file@percent }
+\zref@newlabel{mdf@pagelabel-2}{\default{2.4}\page{9}\abspage{29}\mdf@pagevalue{9}}
+\abx@aux@backref{91}{hegselmann-2017}{0}{9}{9}
+\abx@aux@backref{92}{schellingbook}{0}{9}{9}
+\abx@aux@backref{93}{schelling-1969}{0}{9}{9}
+\abx@aux@backref{94}{Schelling}{0}{9}{9}
+\newlabel{sec: Bursty Human Dynamics}{{2.5}{9}{\label {sec: Bursty Human Dynamics} Bursty Human Dynamics}{section.2.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5} Bursty Human Dynamics}{9}{section.2.5}\protected@file@percent }
+\newlabel{sec:Aging mechanism}{{2.6}{9}{\label {sec:Aging mechanism} Aging mechanism}{section.2.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6} Aging mechanism}{9}{section.2.6}\protected@file@percent }
+\abx@aux@cite{0}{barabasi-2005}
+\abx@aux@segm{0}{0}{barabasi-2005}
+\abx@aux@cite{0}{moro}
+\abx@aux@segm{0}{0}{moro}
+\abx@aux@cite{0}{oriol}
+\abx@aux@segm{0}{0}{oriol}
+\abx@aux@cite{0}{rybski-2012}
+\abx@aux@segm{0}{0}{rybski-2012}
+\abx@aux@cite{0}{zignani-2016}
+\abx@aux@segm{0}{0}{zignani-2016}
+\abx@aux@cite{0}{kumar-2020}
+\abx@aux@segm{0}{0}{kumar-2020}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{perez-2016}
+\abx@aux@segm{0}{0}{perez-2016}
+\abx@aux@cite{0}{boguna-2014}
+\abx@aux@segm{0}{0}{boguna-2014}
+\abx@aux@cite{0}{Stark2008}
+\abx@aux@segm{0}{0}{Stark2008}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{peralta-2020}
+\abx@aux@segm{0}{0}{peralta-2020}
+\abx@aux@cite{0}{artime-2018}
+\abx@aux@segm{0}{0}{artime-2018}
+\BKM@entry{id=17,open,dest={73656374696F6E2E322E37},srcline={121}}{5C3337365C3337375C303030325C3030302E5C303030375C3030305C3034305C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306E5C3030305C3034305C303030535C303030695C3030306D5C303030705C3030306C5C303030655C3030305C3034305C303030435C3030306F5C3030306E5C303030745C303030615C303030675C303030695C3030306F5C3030306E5C3030305C3034305C3030304D5C3030306F5C303030645C303030655C3030306C5C30303073}
+\abx@aux@backref{95}{barabasi-2005}{0}{10}{10}
+\abx@aux@backref{96}{moro}{0}{10}{10}
+\abx@aux@backref{97}{kumar-2020}{0}{10}{10}
+\abx@aux@backref{98}{oriol}{0}{10}{10}
+\abx@aux@backref{99}{rybski-2012}{0}{10}{10}
+\abx@aux@backref{100}{zignani-2016}{0}{10}{10}
+\abx@aux@backref{101}{boguna-2014}{0}{10}{10}
+\abx@aux@backref{102}{fernandez-gracia-2011}{0}{10}{10}
+\abx@aux@backref{103}{perez-2016}{0}{10}{10}
+\abx@aux@backref{104}{Stark2008}{0}{10}{10}
+\abx@aux@backref{105}{fernandez-gracia-2011}{0}{10}{10}
+\abx@aux@backref{106}{peralta-2020}{0}{10}{10}
+\abx@aux@backref{107}{artime-2018}{0}{10}{10}
+\newlabel{sec:Aging in Simple Contagion Models}{{2.7}{10}{\label {sec:Aging in Simple Contagion Models} Aging in Simple Contagion Models}{section.2.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.7} Aging in Simple Contagion Models}{10}{section.2.7}\protected@file@percent }
+\BKM@entry{id=18,open,dest={706172742E31},color={0 .6 0},flags=2,srcline={197}}{5C3337365C3337375C303030495C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306E5C3030305C3034305C303030745C303030685C303030725C303030655C303030735C303030685C3030306F5C3030306C5C303030645C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C5C30303073}
+\ttl@writefile{ptc}{\ttl@starttoc{part@1}}
+\pgfsyspdfmark {pgfid6}{5594039}{33731574}
+\@writefile{toc}{\contentsline {part}{\numberline {I}Aging in threshold models}{11}{part.1}\protected@file@percent }
+\BKM@entry{id=19,open,dest={636861707465722E33},flags=2,srcline={206}}{5C3337365C3337375C303030335C3030305C3034305C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306E5C3030305C3034305C303030625C303030695C3030306E5C303030615C303030725C303030795C3030305C3034305C303030735C303030745C303030615C303030745C303030655C3030305C3034305C303030645C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030303A5C3030305C3034305C303030545C303030685C303030655C3030305C3034305C303030475C303030725C303030615C3030306E5C3030306F5C303030765C303030655C303030745C303030745C303030655C303030725C3030302D5C303030575C303030615C303030745C303030745C303030735C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\BKM@entry{id=20,open,dest={73656374696F6E2E332E31},srcline={3}}{5C3337365C3337375C303030335C3030302E5C303030315C3030305C3034305C3030305C3034305C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{gleeson-2008}
+\abx@aux@segm{0}{0}{gleeson-2008}
+\abx@aux@cite{0}{hackett-2011}
+\abx@aux@segm{0}{0}{hackett-2011}
+\abx@aux@cite{0}{hackett-2013}
+\abx@aux@segm{0}{0}{hackett-2013}
+\abx@aux@cite{0}{de-arruda-2020}
+\abx@aux@segm{0}{0}{de-arruda-2020}
+\abx@aux@cite{0}{diaz-diaz-2022}
+\abx@aux@segm{0}{0}{diaz-diaz-2022}
+\abx@aux@cite{0}{liu-2018}
+\abx@aux@segm{0}{0}{liu-2018}
+\abx@aux@cite{0}{singh-2013}
+\abx@aux@segm{0}{0}{singh-2013}
+\abx@aux@cite{0}{dodds-2013}
+\abx@aux@segm{0}{0}{dodds-2013}
+\abx@aux@cite{0}{czaplicka-2016}
+\abx@aux@segm{0}{0}{czaplicka-2016}
+\abx@aux@cite{0}{min-2018}
+\abx@aux@segm{0}{0}{min-2018}
+\abx@aux@cite{0}{diaz-diaz-2022}
+\abx@aux@segm{0}{0}{diaz-diaz-2022}
+\abx@aux@cite{0}{centola-2010}
+\abx@aux@segm{0}{0}{centola-2010}
+\abx@aux@cite{0}{karimi-2013}
+\abx@aux@segm{0}{0}{karimi-2013}
+\abx@aux@cite{0}{karsai-2014}
+\abx@aux@segm{0}{0}{karsai-2014}
+\abx@aux@cite{0}{rosenthal-2015}
+\abx@aux@segm{0}{0}{rosenthal-2015}
+\abx@aux@cite{0}{karsai-2016}
+\abx@aux@segm{0}{0}{karsai-2016}
+\abx@aux@cite{0}{mnsted-2017}
+\abx@aux@segm{0}{0}{mnsted-2017}
+\abx@aux@cite{0}{unicomb-2018}
+\abx@aux@segm{0}{0}{unicomb-2018}
+\abx@aux@cite{0}{guilbeault-2021}
+\abx@aux@segm{0}{0}{guilbeault-2021}
+\abx@aux@cite{0}{iribarren-2009}
+\abx@aux@segm{0}{0}{iribarren-2009}
+\abx@aux@cite{0}{karsai-2011}
+\abx@aux@segm{0}{0}{karsai-2011}
+\abx@aux@cite{0}{rybski-2012}
+\abx@aux@segm{0}{0}{rybski-2012}
+\abx@aux@cite{0}{zignani-2016}
+\abx@aux@segm{0}{0}{zignani-2016}
+\abx@aux@cite{0}{artime-2017}
+\abx@aux@segm{0}{0}{artime-2017}
+\abx@aux@cite{0}{kumar-2020}
+\abx@aux@segm{0}{0}{kumar-2020}
+\abx@aux@cite{0}{van-mieghem-2013}
+\abx@aux@segm{0}{0}{van-mieghem-2013}
+\abx@aux@cite{0}{starnini-2017}
+\abx@aux@segm{0}{0}{starnini-2017}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{dodds-2004}
+\abx@aux@segm{0}{0}{dodds-2004}
+\abx@aux@cite{0}{shrestha-2014}
+\abx@aux@segm{0}{0}{shrestha-2014}
+\abx@aux@cite{0}{gleeson-2016}
+\abx@aux@segm{0}{0}{gleeson-2016}
+\abx@aux@cite{0}{oh-2018}
+\abx@aux@segm{0}{0}{oh-2018}
+\abx@aux@cite{0}{stark-2008}
+\abx@aux@segm{0}{0}{stark-2008}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{perez-2016}
+\abx@aux@segm{0}{0}{perez-2016}
+\abx@aux@cite{0}{boguna-2014}
+\abx@aux@segm{0}{0}{boguna-2014}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{artime-2018}
+\abx@aux@segm{0}{0}{artime-2018}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3} Aging in binary state dynamics: The Granovetter-Watts model}{13}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{ch:Aging in binary state dynamics: The Granovetter-Watts model}{{3}{13}{Aging in binary state dynamics: The Granovetter-Watts model}{chapter.3}{}}
+\pgfsyspdfmark {pgfid7}{5594039}{48147816}
+\newlabel{sec:Introduction}{{3.1}{13}{\label {sec:Introduction} Introduction}{section.3.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1} Introduction}{13}{section.3.1}\protected@file@percent }
+\abx@aux@backref{108}{watts-2002}{0}{13}{13}
+\abx@aux@backref{109}{granovetter-1978}{0}{13}{13}
+\abx@aux@backref{110}{watts-2002}{0}{13}{13}
+\abx@aux@backref{111}{centola-2007}{0}{13}{13}
+\abx@aux@backref{112}{gleeson-2007}{0}{13}{13}
+\abx@aux@backref{113}{gleeson-2008}{0}{13}{13}
+\abx@aux@backref{114}{hackett-2013}{0}{13}{13}
+\abx@aux@backref{115}{hackett-2011}{0}{13}{13}
+\abx@aux@backref{116}{de-arruda-2020}{0}{13}{13}
+\abx@aux@backref{117}{diaz-diaz-2022}{0}{13}{13}
+\abx@aux@backref{118}{liu-2018}{0}{13}{13}
+\abx@aux@backref{119}{singh-2013}{0}{13}{13}
+\abx@aux@backref{120}{dodds-2013}{0}{13}{13}
+\abx@aux@backref{121}{czaplicka-2016}{0}{13}{13}
+\abx@aux@backref{122}{diaz-diaz-2022}{0}{13}{13}
+\abx@aux@backref{123}{min-2018}{0}{13}{13}
+\abx@aux@backref{124}{centola-2010}{0}{13}{13}
+\abx@aux@backref{125}{guilbeault-2021}{0}{13}{13}
+\abx@aux@backref{126}{karimi-2013}{0}{13}{13}
+\abx@aux@backref{127}{karsai-2014}{0}{13}{13}
+\abx@aux@backref{128}{karsai-2016}{0}{13}{13}
+\abx@aux@backref{129}{mnsted-2017}{0}{13}{13}
+\abx@aux@backref{130}{rosenthal-2015}{0}{13}{13}
+\abx@aux@backref{131}{unicomb-2018}{0}{13}{13}
+\abx@aux@backref{132}{artime-2017}{0}{13}{13}
+\abx@aux@backref{133}{iribarren-2009}{0}{13}{13}
+\abx@aux@backref{134}{karsai-2011}{0}{13}{13}
+\abx@aux@backref{135}{kumar-2020}{0}{13}{13}
+\abx@aux@backref{136}{rybski-2012}{0}{13}{13}
+\abx@aux@backref{137}{zignani-2016}{0}{13}{13}
+\abx@aux@backref{138}{peralta-2020A}{0}{13}{13}
+\abx@aux@backref{139}{peralta-2020C}{0}{13}{13}
+\abx@aux@backref{140}{starnini-2017}{0}{13}{13}
+\abx@aux@backref{141}{van-mieghem-2013}{0}{13}{13}
+\abx@aux@backref{142}{dodds-2004}{0}{13}{13}
+\abx@aux@backref{143}{shrestha-2014}{0}{13}{13}
+\abx@aux@backref{144}{gleeson-2016}{0}{13}{13}
+\abx@aux@backref{145}{oh-2018}{0}{13}{13}
+\abx@aux@cite{0}{rogers2014}
+\abx@aux@segm{0}{0}{rogers2014}
+\abx@aux@cite{0}{bass1969}
+\abx@aux@segm{0}{0}{bass1969}
+\abx@aux@cite{0}{galam-2008}
+\abx@aux@segm{0}{0}{galam-2008}
+\abx@aux@cite{0}{goncalves-2012}
+\abx@aux@segm{0}{0}{goncalves-2012}
+\abx@aux@cite{0}{goncalves-2012}
+\abx@aux@segm{0}{0}{goncalves-2012}
+\abx@aux@cite{0}{gleeson-2011}
+\abx@aux@segm{0}{0}{gleeson-2011}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\BKM@entry{id=21,open,dest={73656374696F6E2E332E32},srcline={35}}{5C3337365C3337375C303030335C3030302E5C303030325C3030305C3034305C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306E5C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030475C303030725C303030615C3030306E5C3030306F5C303030765C303030655C303030745C303030745C303030655C303030725C3030302D5C303030575C303030615C303030745C303030745C303030735C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@backref{146}{boguna-2014}{0}{14}{14}
+\abx@aux@backref{147}{chen-2020}{0}{14}{14}
+\abx@aux@backref{148}{fernandez-gracia-2011}{0}{14}{14}
+\abx@aux@backref{149}{perez-2016}{0}{14}{14}
+\abx@aux@backref{150}{stark-2008}{0}{14}{14}
+\abx@aux@backref{151}{fernandez-gracia-2011}{0}{14}{14}
+\abx@aux@backref{152}{peralta-2020C}{0}{14}{14}
+\abx@aux@backref{153}{artime-2018}{0}{14}{14}
+\abx@aux@backref{154}{peralta-2020A}{0}{14}{14}
+\abx@aux@backref{155}{rogers2014}{0}{14}{14}
+\abx@aux@backref{156}{bass1969}{0}{14}{14}
+\abx@aux@backref{157}{galam-2008}{0}{14}{14}
+\abx@aux@backref{158}{goncalves-2012}{0}{14}{14}
+\abx@aux@backref{159}{goncalves-2012}{0}{14}{14}
+\abx@aux@backref{160}{gleeson-2011}{0}{14}{14}
+\abx@aux@backref{161}{gleeson-2013}{0}{14}{14}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Average density $x^{-}$ of adopters for an Erd\H {o}s-R\'enyi graph}}{14}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:umbral}{{3.1}{14}{Average density $x^{-}$ of adopters for an Erd\H {o}s-R\'enyi graph}{figure.caption.6}{}}
+\abx@aux@cite{0}{fernandez-gracia-2013}
+\abx@aux@segm{0}{0}{fernandez-gracia-2013}
+\abx@aux@cite{0}{artime-2018}
+\abx@aux@segm{0}{0}{artime-2018}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{perez-2016}
+\abx@aux@segm{0}{0}{perez-2016}
+\abx@aux@cite{0}{stark-2008}
+\abx@aux@segm{0}{0}{stark-2008}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{artime-2017}
+\abx@aux@segm{0}{0}{artime-2017}
+\BKM@entry{id=22,open,dest={73656374696F6E2E332E33},srcline={51}}{5C3337365C3337375C303030335C3030302E5C303030335C3030305C3034305C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C3030306E5C3030305C3034305C303030435C3030306F5C3030306D5C303030705C3030306C5C303030655C303030785C3030305C3034305C3030306E5C303030655C303030745C303030775C3030306F5C303030725C3030306B5C30303073}
+\abx@aux@cite{0}{wormald1999models}
+\abx@aux@segm{0}{0}{wormald1999models}
+\abx@aux@cite{0}{erdos1960evolution}
+\abx@aux@segm{0}{0}{erdos1960evolution}
+\abx@aux@cite{0}{barabasi2009scale}
+\abx@aux@segm{0}{0}{barabasi2009scale}
+\newlabel{sec:Threshold model with aging}{{3.2}{15}{\label {sec:Threshold model with aging} Aging in the Granovetter-Watts model}{section.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2} Aging in the Granovetter-Watts model}{15}{section.3.2}\protected@file@percent }
+\abx@aux@backref{162}{granovetter-1978}{0}{15}{15}
+\abx@aux@backref{163}{watts-2002}{0}{15}{15}
+\abx@aux@backref{164}{artime-2018}{0}{15}{15}
+\abx@aux@backref{165}{chen-2020}{0}{15}{15}
+\abx@aux@backref{166}{fernandez-gracia-2011}{0}{15}{15}
+\abx@aux@backref{167}{fernandez-gracia-2013}{0}{15}{15}
+\abx@aux@backref{168}{peralta-2020A}{0}{15}{15}
+\abx@aux@backref{169}{peralta-2020C}{0}{15}{15}
+\abx@aux@backref{170}{perez-2016}{0}{15}{15}
+\abx@aux@backref{171}{stark-2008}{0}{15}{15}
+\abx@aux@backref{172}{fernandez-gracia-2011}{0}{15}{15}
+\abx@aux@backref{173}{artime-2017}{0}{15}{15}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Cascade spreading for the Granovetter-Watts model}}{15}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:graph_plot}{{3.2}{15}{Cascade spreading for the Granovetter-Watts model}{figure.caption.7}{}}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{singh-2013}
+\abx@aux@segm{0}{0}{singh-2013}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{fernandez-gracia-2013}
+\abx@aux@segm{0}{0}{fernandez-gracia-2013}
+\abx@aux@cite{0}{artime-2018}
+\abx@aux@segm{0}{0}{artime-2018}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{perez-2016}
+\abx@aux@segm{0}{0}{perez-2016}
+\abx@aux@cite{0}{stark-2008}
+\abx@aux@segm{0}{0}{stark-2008}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Cascade dynamics and fall to the full-adopt state ($x^{-} \sim 1$)}}{16}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:models}{{3.3}{16}{Cascade dynamics and fall to the full-adopt state ($x^{-} \sim 1$)}{figure.caption.8}{}}
+\newlabel{sec:Complex networks}{{3.3}{16}{\label {sec:Complex networks} Dynamics on Complex networks}{section.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3} Dynamics on Complex networks}{16}{section.3.3}\protected@file@percent }
+\abx@aux@backref{174}{wormald1999models}{0}{16}{16}
+\abx@aux@backref{175}{erdos1960evolution}{0}{16}{16}
+\abx@aux@backref{176}{barabasi2009scale}{0}{16}{16}
+\newlabel{subsec:Numerical results}{{3.3.1}{16}{\label {subsec:Numerical results} Numerical results}{subsection.3.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1} Numerical results}{16}{subsection.3.3.1}\protected@file@percent }
+\abx@aux@backref{177}{watts-2002}{0}{16}{16}
+\abx@aux@backref{178}{centola-2007}{0}{16}{16}
+\abx@aux@backref{179}{singh-2013}{0}{16}{16}
+\abx@aux@backref{180}{gleeson-2007}{0}{16}{16}
+\abx@aux@backref{181}{watts-2002}{0}{16}{16}
+\abx@aux@backref{182}{watts-2002}{0}{16}{16}
+\abx@aux@backref{183}{artime-2018}{0}{16}{16}
+\abx@aux@backref{184}{chen-2020}{0}{16}{16}
+\abx@aux@backref{185}{fernandez-gracia-2011}{0}{16}{16}
+\abx@aux@backref{186}{fernandez-gracia-2013}{0}{16}{16}
+\abx@aux@backref{187}{peralta-2020A}{0}{16}{16}
+\abx@aux@backref{188}{peralta-2020C}{0}{16}{16}
+\abx@aux@backref{189}{perez-2016}{0}{16}{16}
+\abx@aux@backref{190}{stark-2008}{0}{16}{16}
+\newlabel{eq:exponential}{{3.1}{16}{\label {subsec:Numerical results} Numerical results}{equation.3.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Average time to reach the steady state $\tau $}}{17}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:time_steady}{{3.4}{17}{Average time to reach the steady state $\tau $}{figure.caption.9}{}}
+\newlabel{eq:power law}{{3.2}{17}{\label {subsec:Numerical results} Numerical results}{equation.3.3.2}{}}
+\newlabel{eq:streched_exp}{{3.3}{17}{\label {subsec:Numerical results} Numerical results}{equation.3.3.3}{}}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{gleeson-2008}
+\abx@aux@segm{0}{0}{gleeson-2008}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{gleeson-2011}
+\abx@aux@segm{0}{0}{gleeson-2011}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\abx@aux@cite{0}{molloy-1995}
+\abx@aux@segm{0}{0}{molloy-1995}
+\abx@aux@cite{0}{newman-2001}
+\abx@aux@segm{0}{0}{newman-2001}
+\abx@aux@cite{0}{gleeson-2011}
+\abx@aux@segm{0}{0}{gleeson-2011}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\abx@aux@cite{0}{peralta-2020B}
+\abx@aux@segm{0}{0}{peralta-2020B}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Cascade dynamics of the Granovetter-Watts model in graphs}}{18}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:exo_endo_evo}{{3.5}{18}{Cascade dynamics of the Granovetter-Watts model in graphs}{figure.caption.10}{}}
+\newlabel{subsec:Approximate master equation and solutions}{{3.3.2}{18}{\label {subsec:Approximate master equation and solutions} General mathematical description}{subsection.3.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2} General mathematical description}{18}{subsection.3.3.2}\protected@file@percent }
+\abx@aux@backref{191}{gleeson-2008}{0}{18}{18}
+\abx@aux@backref{192}{gleeson-2013}{0}{18}{18}
+\abx@aux@backref{193}{gleeson-2007}{0}{18}{18}
+\abx@aux@backref{194}{peralta-2020A}{0}{18}{18}
+\abx@aux@backref{195}{peralta-2020C}{0}{18}{18}
+\abx@aux@backref{196}{gleeson-2011}{0}{18}{18}
+\abx@aux@backref{197}{gleeson-2013}{0}{18}{18}
+\abx@aux@backref{198}{watts-2002}{0}{18}{18}
+\abx@aux@backref{199}{molloy-1995}{0}{18}{18}
+\abx@aux@backref{200}{newman-2001}{0}{18}{18}
+\newlabel{eq:AME_Threshold}{{3.4}{19}{\label {subsec:Approximate master equation and solutions} General mathematical description}{equation.3.3.4}{}}
+\newlabel{eq:assumption1}{{3.8}{19}{\label {subsec:Approximate master equation and solutions} General mathematical description}{equation.3.3.8}{}}
+\abx@aux@backref{201}{gleeson-2011}{0}{19}{19}
+\abx@aux@backref{202}{gleeson-2013}{0}{19}{19}
+\abx@aux@backref{203}{peralta-2020B}{0}{19}{19}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Exponent for the Granovetter-Watts model}}{20}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:endo_exp}{{3.6}{20}{Exponent for the Granovetter-Watts model}{figure.caption.11}{}}
+\newlabel{eq:threshold_AME_red}{{3.9}{20}{\label {subsec:Approximate master equation and solutions} General mathematical description}{equation.3.3.9}{}}
+\abx@aux@backref{204}{gleeson-2013}{0}{20}{20}
+\abx@aux@backref{205}{gleeson-2013}{0}{20}{20}
+\newlabel{eq:PA}{{3.13}{20}{\label {subsec:Approximate master equation and solutions} General mathematical description}{equation.3.3.13}{}}
+\abx@aux@cite{0}{gleeson-2008}
+\abx@aux@segm{0}{0}{gleeson-2008}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Exponent $\gamma $ for the Granovetter-Watts model with exogenous aging}}{21}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:exo_exp}{{3.7}{21}{Exponent $\gamma $ for the Granovetter-Watts model with exogenous aging}{figure.caption.12}{}}
+\abx@aux@backref{206}{gleeson-2008}{0}{21}{21}
+\newlabel{subsec Analytical results}{{3.3.3}{21}{\label {subsec Analytical results} Analytical results}{subsection.3.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3} Analytical results}{21}{subsection.3.3.3}\protected@file@percent }
+\abx@aux@backref{207}{gleeson-2007}{0}{21}{21}
+\newlabel{eq:pre_lin}{{3.15}{21}{\label {subsec Analytical results} Analytical results}{equation.3.3.15}{}}
+\abx@aux@cite{0}{wormald_1999}
+\abx@aux@segm{0}{0}{wormald_1999}
+\abx@aux@cite{0}{Leah2022}
+\abx@aux@segm{0}{0}{Leah2022}
+\newlabel{eq:coef_phi}{{3.16}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.16}{}}
+\newlabel{eq:linear}{{3.17}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.17}{}}
+\newlabel{eq:phi_general}{{3.18}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.18}{}}
+\newlabel{eq:linear_r}{{3.19}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.19}{}}
+\newlabel{eq:coef_rho}{{3.20}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.20}{}}
+\newlabel{eq:alpha}{{3.22}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.22}{}}
+\newlabel{rho_endo}{{3.23}{22}{\label {subsec Analytical results} Analytical results}{equation.3.3.23}{}}
+\abx@aux@backref{208}{wormald_1999}{0}{22}{22}
+\abx@aux@backref{209}{Leah2022}{0}{22}{22}
+\BKM@entry{id=23,open,dest={73656374696F6E2E332E34},srcline={262}}{5C3337365C3337375C303030335C3030302E5C303030345C3030305C3034305C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C3030306E5C3030305C3034305C303030615C3030305C3034305C3030304D5C3030306F5C3030306F5C303030725C303030655C3030305C3034305C3030306C5C303030615C303030745C303030745C303030695C303030635C30303065}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Cascade spreading of the Granovetter-Watts model in a lattice}}{23}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:evo_lat}{{3.8}{23}{Cascade spreading of the Granovetter-Watts model in a lattice}{figure.caption.13}{}}
+\newlabel{sec:Lattice}{{3.4}{23}{\label {sec:Lattice} Dynamics on a Moore lattice}{section.3.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4} Dynamics on a Moore lattice}{23}{section.3.4}\protected@file@percent }
+\abx@aux@backref{210}{centola-2007}{0}{23}{23}
+\BKM@entry{id=24,open,dest={73656374696F6E2E332E35},srcline={277}}{5C3337365C3337375C303030335C3030302E5C303030355C3030305C3034305C3030305C3034305C303030535C303030755C3030306D5C3030306D5C303030615C303030725C303030795C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030645C303030695C303030735C303030635C303030755C303030735C303030735C303030695C3030306F5C3030306E}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Cascade dynamics snapshots in a lattice}}{24}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:lattice}{{3.9}{24}{Cascade dynamics snapshots in a lattice}{figure.caption.14}{}}
+\newlabel{sec:Summary and Conclusions}{{3.5}{24}{\label {sec:Summary and Conclusions} Summary and discussion}{section.3.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5} Summary and discussion}{24}{section.3.5}\protected@file@percent }
+\abx@aux@cite{0}{goncalves-2012}
+\abx@aux@segm{0}{0}{goncalves-2012}
+\abx@aux@cite{0}{peralta-2020B}
+\abx@aux@segm{0}{0}{peralta-2020B}
+\abx@aux@backref{211}{goncalves-2012}{0}{25}{25}
+\abx@aux@backref{212}{peralta-2020B}{0}{25}{25}
+\BKM@entry{id=25,open,dest={636861707465722E34},flags=2,srcline={216}}{5C3337365C3337375C303030345C3030305C3034305C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030655C303030665C303030665C303030655C303030635C303030745C303030735C3030305C3034305C303030695C3030306E5C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030535C303030615C3030306B5C3030306F5C303030645C303030615C3030302D5C303030535C303030635C303030685C303030655C3030306C5C3030306C5C303030695C3030306E5C303030675C3030305C3034305C303030735C303030655C303030675C303030725C303030655C303030675C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\BKM@entry{id=26,open,dest={73656374696F6E2E342E31},srcline={4}}{5C3337365C3337375C303030345C3030302E5C303030315C3030305C3034305C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{granovetter}
+\abx@aux@segm{0}{0}{granovetter}
+\abx@aux@cite{0}{grauwin-2009}
+\abx@aux@segm{0}{0}{grauwin-2009}
+\abx@aux@cite{0}{clark-1991}
+\abx@aux@segm{0}{0}{clark-1991}
+\abx@aux@cite{0}{Sassen}
+\abx@aux@segm{0}{0}{Sassen}
+\abx@aux@cite{0}{Clark}
+\abx@aux@segm{0}{0}{Clark}
+\abx@aux@cite{0}{lamanna-2018}
+\abx@aux@segm{0}{0}{lamanna-2018}
+\abx@aux@cite{0}{silver-2021}
+\abx@aux@segm{0}{0}{silver-2021}
+\abx@aux@cite{0}{Vinkovic}
+\abx@aux@segm{0}{0}{Vinkovic}
+\abx@aux@cite{0}{stauffer-2007}
+\abx@aux@segm{0}{0}{stauffer-2007}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{gracia-lazaro-2009}
+\abx@aux@segm{0}{0}{gracia-lazaro-2009}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\abx@aux@cite{0}{Gauvin_2010}
+\abx@aux@segm{0}{0}{Gauvin_2010}
+\abx@aux@cite{0}{domic-2011}
+\abx@aux@segm{0}{0}{domic-2011}
+\abx@aux@cite{0}{henry-2011}
+\abx@aux@segm{0}{0}{henry-2011}
+\abx@aux@cite{0}{unified}
+\abx@aux@segm{0}{0}{unified}
+\abx@aux@cite{0}{Interfacial_roughening}
+\abx@aux@segm{0}{0}{Interfacial_roughening}
+\abx@aux@cite{0}{stauffer-2013}
+\abx@aux@segm{0}{0}{stauffer-2013}
+\abx@aux@cite{0}{lenormand-2015}
+\abx@aux@segm{0}{0}{lenormand-2015}
+\abx@aux@cite{0}{barmpalias-2018}
+\abx@aux@segm{0}{0}{barmpalias-2018}
+\abx@aux@cite{0}{jensen-2018}
+\abx@aux@segm{0}{0}{jensen-2018}
+\abx@aux@cite{0}{holden-2019}
+\abx@aux@segm{0}{0}{holden-2019}
+\abx@aux@cite{0}{sert-2020}
+\abx@aux@segm{0}{0}{sert-2020}
+\abx@aux@cite{0}{agarwal-2020}
+\abx@aux@segm{0}{0}{agarwal-2020}
+\abx@aux@cite{0}{vieira-2020}
+\abx@aux@segm{0}{0}{vieira-2020}
+\abx@aux@cite{0}{ortega-2021}
+\abx@aux@segm{0}{0}{ortega-2021}
+\abx@aux@cite{0}{ortega-2021.2}
+\abx@aux@segm{0}{0}{ortega-2021.2}
+\abx@aux@cite{0}{stauffer-2007}
+\abx@aux@segm{0}{0}{stauffer-2007}
+\abx@aux@cite{0}{stauffer-2013}
+\abx@aux@segm{0}{0}{stauffer-2013}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{Vinkovic}
+\abx@aux@segm{0}{0}{Vinkovic}
+\abx@aux@cite{0}{BEG}
+\abx@aux@segm{0}{0}{BEG}
+\abx@aux@cite{0}{BlumeCapel}
+\abx@aux@segm{0}{0}{BlumeCapel}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\abx@aux@cite{0}{Gauvin_2010}
+\abx@aux@segm{0}{0}{Gauvin_2010}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{Vinkovic}
+\abx@aux@segm{0}{0}{Vinkovic}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4} Aging effects in the Sakoda-Schelling segregation model}{27}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{ch:Aging effects in the Sakoda-Schelling segregation model}{{4}{27}{Aging effects in the Sakoda-Schelling segregation model}{chapter.4}{}}
+\pgfsyspdfmark {pgfid8}{5594039}{48124078}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{27}{section.4.1}\protected@file@percent }
+\abx@aux@backref{213}{granovetter}{0}{27}{27}
+\abx@aux@backref{214}{grauwin-2009}{0}{27}{27}
+\abx@aux@backref{215}{Clark}{0}{27}{27}
+\abx@aux@backref{216}{clark-1991}{0}{27}{27}
+\abx@aux@backref{217}{lamanna-2018}{0}{27}{27}
+\abx@aux@backref{218}{Sassen}{0}{27}{27}
+\abx@aux@backref{219}{silver-2021}{0}{27}{27}
+\abx@aux@backref{220}{agarwal-2020}{0}{27}{27}
+\abx@aux@backref{221}{Interfacial_roughening}{0}{27}{27}
+\abx@aux@backref{222}{barmpalias-2018}{0}{27}{27}
+\abx@aux@backref{223}{Dall_Asta_2008}{0}{27}{27}
+\abx@aux@backref{224}{domic-2011}{0}{27}{27}
+\abx@aux@backref{225}{Gauvin_2009}{0}{27}{27}
+\abx@aux@backref{226}{Gauvin_2010}{0}{27}{27}
+\abx@aux@backref{227}{gracia-lazaro-2009}{0}{27}{27}
+\abx@aux@backref{228}{henry-2011}{0}{27}{27}
+\abx@aux@backref{229}{holden-2019}{0}{27}{27}
+\abx@aux@backref{230}{jensen-2018}{0}{27}{27}
+\abx@aux@backref{231}{lenormand-2015}{0}{27}{27}
+\abx@aux@backref{232}{ortega-2021.2}{0}{27}{27}
+\abx@aux@backref{233}{ortega-2021}{0}{27}{27}
+\abx@aux@backref{234}{unified}{0}{27}{27}
+\abx@aux@backref{235}{sert-2020}{0}{27}{27}
+\abx@aux@backref{236}{stauffer-2007}{0}{27}{27}
+\abx@aux@backref{237}{stauffer-2013}{0}{27}{27}
+\abx@aux@backref{238}{vieira-2020}{0}{27}{27}
+\abx@aux@backref{239}{Vinkovic}{0}{27}{27}
+\abx@aux@backref{240}{stauffer-2007}{0}{27}{27}
+\abx@aux@backref{241}{stauffer-2013}{0}{27}{27}
+\abx@aux@cite{0}{granovetter-1985}
+\abx@aux@segm{0}{0}{granovetter-1985}
+\abx@aux@cite{0}{wasserman-2001}
+\abx@aux@segm{0}{0}{wasserman-2001}
+\abx@aux@cite{0}{chetty-2016}
+\abx@aux@segm{0}{0}{chetty-2016}
+\abx@aux@cite{0}{silver-2021}
+\abx@aux@segm{0}{0}{silver-2021}
+\abx@aux@cite{0}{denton1995persistence}
+\abx@aux@segm{0}{0}{denton1995persistence}
+\abx@aux@cite{0}{clark-2002}
+\abx@aux@segm{0}{0}{clark-2002}
+\abx@aux@cite{0}{clark-2003}
+\abx@aux@segm{0}{0}{clark-2003}
+\abx@aux@cite{0}{silver2016scenescapes}
+\abx@aux@segm{0}{0}{silver2016scenescapes}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\BKM@entry{id=27,open,dest={73656374696F6E2E342E32},srcline={27}}{5C3337365C3337375C303030345C3030302E5C303030325C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306E5C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030535C303030615C3030306B5C3030306F5C303030645C303030615C3030302D5C303030535C303030635C303030685C303030655C3030306C5C3030306C5C303030695C3030306E5C303030675C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\abx@aux@backref{242}{Dall_Asta_2008}{0}{28}{28}
+\abx@aux@backref{243}{Vinkovic}{0}{28}{28}
+\abx@aux@backref{244}{BEG}{0}{28}{28}
+\abx@aux@backref{245}{Gauvin_2009}{0}{28}{28}
+\abx@aux@backref{246}{Gauvin_2010}{0}{28}{28}
+\abx@aux@backref{247}{BlumeCapel}{0}{28}{28}
+\abx@aux@backref{248}{Dall_Asta_2008}{0}{28}{28}
+\abx@aux@backref{249}{Vinkovic}{0}{28}{28}
+\abx@aux@backref{250}{granovetter-1985}{0}{28}{28}
+\abx@aux@backref{251}{chetty-2016}{0}{28}{28}
+\abx@aux@backref{252}{silver-2021}{0}{28}{28}
+\abx@aux@backref{253}{wasserman-2001}{0}{28}{28}
+\abx@aux@backref{254}{clark-2002}{0}{28}{28}
+\abx@aux@backref{255}{clark-2003}{0}{28}{28}
+\abx@aux@backref{256}{denton1995persistence}{0}{28}{28}
+\abx@aux@backref{257}{silver2016scenescapes}{0}{28}{28}
+\abx@aux@backref{258}{Gauvin_2009}{0}{28}{28}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Aging in the Sakoda-Schelling model}{28}{section.4.2}\protected@file@percent }
+\abx@aux@backref{259}{Gauvin_2009}{0}{28}{28}
+\abx@aux@cite{0}{artime-2018}
+\abx@aux@segm{0}{0}{artime-2018}
+\abx@aux@cite{0}{barabasi-2005}
+\abx@aux@segm{0}{0}{barabasi-2005}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\BKM@entry{id=28,open,dest={73656374696F6E2E342E33},srcline={37}}{5C3337365C3337375C303030345C3030302E5C303030335C3030305C3034305C303030535C303030655C303030675C303030725C303030655C303030675C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030635C3030306F5C303030655C303030665C303030665C303030695C303030635C303030695C303030655C3030306E5C30303074}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\abx@aux@cite{0}{lenormand-2015}
+\abx@aux@segm{0}{0}{lenormand-2015}
+\abx@aux@cite{0}{randomwalks}
+\abx@aux@segm{0}{0}{randomwalks}
+\abx@aux@cite{0}{urban}
+\abx@aux@segm{0}{0}{urban}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\abx@aux@cite{0}{HoKo}
+\abx@aux@segm{0}{0}{HoKo}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\BKM@entry{id=29,open,dest={73656374696F6E2E342E34},srcline={53}}{5C3337365C3337375C303030345C3030302E5C303030345C3030305C3034305C303030525C303030655C303030735C303030755C3030306C5C303030745C30303073}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\abx@aux@backref{260}{artime-2018}{0}{29}{29}
+\abx@aux@backref{261}{barabasi-2005}{0}{29}{29}
+\abx@aux@backref{262}{fernandez-gracia-2011}{0}{29}{29}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Segregation coefficient}{29}{section.4.3}\protected@file@percent }
+\abx@aux@backref{263}{Gauvin_2009}{0}{29}{29}
+\abx@aux@backref{264}{lenormand-2015}{0}{29}{29}
+\abx@aux@backref{265}{randomwalks}{0}{29}{29}
+\abx@aux@backref{266}{urban}{0}{29}{29}
+\abx@aux@backref{267}{Gauvin_2009}{0}{29}{29}
+\abx@aux@backref{268}{HoKo}{0}{29}{29}
+\abx@aux@backref{269}{Dall_Asta_2008}{0}{29}{29}
+\abx@aux@cite{0}{Gauvin_2009}
+\abx@aux@segm{0}{0}{Gauvin_2009}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Average interface density and segregation coefficient}}{30}{figure.caption.15}\protected@file@percent }
+\newlabel{Fig1}{{4.1}{30}{Average interface density and segregation coefficient}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{30}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Phase diagram}{30}{subsection.4.4.1}\protected@file@percent }
+\abx@aux@backref{270}{Gauvin_2009}{0}{30}{30}
+\abx@aux@backref{271}{Gauvin_2009}{0}{30}{30}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{Interfacial_roughening}
+\abx@aux@segm{0}{0}{Interfacial_roughening}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Segregated phase: final state}{31}{subsection.4.4.2}\protected@file@percent }
+\abx@aux@backref{272}{Dall_Asta_2008}{0}{31}{31}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Segregated phase: coarsening dynamics}{31}{subsection.4.4.3}\protected@file@percent }
+\abx@aux@backref{273}{Interfacial_roughening}{0}{31}{31}
+\abx@aux@backref{274}{Dall_Asta_2008}{0}{31}{31}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{Maxi}
+\abx@aux@segm{0}{0}{Maxi}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Fraction of unsatisfied agents and roughness}}{32}{figure.caption.16}\protected@file@percent }
+\newlabel{Fig2}{{4.2}{32}{Fraction of unsatisfied agents and roughness}{figure.caption.16}{}}
+\abx@aux@backref{275}{Dall_Asta_2008}{0}{32}{32}
+\abx@aux@backref{276}{Maxi}{0}{32}{32}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Average interface density evolution}}{33}{figure.caption.17}\protected@file@percent }
+\newlabel{Fig3}{{4.3}{33}{Average interface density evolution}{figure.caption.17}{}}
+\abx@aux@cite{0}{spinglassbook}
+\abx@aux@segm{0}{0}{spinglassbook}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Coarsening towards the segregated state}}{34}{figure.caption.18}\protected@file@percent }
+\newlabel{Fig4}{{4.4}{34}{Coarsening towards the segregated state}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Aging breaks the asymptotic time-translational invariance}{34}{subsection.4.4.4}\protected@file@percent }
+\abx@aux@backref{277}{spinglassbook}{0}{34}{34}
+\abx@aux@cite{0}{spinglassbook}
+\abx@aux@segm{0}{0}{spinglassbook}
+\abx@aux@cite{0}{spinglassbook}
+\abx@aux@segm{0}{0}{spinglassbook}
+\abx@aux@cite{0}{Heisemberg}
+\abx@aux@segm{0}{0}{Heisemberg}
+\abx@aux@cite{0}{Heisemberg}
+\abx@aux@segm{0}{0}{Heisemberg}
+\abx@aux@cite{0}{8Heisemberg}
+\abx@aux@segm{0}{0}{8Heisemberg}
+\BKM@entry{id=30,open,dest={73656374696F6E2E342E35},srcline={146}}{5C3337365C3337375C303030345C3030302E5C303030355C3030305C3034305C3030305C3034305C303030535C303030755C3030306D5C3030306D5C303030615C303030725C303030795C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030645C303030695C303030735C303030635C303030755C303030735C303030735C303030695C3030306F5C3030306E}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Two-times autocorrelation}}{35}{figure.caption.19}\protected@file@percent }
+\newlabel{Fig5}{{4.5}{35}{Two-times autocorrelation}{figure.caption.19}{}}
+\abx@aux@backref{278}{spinglassbook}{0}{35}{35}
+\abx@aux@backref{279}{Heisemberg}{0}{35}{35}
+\abx@aux@backref{280}{spinglassbook}{0}{35}{35}
+\abx@aux@backref{281}{Heisemberg}{0}{35}{35}
+\abx@aux@backref{282}{8Heisemberg}{0}{35}{35}
+\abx@aux@cite{0}{Dall_Asta_2008}
+\abx@aux@segm{0}{0}{Dall_Asta_2008}
+\abx@aux@cite{0}{Interfacial_roughening}
+\abx@aux@segm{0}{0}{Interfacial_roughening}
+\abx@aux@cite{0}{Zhang}
+\abx@aux@segm{0}{0}{Zhang}
+\newlabel{sec:Summary and Conclusions}{{4.5}{36}{\label {sec:Summary and Conclusions} Summary and discussion}{section.4.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5} Summary and discussion}{36}{section.4.5}\protected@file@percent }
+\abx@aux@backref{283}{Interfacial_roughening}{0}{36}{36}
+\abx@aux@backref{284}{Dall_Asta_2008}{0}{36}{36}
+\abx@aux@backref{285}{Zhang}{0}{36}{36}
+\BKM@entry{id=31,open,dest={636861707465722E35},flags=2,srcline={229}}{5C3337365C3337375C303030355C303030415C3030305C3034305C3030305C3034305C3030304F5C303030725C303030645C303030655C303030725C303030695C3030306E5C303030675C3030305C3034305C303030645C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C303030695C3030306E5C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030535C303030795C3030306D5C3030306D5C303030655C303030745C303030725C303030695C303030635C303030615C3030306C5C3030305C3034305C303030545C303030685C303030725C303030655C303030735C303030685C3030306F5C3030306C5C303030645C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\BKM@entry{id=32,open,dest={73656374696F6E2E352E31},srcline={3}}{5C3337365C3337375C303030355C303030415C3030302E5C303030315C3030305C3034305C3030305C3034305C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{castellano2009statistical}
+\abx@aux@segm{0}{0}{castellano2009statistical}
+\abx@aux@cite{0}{jusup2022social}
+\abx@aux@segm{0}{0}{jusup2022social}
+\abx@aux@cite{0}{bianconi2023complex}
+\abx@aux@segm{0}{0}{bianconi2023complex}
+\abx@aux@cite{0}{Voter-original}
+\abx@aux@segm{0}{0}{Voter-original}
+\abx@aux@cite{0}{sood-2005}
+\abx@aux@segm{0}{0}{sood-2005}
+\abx@aux@cite{0}{Suchecki-2005}
+\abx@aux@segm{0}{0}{Suchecki-2005}
+\abx@aux@cite{0}{fernandez-gracia-2014}
+\abx@aux@segm{0}{0}{fernandez-gracia-2014}
+\abx@aux@cite{0}{redner-2019}
+\abx@aux@segm{0}{0}{redner-2019}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{pastor-satorras-2015}
+\abx@aux@segm{0}{0}{pastor-satorras-2015}
+\abx@aux@cite{0}{gleeson-2011}
+\abx@aux@segm{0}{0}{gleeson-2011}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{centola-2007}
+\abx@aux@segm{0}{0}{centola-2007}
+\abx@aux@cite{0}{unknown-author-2018}
+\abx@aux@segm{0}{0}{unknown-author-2018}
+\abx@aux@cite{0}{Voter-original}
+\abx@aux@segm{0}{0}{Voter-original}
+\abx@aux@cite{0}{de1992isotropic}
+\abx@aux@segm{0}{0}{de1992isotropic}
+\abx@aux@cite{0}{pereira2005majority}
+\abx@aux@segm{0}{0}{pereira2005majority}
+\abx@aux@cite{0}{campos2003small}
+\abx@aux@segm{0}{0}{campos2003small}
+\abx@aux@cite{0}{castellano-2009}
+\abx@aux@segm{0}{0}{castellano-2009}
+\abx@aux@cite{0}{mobilia2015nonlinear}
+\abx@aux@segm{0}{0}{mobilia2015nonlinear}
+\abx@aux@cite{0}{mellor2016characterization}
+\abx@aux@segm{0}{0}{mellor2016characterization}
+\abx@aux@cite{0}{Min-2017}
+\abx@aux@segm{0}{0}{Min-2017}
+\abx@aux@cite{0}{jewski-2017}
+\abx@aux@segm{0}{0}{jewski-2017}
+\abx@aux@cite{0}{peralta-2018}
+\abx@aux@segm{0}{0}{peralta-2018}
+\abx@aux@cite{0}{nowak2019homogeneous}
+\abx@aux@segm{0}{0}{nowak2019homogeneous}
+\abx@aux@cite{0}{nowak2020symmetrical}
+\abx@aux@segm{0}{0}{nowak2020symmetrical}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5A} Ordering dynamics in the Symmetrical Threshold model}{37}{chapter.5}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{ch:Ordering dynamics in the Symmetrical Threshold model}{{5A}{37}{Ordering dynamics in the Symmetrical Threshold model}{chapter.5}{}}
+\pgfsyspdfmark {pgfid9}{5594039}{48124078}
+\newlabel{sec:Introduction}{{5A.1}{37}{\label {sec:Introduction} Introduction}{section.5.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5A.1} Introduction}{37}{section.5.1}\protected@file@percent }
+\abx@aux@backref{286}{bianconi2023complex}{0}{37}{37}
+\abx@aux@backref{287}{castellano2009statistical}{0}{37}{37}
+\abx@aux@backref{288}{jusup2022social}{0}{37}{37}
+\abx@aux@backref{289}{fernandez-gracia-2014}{0}{37}{37}
+\abx@aux@backref{290}{Voter-original}{0}{37}{37}
+\abx@aux@backref{291}{redner-2019}{0}{37}{37}
+\abx@aux@backref{292}{sood-2005}{0}{37}{37}
+\abx@aux@backref{293}{Suchecki-2005}{0}{37}{37}
+\abx@aux@backref{294}{granovetter-1978}{0}{37}{37}
+\abx@aux@backref{295}{pastor-satorras-2015}{0}{37}{37}
+\abx@aux@backref{296}{gleeson-2011}{0}{37}{37}
+\abx@aux@backref{297}{watts-2002}{0}{37}{37}
+\abx@aux@backref{298}{granovetter-1978}{0}{37}{37}
+\abx@aux@backref{299}{centola-2007}{0}{37}{37}
+\abx@aux@backref{300}{unknown-author-2018}{0}{37}{37}
+\abx@aux@backref{301}{Voter-original}{0}{37}{37}
+\abx@aux@backref{302}{campos2003small}{0}{37}{37}
+\abx@aux@backref{303}{de1992isotropic}{0}{37}{37}
+\abx@aux@backref{304}{pereira2005majority}{0}{37}{37}
+\abx@aux@backref{305}{castellano-2009}{0}{37}{37}
+\abx@aux@backref{306}{jewski-2017}{0}{37}{37}
+\abx@aux@backref{307}{mellor2016characterization}{0}{37}{37}
+\abx@aux@backref{308}{Min-2017}{0}{37}{37}
+\abx@aux@backref{309}{mobilia2015nonlinear}{0}{37}{37}
+\abx@aux@backref{310}{peralta-2018}{0}{37}{37}
+\abx@aux@cite{0}{erdos1960evolution}
+\abx@aux@segm{0}{0}{erdos1960evolution}
+\abx@aux@cite{0}{wormald1999models}
+\abx@aux@segm{0}{0}{wormald1999models}
+\BKM@entry{id=33,open,dest={73656374696F6E2E352E32},srcline={11}}{5C3337365C3337375C303030355C303030415C3030302E5C303030325C3030305C3034305C3030305C3034305C303030535C303030795C3030306D5C3030306D5C303030655C303030745C303030725C303030695C303030635C303030615C3030306C5C3030305C3034305C303030545C303030685C303030725C303030655C303030735C303030685C3030306F5C3030306C5C303030645C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\abx@aux@cite{0}{glauber1963time}
+\abx@aux@segm{0}{0}{glauber1963time}
+\BKM@entry{id=34,open,dest={73656374696F6E2E352E33},srcline={16}}{5C3337365C3337375C303030355C303030415C3030302E5C303030335C3030305C3034305C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C3030306E5C3030305C3034305C3030306E5C303030655C303030745C303030775C3030306F5C303030725C3030306B5C30303073}
+\abx@aux@backref{311}{nowak2019homogeneous}{0}{38}{38}
+\abx@aux@backref{312}{nowak2020symmetrical}{0}{38}{38}
+\abx@aux@backref{313}{erdos1960evolution}{0}{38}{38}
+\abx@aux@backref{314}{wormald1999models}{0}{38}{38}
+\newlabel{Symmetrical Threshold model}{{5A.2}{38}{\label {Symmetrical Threshold model} Symmetrical Threshold model}{section.5.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5A.2} Symmetrical Threshold model}{38}{section.5.2}\protected@file@percent }
+\abx@aux@backref{315}{glauber1963time}{0}{38}{38}
+\newlabel{sec:Dynamics on networks}{{5A.3}{38}{\label {sec:Dynamics on networks} Dynamics on networks}{section.5.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5A.3} Dynamics on networks}{38}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5A.3.1}Mean-field}{38}{subsection.5.3.1}\protected@file@percent }
+\abx@aux@cite{0}{Suchecki-2005}
+\abx@aux@segm{0}{0}{Suchecki-2005}
+\abx@aux@cite{0}{Voter-original}
+\abx@aux@segm{0}{0}{Voter-original}
+\abx@aux@cite{0}{Voter}
+\abx@aux@segm{0}{0}{Voter}
+\abx@aux@cite{0}{erdos1960evolution}
+\abx@aux@segm{0}{0}{erdos1960evolution}
+\abx@aux@cite{0}{wormald1999models}
+\abx@aux@segm{0}{0}{wormald1999models}
+\@writefile{lof}{\contentsline {figure}{\numberline {5A.1}{\ignorespaces Phases of the Symmetrical Threshold model}}{39}{figure.caption.20}\protected@file@percent }
+\newlabel{COM_LAT_PD}{{5A.1}{39}{Phases of the Symmetrical Threshold model}{figure.caption.20}{}}
+\newlabel{eq:pot}{{5A.2}{39}{Mean-field}{equation.5.3.2}{}}
+\abx@aux@backref{316}{Voter}{0}{39}{39}
+\abx@aux@backref{317}{Voter-original}{0}{39}{39}
+\abx@aux@backref{318}{Suchecki-2005}{0}{39}{39}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5A.3.2}Random networks}{39}{subsection.5.3.2}\protected@file@percent }
+\abx@aux@backref{319}{erdos1960evolution}{0}{39}{39}
+\abx@aux@backref{320}{wormald1999models}{0}{39}{39}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {5A.2}{\ignorespaces Phase diagram in random networks}}{40}{figure.caption.21}\protected@file@percent }
+\newlabel{ER_REG_PD}{{5A.2}{40}{Phase diagram in random networks}{figure.caption.21}{}}
+\newlabel{eq:AME_age}{{5A.4}{40}{Random networks}{equation.5.3.4}{}}
+\abx@aux@backref{321}{gleeson-2013}{0}{40}{40}
+\abx@aux@cite{0}{gleeson-2007}
+\abx@aux@segm{0}{0}{gleeson-2007}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\abx@aux@cite{0}{ben-naim-1996}
+\abx@aux@segm{0}{0}{ben-naim-1996}
+\@writefile{lof}{\contentsline {figure}{\numberline {5A.3}{\ignorespaces Symmetrical Threshold model dynamics in random networks}}{41}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:evolution_random}{{5A.3}{41}{Symmetrical Threshold model dynamics in random networks}{figure.caption.22}{}}
+\abx@aux@backref{322}{gleeson-2013}{0}{41}{41}
+\abx@aux@backref{323}{gleeson-2007}{0}{41}{41}
+\abx@aux@cite{0}{haan2006extreme}
+\abx@aux@segm{0}{0}{haan2006extreme}
+\abx@aux@cite{0}{Konstantin}
+\abx@aux@segm{0}{0}{Konstantin}
+\BKM@entry{id=35,open,dest={73656374696F6E2E352E34},srcline={107}}{5C3337365C3337375C303030355C303030415C3030302E5C303030345C3030305C3034305C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C3030306E5C3030305C3034305C303030615C3030305C3034305C3030304D5C3030306F5C3030306F5C303030725C303030655C3030305C3034305C3030304C5C303030615C303030745C303030745C303030695C303030635C30303065}
+\abx@aux@backref{324}{ben-naim-1996}{0}{42}{42}
+\newlabel{eq:interface}{{5A.5}{42}{Random networks}{equation.5.3.5}{}}
+\newlabel{eq:magne}{{5A.6}{42}{Random networks}{equation.5.3.6}{}}
+\newlabel{eq:time}{{5A.7}{42}{Random networks}{equation.5.3.7}{}}
+\abx@aux@backref{325}{haan2006extreme}{0}{42}{42}
+\abx@aux@backref{326}{Konstantin}{0}{42}{42}
+\newlabel{sec: Dynamics on a Moore Lattice}{{5A.4}{42}{\label {sec: Dynamics on a Moore Lattice} Dynamics on a Moore Lattice}{section.5.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5A.4} Dynamics on a Moore Lattice}{42}{section.5.4}\protected@file@percent }
+\abx@aux@cite{0}{ben-naim-1996}
+\abx@aux@segm{0}{0}{ben-naim-1996}
+\abx@aux@cite{0}{stauffer-1994}
+\abx@aux@segm{0}{0}{stauffer-1994}
+\abx@aux@cite{0}{derrida-1995A}
+\abx@aux@segm{0}{0}{derrida-1995A}
+\abx@aux@cite{0}{derrida-1995B}
+\abx@aux@segm{0}{0}{derrida-1995B}
+\abx@aux@cite{0}{derrida-1997}
+\abx@aux@segm{0}{0}{derrida-1997}
+\abx@aux@cite{0}{ben-naim-1996}
+\abx@aux@segm{0}{0}{ben-naim-1996}
+\BKM@entry{id=36,open,dest={73656374696F6E2E352E35},srcline={137}}{5C3337365C3337375C303030355C303030415C3030302E5C303030355C3030305C3034305C3030305C3034305C303030535C303030755C3030306D5C3030306D5C303030615C303030725C303030795C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030645C303030695C303030735C303030635C303030755C303030735C303030735C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{granovetter-1978}
+\abx@aux@segm{0}{0}{granovetter-1978}
+\abx@aux@cite{0}{watts-2002}
+\abx@aux@segm{0}{0}{watts-2002}
+\@writefile{lof}{\contentsline {figure}{\numberline {5A.4}{\ignorespaces Symmetrical Threshold model in a Moore lattice}}{43}{figure.caption.23}\protected@file@percent }
+\newlabel{LAT_PD}{{5A.4}{43}{Symmetrical Threshold model in a Moore lattice}{figure.caption.23}{}}
+\abx@aux@backref{327}{ben-naim-1996}{0}{43}{43}
+\abx@aux@backref{328}{derrida-1995A}{0}{43}{43}
+\abx@aux@backref{329}{derrida-1997}{0}{43}{43}
+\abx@aux@backref{330}{derrida-1995B}{0}{43}{43}
+\abx@aux@backref{331}{stauffer-1994}{0}{43}{43}
+\abx@aux@backref{332}{ben-naim-1996}{0}{43}{43}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {5A.5}{\ignorespaces Dynamical regimes in a Moore lattice.}}{44}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:evolution_lattice}{{5A.5}{44}{Dynamical regimes in a Moore lattice}{figure.caption.24}{}}
+\newlabel{sec:Summary and Conclusions}{{5A.5}{44}{\label {sec:Summary and Conclusions} Summary and discussion}{section.5.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5A.5} Summary and discussion}{44}{section.5.5}\protected@file@percent }
+\abx@aux@backref{333}{granovetter-1978}{0}{44}{44}
+\abx@aux@backref{334}{watts-2002}{0}{44}{44}
+\abx@aux@backref{335}{gleeson-2013}{0}{44}{44}
+\abx@aux@cite{0}{peralta-2020B}
+\abx@aux@segm{0}{0}{peralta-2020B}
+\abx@aux@cite{0}{Konstantin}
+\abx@aux@segm{0}{0}{Konstantin}
+\abx@aux@cite{0}{barabasi2009scale}
+\abx@aux@segm{0}{0}{barabasi2009scale}
+\abx@aux@cite{0}{Zimmermann}
+\abx@aux@segm{0}{0}{Zimmermann}
+\abx@aux@cite{0}{vazquez-2008}
+\abx@aux@segm{0}{0}{vazquez-2008}
+\abx@aux@backref{336}{peralta-2020B}{0}{45}{45}
+\abx@aux@backref{337}{Konstantin}{0}{45}{45}
+\abx@aux@backref{338}{barabasi2009scale}{0}{45}{45}
+\abx@aux@backref{339}{vazquez-2008}{0}{45}{45}
+\abx@aux@backref{340}{Zimmermann}{0}{45}{45}
+\BKM@entry{id=37,open,dest={636861707465722E36},flags=2,srcline={240}}{5C3337365C3337375C303030355C303030425C3030305C3034305C3030305C3034305C303030415C303030675C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306D5C303030705C3030306C5C303030695C303030635C303030615C303030745C303030695C3030306F5C3030306E5C303030735C3030305C3034305C303030695C3030306E5C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030535C303030795C3030306D5C3030306D5C303030655C303030745C303030725C303030695C303030635C303030615C3030306C5C3030305C3034305C303030545C303030685C303030725C303030655C303030735C303030685C3030306F5C3030306C5C303030645C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C}
+\BKM@entry{id=38,open,dest={73656374696F6E2E362E31},srcline={3}}{5C3337365C3337375C303030355C303030425C3030302E5C303030315C3030305C3034305C3030305C3034305C303030495C3030306E5C303030745C303030725C3030306F5C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{stark-2008}
+\abx@aux@segm{0}{0}{stark-2008}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{perez-2016}
+\abx@aux@segm{0}{0}{perez-2016}
+\abx@aux@cite{0}{boguna-2014}
+\abx@aux@segm{0}{0}{boguna-2014}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{artime-2018}
+\abx@aux@segm{0}{0}{artime-2018}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{karsai-2011}
+\abx@aux@segm{0}{0}{karsai-2011}
+\abx@aux@cite{0}{rybski-2009}
+\abx@aux@segm{0}{0}{rybski-2009}
+\abx@aux@cite{0}{zignani-2016}
+\abx@aux@segm{0}{0}{zignani-2016}
+\abx@aux@cite{0}{artime-2017}
+\abx@aux@segm{0}{0}{artime-2017}
+\abx@aux@cite{0}{kumar-2020}
+\abx@aux@segm{0}{0}{kumar-2020}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5B} Aging implications in the Symmetrical Threshold model}{47}{chapter.6}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{ch:Aging implications in the Symmetrical Threshold model}{{5B}{47}{Aging implications in the Symmetrical Threshold model}{chapter.6}{}}
+\pgfsyspdfmark {pgfid10}{5594039}{48124078}
+\newlabel{sec:Introduction_Chapter6}{{5B.1}{47}{\label {sec:Introduction_Chapter6} Introduction}{section.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5B.1} Introduction}{47}{section.6.1}\protected@file@percent }
+\abx@aux@backref{341}{boguna-2014}{0}{47}{47}
+\abx@aux@backref{342}{chen-2020}{0}{47}{47}
+\abx@aux@backref{343}{fernandez-gracia-2011}{0}{47}{47}
+\abx@aux@backref{344}{perez-2016}{0}{47}{47}
+\abx@aux@backref{345}{stark-2008}{0}{47}{47}
+\abx@aux@backref{346}{fernandez-gracia-2011}{0}{47}{47}
+\abx@aux@backref{347}{peralta-2020C}{0}{47}{47}
+\abx@aux@backref{348}{artime-2018}{0}{47}{47}
+\abx@aux@backref{349}{peralta-2020A}{0}{47}{47}
+\abx@aux@cite{0}{erdos1960evolution}
+\abx@aux@segm{0}{0}{erdos1960evolution}
+\abx@aux@cite{0}{wormald1999models}
+\abx@aux@segm{0}{0}{wormald1999models}
+\BKM@entry{id=39,open,dest={73656374696F6E2E362E32},srcline={11}}{5C3337365C3337375C303030355C303030425C3030302E5C303030325C3030305C3034305C3030305C3034305C303030535C303030795C3030306D5C3030306D5C303030655C303030745C303030725C303030695C303030635C303030615C3030306C5C3030305C3034305C303030545C303030685C303030725C303030655C303030735C303030685C3030306F5C3030306C5C303030645C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C5C3030305C3034305C303030775C303030695C303030745C303030685C3030305C3034305C303030615C303030675C303030695C3030306E5C30303067}
+\abx@aux@cite{0}{rybski-2009}
+\abx@aux@segm{0}{0}{rybski-2009}
+\abx@aux@cite{0}{artime-2017}
+\abx@aux@segm{0}{0}{artime-2017}
+\BKM@entry{id=40,open,dest={73656374696F6E2E362E33},srcline={22}}{5C3337365C3337375C303030355C303030425C3030302E5C303030335C3030305C3034305C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C3030306E5C3030305C3034305C3030306E5C303030655C303030745C303030775C3030306F5C303030725C3030306B5C30303073}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\abx@aux@backref{350}{artime-2017}{0}{48}{48}
+\abx@aux@backref{351}{karsai-2011}{0}{48}{48}
+\abx@aux@backref{352}{kumar-2020}{0}{48}{48}
+\abx@aux@backref{353}{rybski-2009}{0}{48}{48}
+\abx@aux@backref{354}{zignani-2016}{0}{48}{48}
+\abx@aux@backref{355}{erdos1960evolution}{0}{48}{48}
+\abx@aux@backref{356}{wormald1999models}{0}{48}{48}
+\newlabel{Symmetrical Threshold model with aging}{{5B.2}{48}{\label {Symmetrical Threshold model with aging} Symmetrical Threshold model with aging}{section.6.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5B.2} Symmetrical Threshold model with aging}{48}{section.6.2}\protected@file@percent }
+\abx@aux@backref{357}{artime-2017}{0}{48}{48}
+\abx@aux@backref{358}{rybski-2009}{0}{48}{48}
+\newlabel{sec:Dynamics on networks}{{5B.3}{48}{\label {sec:Dynamics on networks} Dynamics on networks}{section.6.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5B.3} Dynamics on networks}{48}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5B.3.1}Mean-field}{48}{subsection.6.3.1}\protected@file@percent }
+\abx@aux@backref{359}{chen-2020}{0}{48}{48}
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.1}{\ignorespaces Aging effects in the complete graph}}{49}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:COM_AGING}{{5B.1}{49}{Aging effects in the complete graph}{figure.caption.25}{}}
+\newlabel{eq:HMFaging2}{{5B.3}{49}{Mean-field}{equation.6.3.3}{}}
+\newlabel{eq:x_f}{{5B.4}{49}{Mean-field}{equation.6.3.4}{}}
+\newlabel{eq:F(A)}{{5B.5}{49}{Mean-field}{equation.6.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.2}{\ignorespaces Phase diagram modified by aging.}}{50}{figure.caption.26}\protected@file@percent }
+\newlabel{ER_REG_PDAGING}{{5B.2}{50}{Phase diagram modified by aging}{figure.caption.26}{}}
+\newlabel{sec:Complex networks aging}{{5B.3.2}{50}{\label {sec:Complex networks aging} Random networks}{subsection.6.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5B.3.2} Random networks}{50}{subsection.6.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.3}{\ignorespaces Symmetrical threshold model with aging dynamics in random networks}}{51}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:evolution_random_aging}{{5B.3}{51}{Symmetrical threshold model with aging dynamics in random networks}{figure.caption.27}{}}
+\abx@aux@cite{0}{Konstantin}
+\abx@aux@segm{0}{0}{Konstantin}
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.4}{\ignorespaces Phase ${\rm  I}^{*}$ slow decay and minority consensus}}{52}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:mixed_phase}{{5B.4}{52}{Phase ${\rm I}^{*}$ slow decay and minority consensus}{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.5}{\ignorespaces Phase ${\rm  I}^{*}$ dependence with the network mean degree}}{53}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:PD_Z}{{5B.5}{53}{Phase ${\rm I}^{*}$ dependence with the network mean degree}{figure.caption.29}{}}
+\abx@aux@backref{360}{Konstantin}{0}{53}{53}
+\BKM@entry{id=41,open,dest={73656374696F6E2E362E34},srcline={116}}{5C3337365C3337375C303030355C303030425C3030302E5C303030345C3030305C3034305C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C3030306E5C3030305C3034305C303030615C3030305C3034305C3030304D5C3030306F5C3030306F5C303030725C303030655C3030305C3034305C3030304C5C303030615C303030745C303030745C303030695C303030635C30303065}
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.6}{\ignorespaces Symmetrical Threshold model with aging in a Moore lattice}}{54}{figure.caption.30}\protected@file@percent }
+\newlabel{LAT_PDAGING}{{5B.6}{54}{Symmetrical Threshold model with aging in a Moore lattice}{figure.caption.30}{}}
+\newlabel{sec: Dynamics on a Moore Lattice}{{5B.4}{54}{\label {sec: Dynamics on a Moore Lattice} Dynamics on a Moore Lattice}{section.6.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5B.4} Dynamics on a Moore Lattice}{54}{section.6.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5B.7}{\ignorespaces Modified dynamical regimes by aging in a Moore lattice}}{55}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:evolution_lattice_aging}{{5B.7}{55}{Modified dynamical regimes by aging in a Moore lattice}{figure.caption.31}{}}
+\BKM@entry{id=42,open,dest={73656374696F6E2E362E35},srcline={150}}{5C3337365C3337375C303030355C303030425C3030302E5C303030355C3030305C3034305C3030305C3034305C303030535C303030755C3030306D5C3030306D5C303030615C303030725C303030795C3030305C3034305C303030615C3030306E5C303030645C3030305C3034305C303030645C303030695C303030735C303030635C303030755C303030735C303030735C303030695C3030306F5C3030306E}
+\abx@aux@cite{0}{gunton1983}
+\abx@aux@segm{0}{0}{gunton1983}
+\abx@aux@cite{0}{fernandez-gracia-2011}
+\abx@aux@segm{0}{0}{fernandez-gracia-2011}
+\newlabel{sec:Summary and Conclusions}{{5B.5}{56}{\label {sec:Summary and Conclusions} Summary and discussion}{section.6.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5B.5} Summary and discussion}{56}{section.6.5}\protected@file@percent }
+\abx@aux@backref{361}{gunton1983}{0}{56}{56}
+\abx@aux@backref{362}{fernandez-gracia-2011}{0}{57}{57}
+\BKM@entry{id=43,open,dest={706172742E32},color={0 .6 0},flags=2,srcline={249}}{5C3337365C3337375C303030495C303030495C3030305C3034305C303030525C303030655C303030615C3030306C5C3030305C3034305C303030655C303030735C303030745C303030615C303030745C303030655C3030305C3034305C3030306D5C303030615C303030725C3030306B5C303030655C303030745C3030305C3034305C303030645C303030795C3030306E5C303030615C3030306D5C303030695C303030635C30303073}
+\ttl@writefile{ptc}{\ttl@stoptoc{part@1}}
+\ttl@writefile{ptc}{\ttl@starttoc{part@2}}
+\pgfsyspdfmark {pgfid11}{5594039}{33731574}
+\@writefile{toc}{\contentsline {part}{\numberline {II}Real estate market dynamics}{59}{part.2}\protected@file@percent }
+\BKM@entry{id=44,open,dest={636861707465722E37},flags=2,srcline={257}}{5C3337365C3337375C303030375C3030305C3034305C303030445C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C3030306F5C303030665C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030725C303030655C303030615C3030306C5C3030305C3034305C303030735C303030745C303030615C303030745C303030655C3030305C3034305C3030306D5C303030615C303030725C3030306B5C303030655C30303074}
+\BKM@entry{id=45,open,dest={73656374696F6E2E372E31},srcline={1}}{5C3337365C3337375C303030375C3030302E5C303030315C3030305C3034305C303030545C303030685C303030655C3030306F5C303030725C303030655C3030306D5C30303073}
+\BKM@entry{id=46,open,dest={73656374696F6E2E372E32},srcline={25}}{5C3337365C3337375C303030375C3030302E5C303030325C3030305C3034305C303030445C303030655C303030665C303030695C3030306E5C303030695C303030745C303030695C3030306F5C3030306E5C30303073}
+\BKM@entry{id=47,open,dest={73656374696F6E2E372E33},srcline={40}}{5C3337365C3337375C303030375C3030302E5C303030335C3030305C3034305C3030304E5C3030306F5C303030745C303030615C303030745C303030695C3030306F5C3030306E5C30303073}
+\BKM@entry{id=48,open,dest={73656374696F6E2E372E34},srcline={53}}{5C3337365C3337375C303030375C3030302E5C303030345C3030305C3034305C303030525C303030655C3030306D5C303030615C303030725C3030306B5C30303073}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Dynamics of the real state market}{61}{chapter.7}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\pgfsyspdfmark {pgfid12}{5594039}{48192683}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Theorems}{61}{section.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Several equations}{61}{subsection.7.1.1}\protected@file@percent }
+\zref@newlabel{mdf@pagelabel-3}{\default{7.1.1}\page{61}\abspage{81}\mdf@pagevalue{61}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Single Line}{61}{subsection.7.1.2}\protected@file@percent }
+\zref@newlabel{mdf@pagelabel-4}{\default{7.1.2}\page{61}\abspage{81}\mdf@pagevalue{61}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Definitions}{61}{section.7.2}\protected@file@percent }
+\zref@newlabel{mdf@pagelabel-5}{\default{7.2}\page{61}\abspage{81}\mdf@pagevalue{61}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Notations}{61}{section.7.3}\protected@file@percent }
+\BKM@entry{id=49,open,dest={73656374696F6E2E372E35},srcline={63}}{5C3337365C3337375C303030375C3030302E5C303030355C3030305C3034305C303030435C3030306F5C303030725C3030306F5C3030306C5C3030306C5C303030615C303030725C303030695C303030655C30303073}
+\BKM@entry{id=50,open,dest={73656374696F6E2E372E36},srcline={71}}{5C3337365C3337375C303030375C3030302E5C303030365C3030305C3034305C303030505C303030725C3030306F5C303030705C3030306F5C303030735C303030695C303030745C303030695C3030306F5C3030306E5C30303073}
+\BKM@entry{id=51,open,dest={73656374696F6E2E372E37},srcline={91}}{5C3337365C3337375C303030375C3030302E5C303030375C3030305C3034305C303030455C303030785C303030615C3030306D5C303030705C3030306C5C303030655C30303073}
+\BKM@entry{id=52,open,dest={73656374696F6E2E372E38},srcline={112}}{5C3337365C3337375C303030375C3030302E5C303030385C3030305C3034305C303030455C303030785C303030655C303030725C303030635C303030695C303030735C303030655C30303073}
+\BKM@entry{id=53,open,dest={73656374696F6E2E372E39},srcline={120}}{5C3337365C3337375C303030375C3030302E5C303030395C3030305C3034305C303030505C303030725C3030306F5C303030625C3030306C5C303030655C3030306D5C30303073}
+\BKM@entry{id=54,open,dest={73656374696F6E2E372E3130},srcline={128}}{5C3337365C3337375C303030375C3030302E5C303030315C303030305C3030305C3034305C303030565C3030306F5C303030635C303030615C303030625C303030755C3030306C5C303030615C303030725C30303079}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Remarks}{62}{section.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Corollaries}{62}{section.7.5}\protected@file@percent }
+\zref@newlabel{mdf@pagelabel-6}{\default{7.5}\page{62}\abspage{82}\mdf@pagevalue{62}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.6}Propositions}{62}{section.7.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.1}Several equations}{62}{subsection.7.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.6.2}Single Line}{62}{subsection.7.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.7}Examples}{62}{section.7.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7.1}Equation Example}{62}{subsection.7.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.7.2}Text Example}{62}{subsection.7.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.8}Exercises}{62}{section.7.8}\protected@file@percent }
+\zref@newlabel{mdf@pagelabel-7}{\default{7.8}\page{62}\abspage{82}\mdf@pagevalue{62}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.9}Problems}{62}{section.7.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.10}Vocabulary}{63}{section.7.10}\protected@file@percent }
+\BKM@entry{id=55,open,dest={636861707465722E38},flags=2,srcline={267}}{5C3337365C3337375C303030385C3030305C3034305C303030415C303030735C303030735C303030655C303030735C303030735C303030695C3030306E5C303030675C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030725C303030655C303030615C3030306C5C3030305C3034305C303030735C303030745C303030615C303030745C303030655C3030305C3034305C3030306D5C303030615C303030725C3030306B5C303030655C303030745C3030305C3034305C303030735C303030655C303030675C3030306D5C303030655C3030306E5C303030745C303030615C303030745C303030695C3030306F5C3030306E}
+\BKM@entry{id=56,open,dest={73656374696F6E2E382E31},srcline={1}}{5C3337365C3337375C303030385C3030302E5C303030315C3030305C3034305C303030545C303030615C303030625C3030306C5C30303065}
+\BKM@entry{id=57,open,dest={73656374696F6E2E382E32},srcline={7}}{5C3337365C3337375C303030385C3030302E5C303030325C3030305C3034305C303030465C303030695C303030675C303030755C303030725C30303065}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Assessing the real state market segmentation}{65}{chapter.8}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\pgfsyspdfmark {pgfid14}{5594039}{48266511}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Table}{65}{section.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Figure}{65}{section.8.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Figure caption.\relax }}{65}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:placeholder}{{8.1}{65}{Figure caption.\relax }{figure.caption.32}{}}
+\ttl@writefile{ptc}{\ttl@stoptoc{part@2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Floating figure.\relax }}{65}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:floating}{{8.2}{65}{Floating figure.\relax }{figure.caption.33}{}}
+\pgfsyspdfmark {pgfid15}{5594039}{48266511}
+\pgfsyspdfmark {pgfid16}{5594039}{48266511}
+\BKM@entry{id=58,open,dest={73656374696F6E2A2E3336},flags=2,srcline={304}}{5C3337365C3337375C303030495C3030306E5C303030645C303030655C30303078}
+\BKM@entry{id=59,open,dest={73656374696F6E2A2E3337},flags=2,srcline={315}}{5C3337365C3337375C303030415C303030705C303030705C303030655C3030306E5C303030645C303030695C303030635C303030655C30303073}
+\BKM@entry{id=60,open,dest={617070656E6469782E612E41},flags=2,srcline={326}}{5C3337365C3337375C303030415C3030305C3034305C3030305C3034305C303030475C303030655C3030306E5C303030655C303030725C303030615C3030306C5C303030695C3030307A5C303030655C303030645C3030305C3034305C3030306D5C303030615C303030735C303030745C303030655C303030725C3030305C3034305C303030655C303030715C303030755C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030665C3030306F5C303030725C3030305C3034305C303030625C303030695C3030306E5C303030615C303030725C303030795C3030305C3034305C303030735C303030745C303030615C303030745C303030655C3030305C3034305C303030645C303030795C3030306E5C303030615C3030306D5C303030695C303030635C303030735C3030305C3034305C303030775C303030695C303030745C303030685C3030305C3034305C303030615C303030675C303030695C3030306E5C30303067}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\abx@aux@cite{0}{peralta-2020C}
+\abx@aux@segm{0}{0}{peralta-2020C}
+\abx@aux@cite{0}{peralta-2020A}
+\abx@aux@segm{0}{0}{peralta-2020A}
+\abx@aux@cite{0}{molloy-1995}
+\abx@aux@segm{0}{0}{molloy-1995}
+\abx@aux@cite{0}{newman-2001}
+\abx@aux@segm{0}{0}{newman-2001}
+\@writefile{toc}{\contentsline {chapter}{\leavevmode {\color  {ocre}Index}}{79}{section*.36}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Appendices}{79}{section*.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {A} Generalized master equation for binary state dynamics with aging}{79}{appendix.a.A}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{app:DERIVATION OF MASTER EQUATION WITH AGING}{{A}{79}{Generalized master equation for binary state dynamics with aging}{appendix.a.A}{}}
+\pgfsyspdfmark {pgfid17}{5594039}{47153704}
+\abx@aux@backref{534}{gleeson-2013}{0}{79}{79}
+\abx@aux@backref{535}{peralta-2020A}{0}{79}{79}
+\abx@aux@backref{536}{peralta-2020C}{0}{79}{79}
+\abx@aux@backref{537}{molloy-1995}{0}{79}{79}
+\abx@aux@backref{538}{newman-2001}{0}{79}{79}
+\newlabel{initial_condition}{{A.1}{79}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.1}{}}
+\newlabel{eq:pre_AME}{{A.2}{79}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.2}{}}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Schematic representation of the transitions to or from the set $x^{\pm }_{k,m,j}$}}{80}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:ame_plot1}{{A.1}{80}{Schematic representation of the transitions to or from the set $x^{\pm }_{k,m,j}$}{figure.caption.38}{}}
+\newlabel{eq:pre_AME_0}{{A.3}{80}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.3}{}}
+\abx@aux@backref{539}{gleeson-2013}{0}{80}{80}
+\newlabel{rate_beta_s}{{A.4}{80}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.4}{}}
+\newlabel{beta_s}{{A.5}{80}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.5}{}}
+\newlabel{rate_gamma_s}{{A.6}{80}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.6}{}}
+\abx@aux@cite{0}{link_git}
+\abx@aux@segm{0}{0}{link_git}
+\BKM@entry{id=61,open,dest={73656374696F6E2E612E412E31},srcline={87}}{5C3337365C3337375C303030415C3030302E5C303030315C3030305C3034305C3030305C3034305C303030525C303030655C303030645C303030755C303030635C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030745C3030306F5C3030305C3034305C3030304D5C303030615C303030725C3030306B5C3030306F5C303030765C303030695C303030615C3030306E5C3030305C3034305C303030645C303030795C3030306E5C303030615C3030306D5C303030695C303030635C30303073}
+\newlabel{gamma_s}{{A.7}{81}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.7}{}}
+\newlabel{cond_1}{{A.8}{81}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.8}{}}
+\newlabel{eq:AME}{{A.9}{81}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.9}{}}
+\abx@aux@backref{540}{link_git}{0}{81}{81}
+\newlabel{eq:AME_Threshold_AP}{{A.11}{81}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.11}{}}
+\newlabel{eq:AME_Threshold_SP}{{A.12}{81}{Generalized master equation for binary state dynamics with aging}{equation.a.A.0.12}{}}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\BKM@entry{id=62,open,dest={73656374696F6E2E612E412E32},srcline={107}}{5C3337365C3337375C303030415C3030302E5C303030325C3030305C3034305C3030305C3034305C303030485C303030655C303030745C303030655C303030725C3030306F5C303030675C303030655C3030306E5C303030655C3030306F5C303030755C303030735C3030305C3034305C3030306D5C303030655C303030615C3030306E5C3030302D5C303030665C303030695C303030655C3030306C5C303030645C3030305C3034305C303030615C303030705C303030705C303030725C3030306F5C303030785C303030695C3030306D5C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C3030305C3035305C303030485C3030304D5C303030465C3030305C303531}
+\abx@aux@cite{0}{gleeson-2013}
+\abx@aux@segm{0}{0}{gleeson-2013}
+\newlabel{sec:Reduction to Markovian dynamics}{{A.1}{82}{\label {sec:Reduction to Markovian dynamics} Reduction to Markovian dynamics}{section.a.A.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1} Reduction to Markovian dynamics}{82}{section.a.A.1}\protected@file@percent }
+\newlabel{eq:AME_noage}{{A.13}{82}{\label {sec:Reduction to Markovian dynamics} Reduction to Markovian dynamics}{equation.a.A.1.13}{}}
+\abx@aux@backref{541}{gleeson-2013}{0}{82}{82}
+\newlabel{sec:Heterogeneous mean-field approximation}{{A.2}{82}{\label {sec:Heterogeneous mean-field approximation} Heterogeneous mean-field approximation (HMF)}{section.a.A.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2} Heterogeneous mean-field approximation (HMF)}{82}{section.a.A.2}\protected@file@percent }
+\abx@aux@backref{542}{gleeson-2013}{0}{82}{82}
+\newlabel{eq:HMF}{{A.16}{82}{\label {sec:Heterogeneous mean-field approximation} Heterogeneous mean-field approximation (HMF)}{equation.a.A.2.16}{}}
+\BKM@entry{id=63,open,dest={617070656E6469782E612E42},flags=2,srcline={336}}{5C3337365C3337375C303030425C3030305C3034305C3030305C3034305C303030565C303030615C303030635C303030615C3030306E5C303030635C303030795C3030305C3034305C303030645C303030655C3030306E5C303030735C303030695C303030745C303030795C3030305C3034305C303030655C303030665C303030665C303030655C303030635C303030745C3030305C3034305C3030306F5C3030306E5C3030305C3034305C303030745C303030685C303030655C3030305C3034305C303030535C303030635C303030685C303030655C3030306C5C3030306C5C303030695C3030306E5C303030675C3030305C3034305C3030306D5C3030306F5C303030645C303030655C3030306C5C3030305C3034305C303030645C303030795C3030306E5C303030615C3030306D5C303030695C303030635C30303073}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B} Vacancy density effect on the Schelling model dynamics}{83}{appendix.a.B}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{app:Vacancy density effect on the Schelling model dynamics}{{B}{83}{Vacancy density effect on the Schelling model dynamics}{appendix.a.B}{}}
+\pgfsyspdfmark {pgfid18}{5594039}{48253437}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces Average interface density $ \langle \rho (t) \rangle $ for different $\rho _v$}}{83}{figure.caption.39}\protected@file@percent }
+\newlabel{FigS1}{{B.1}{83}{Average interface density $ \langle \rho (t) \rangle $ for different $\rho _v$}{figure.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces Snapshots of the system with large $\rho _{v}$}}{84}{figure.caption.40}\protected@file@percent }
+\newlabel{FigS2}{{B.2}{84}{Snapshots of the system with large $\rho _{v}$}{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces Cluster coefficient of vacancies as a function of the vacancy density}}{84}{figure.caption.41}\protected@file@percent }
+\newlabel{FigS3}{{B.3}{84}{Cluster coefficient of vacancies as a function of the vacancy density}{figure.caption.41}{}}
+\BKM@entry{id=64,open,dest={617070656E6469782E612E43},flags=2,srcline={348}}{5C3337365C3337375C303030435C3030305C3034305C3030305C3034305C303030485C303030655C303030745C303030655C303030725C3030306F5C303030675C303030655C3030306E5C303030655C3030306F5C303030755C303030735C3030305C3034305C3030306D5C303030655C303030615C3030306E5C3030302D5C303030665C303030695C303030655C3030306C5C303030645C3030305C3034305C303030745C303030615C3030306B5C303030695C3030306E5C303030675C3030305C3034305C303030695C3030306E5C303030745C3030306F5C3030305C3034305C303030615C303030635C303030635C3030306F5C303030755C3030306E5C303030745C3030305C3034305C303030615C303030675C303030695C3030306E5C303030675C3030305C3034305C3030305C3035305C303030485C3030304D5C303030465C303030415C3030305C303531}
+\abx@aux@cite{0}{chen-2020}
+\abx@aux@segm{0}{0}{chen-2020}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C} Heterogeneous mean-field taking into account aging (HMFA)}{85}{appendix.a.C}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{appendix_HMFA}{{C}{85}{Heterogeneous mean-field taking into account aging (HMFA)}{appendix.a.C}{}}
+\pgfsyspdfmark {pgfid19}{5594039}{48127125}
+\newlabel{eq:SSaging4}{{C.1}{85}{Heterogeneous mean-field taking into account aging (HMFA)}{equation.a.C.0.1}{}}
+\abx@aux@backref{543}{chen-2020}{0}{85}{85}
+\newlabel{eq:SSSaging2}{{C.3}{85}{Heterogeneous mean-field taking into account aging (HMFA)}{equation.a.C.0.3}{}}
+\BKM@entry{id=65,open,dest={617070656E6469782E612E44},flags=2,srcline={360}}{5C3337365C3337375C303030445C3030305C3034305C3030305C3034305C303030495C3030306E5C303030745C303030655C303030725C3030306E5C303030615C3030306C5C3030305C3034305C303030745C303030695C3030306D5C303030655C3030305C3034305C303030725C303030655C303030635C303030755C303030725C303030735C303030695C303030765C303030655C3030305C3034305C303030725C303030655C3030306C5C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030695C3030306E5C3030305C3034305C303030505C303030685C303030615C303030735C303030655C3030305C3034305C303030495C3030302F5C303030495C3030302A}
+\@writefile{toc}{\contentsline {chapter}{\numberline {D} Internal time recursive relation in Phase ${\rm  {\bf  I}}$/${\rm  {\bf  I}}^{*}$}{87}{appendix.a.D}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{appendix_RR}{{D}{87}{Internal time recursive relation in Phase ${\rm {\bf I}}$/${\rm {\bf I}}^{*}$}{appendix.a.D}{}}
+\pgfsyspdfmark {pgfid20}{5594039}{48266511}
+\newlabel{eq:RR1}{{D.1}{87}{Internal time recursive relation in Phase ${\rm {\bf I}}$/${\rm {\bf I}}^{*}$}{equation.a.D.0.1}{}}
+\newlabel{eq:RR}{{D.2}{87}{Internal time recursive relation in Phase ${\rm {\bf I}}$/${\rm {\bf I}}^{*}$}{equation.a.D.0.2}{}}
+\ttl@finishall
+\abx@aux@number{362}{abella2023many}{0}{nyt/global//global/global}{1}
+\abx@aux@number{363}{Abella-2022}{0}{nyt/global//global/global}{2}
+\abx@aux@number{364}{Abella-2022-AME}{0}{nyt/global//global/global}{3}
+\abx@aux@number{365}{Abella_2024}{0}{nyt/global//global/global}{4}
+\abx@aux@number{366}{agarwal-2020}{0}{nyt/global//global/global}{5}
+\abx@aux@number{367}{Interfacial_roughening}{0}{nyt/global//global/global}{6}
+\abx@aux@number{368}{amato-2017}{0}{nyt/global//global/global}{7}
+\abx@aux@number{369}{de-arruda-2020}{0}{nyt/global//global/global}{8}
+\abx@aux@number{370}{artime-2017}{0}{nyt/global//global/global}{9}
+\abx@aux@number{371}{artime-2018}{0}{nyt/global//global/global}{10}
+\abx@aux@number{372}{barabasi-2005}{0}{nyt/global//global/global}{11}
+\abx@aux@number{373}{barabasi2009scale}{0}{nyt/global//global/global}{12}
+\abx@aux@number{374}{barmpalias-2018}{0}{nyt/global//global/global}{13}
+\abx@aux@number{375}{bass1969}{0}{nyt/global//global/global}{14}
+\abx@aux@number{376}{battiston-2021}{0}{nyt/global//global/global}{15}
+\abx@aux@number{377}{ben-naim-1996}{0}{nyt/global//global/global}{16}
+\abx@aux@number{378}{Heisemberg}{0}{nyt/global//global/global}{17}
+\abx@aux@number{379}{bianconi2023complex}{0}{nyt/global//global/global}{18}
+\abx@aux@number{380}{BEG}{0}{nyt/global//global/global}{19}
+\abx@aux@number{381}{boguna-2014}{0}{nyt/global//global/global}{20}
+\abx@aux@number{382}{bollinger-2012}{0}{nyt/global//global/global}{21}
+\abx@aux@number{383}{campos2003small}{0}{nyt/global//global/global}{22}
+\abx@aux@number{384}{carro-2016}{0}{nyt/global//global/global}{23}
+\abx@aux@number{385}{castellano2009statistical}{0}{nyt/global//global/global}{24}
+\abx@aux@number{386}{Voter}{0}{nyt/global//global/global}{25}
+\abx@aux@number{387}{castellano-2009}{0}{nyt/global//global/global}{26}
+\abx@aux@number{388}{cencetti-2021}{0}{nyt/global//global/global}{27}
+\abx@aux@number{389}{cencetti-2023}{0}{nyt/global//global/global}{28}
+\abx@aux@number{390}{centola-2010}{0}{nyt/global//global/global}{29}
+\abx@aux@number{391}{centola-2007}{0}{nyt/global//global/global}{30}
+\abx@aux@number{392}{chen-2020}{0}{nyt/global//global/global}{31}
+\abx@aux@number{393}{chen-2018}{0}{nyt/global//global/global}{32}
+\abx@aux@number{394}{chetty-2016}{0}{nyt/global//global/global}{33}
+\abx@aux@number{395}{christakis2007spread}{0}{nyt/global//global/global}{34}
+\abx@aux@number{396}{clark-2002}{0}{nyt/global//global/global}{35}
+\abx@aux@number{397}{Clark}{0}{nyt/global//global/global}{36}
+\abx@aux@number{398}{clark-1991}{0}{nyt/global//global/global}{37}
+\abx@aux@number{399}{clark-2003}{0}{nyt/global//global/global}{38}
+\abx@aux@number{400}{jstor}{0}{nyt/global//global/global}{39}
+\abx@aux@number{401}{czaplicka-2016}{0}{nyt/global//global/global}{40}
+\abx@aux@number{402}{Dall_Asta_2008}{0}{nyt/global//global/global}{41}
+\abx@aux@number{403}{denton1995persistence}{0}{nyt/global//global/global}{42}
+\abx@aux@number{404}{derrida-1995A}{0}{nyt/global//global/global}{43}
+\abx@aux@number{405}{derrida-1997}{0}{nyt/global//global/global}{44}
+\abx@aux@number{406}{derrida-1995B}{0}{nyt/global//global/global}{45}
+\abx@aux@number{407}{diakonova-2014}{0}{nyt/global//global/global}{46}
+\abx@aux@number{408}{diakonova-2016}{0}{nyt/global//global/global}{47}
+\abx@aux@number{409}{diaz-diaz-2022}{0}{nyt/global//global/global}{48}
+\abx@aux@number{410}{dodds-2013}{0}{nyt/global//global/global}{49}
+\abx@aux@number{411}{dodds-2004}{0}{nyt/global//global/global}{50}
+\abx@aux@number{412}{domic-2011}{0}{nyt/global//global/global}{51}
+\abx@aux@number{413}{erdos1960evolution}{0}{nyt/global//global/global}{52}
+\abx@aux@number{414}{fernandez-gracia-2011}{0}{nyt/global//global/global}{53}
+\abx@aux@number{415}{fernandez-gracia-2013}{0}{nyt/global//global/global}{54}
+\abx@aux@number{416}{fernandez-gracia-2014}{0}{nyt/global//global/global}{55}
+\abx@aux@number{417}{ferrara-2015}{0}{nyt/global//global/global}{56}
+\abx@aux@number{418}{8Heisemberg}{0}{nyt/global//global/global}{57}
+\abx@aux@number{419}{fowler2009cooperative}{0}{nyt/global//global/global}{58}
+\abx@aux@number{420}{galam-2008}{0}{nyt/global//global/global}{59}
+\abx@aux@number{421}{Gauvin_2009}{0}{nyt/global//global/global}{60}
+\abx@aux@number{422}{Gauvin_2010}{0}{nyt/global//global/global}{61}
+\abx@aux@number{423}{link_git}{0}{nyt/global//global/global}{62}
+\abx@aux@number{424}{glauber1963time}{0}{nyt/global//global/global}{63}
+\abx@aux@number{425}{gleeson-2008}{0}{nyt/global//global/global}{64}
+\abx@aux@number{426}{gleeson-2011}{0}{nyt/global//global/global}{65}
+\abx@aux@number{427}{gleeson-2013}{0}{nyt/global//global/global}{66}
+\abx@aux@number{428}{gleeson-2007}{0}{nyt/global//global/global}{67}
+\abx@aux@number{429}{gleeson-2016}{0}{nyt/global//global/global}{68}
+\abx@aux@number{430}{goncalves-2012}{0}{nyt/global//global/global}{69}
+\abx@aux@number{431}{gracia-lazaro-2009}{0}{nyt/global//global/global}{70}
+\abx@aux@number{432}{granovetter}{0}{nyt/global//global/global}{71}
+\abx@aux@number{433}{granovetter-1978}{0}{nyt/global//global/global}{72}
+\abx@aux@number{434}{granovetter-1985}{0}{nyt/global//global/global}{73}
+\abx@aux@number{435}{granovetter-1973}{0}{nyt/global//global/global}{74}
+\abx@aux@number{436}{grauwin-2009}{0}{nyt/global//global/global}{75}
+\abx@aux@number{437}{guilbeault-2021}{0}{nyt/global//global/global}{76}
+\abx@aux@number{438}{Maxi}{0}{nyt/global//global/global}{77}
+\abx@aux@number{439}{gunton1983}{0}{nyt/global//global/global}{78}
+\abx@aux@number{440}{haan2006extreme}{0}{nyt/global//global/global}{79}
+\abx@aux@number{441}{hackett-2013}{0}{nyt/global//global/global}{80}
+\abx@aux@number{442}{hackett-2011}{0}{nyt/global//global/global}{81}
+\abx@aux@number{443}{hegselmann-2017}{0}{nyt/global//global/global}{82}
+\abx@aux@number{444}{henry-2011}{0}{nyt/global//global/global}{83}
+\abx@aux@number{445}{holden-2019}{0}{nyt/global//global/global}{84}
+\abx@aux@number{446}{HoKo}{0}{nyt/global//global/global}{85}
+\abx@aux@number{447}{unknown-author-2018}{0}{nyt/global//global/global}{86}
+\abx@aux@number{448}{iacopini-2019}{0}{nyt/global//global/global}{87}
+\abx@aux@number{449}{moro}{0}{nyt/global//global/global}{88}
+\abx@aux@number{450}{iribarren-2009}{0}{nyt/global//global/global}{89}
+\abx@aux@number{451}{jewski-2017}{0}{nyt/global//global/global}{90}
+\abx@aux@number{452}{jensen-2015}{0}{nyt/global//global/global}{91}
+\abx@aux@number{453}{jensen-2018}{0}{nyt/global//global/global}{92}
+\abx@aux@number{454}{jusup2022social}{0}{nyt/global//global/global}{93}
+\abx@aux@number{455}{karimi-2013}{0}{nyt/global//global/global}{94}
+\abx@aux@number{456}{karsai-2011}{0}{nyt/global//global/global}{95}
+\abx@aux@number{457}{karsai-2014}{0}{nyt/global//global/global}{96}
+\abx@aux@number{458}{karsai-2016}{0}{nyt/global//global/global}{97}
+\abx@aux@number{459}{Leah2022}{0}{nyt/global//global/global}{98}
+\abx@aux@number{460}{kumar-2020}{0}{nyt/global//global/global}{99}
+\abx@aux@number{461}{lamanna-2018}{0}{nyt/global//global/global}{100}
+\abx@aux@number{462}{lenormand-2015}{0}{nyt/global//global/global}{101}
+\abx@aux@number{463}{Voter-original}{0}{nyt/global//global/global}{102}
+\abx@aux@number{464}{liu-2018}{0}{nyt/global//global/global}{103}
+\abx@aux@number{465}{mellor2016characterization}{0}{nyt/global//global/global}{104}
+\abx@aux@number{466}{Min-2017}{0}{nyt/global//global/global}{105}
+\abx@aux@number{467}{min-2018}{0}{nyt/global//global/global}{106}
+\abx@aux@number{468}{mobilia2015nonlinear}{0}{nyt/global//global/global}{107}
+\abx@aux@number{469}{molloy-1995}{0}{nyt/global//global/global}{108}
+\abx@aux@number{470}{mnsted-2017}{0}{nyt/global//global/global}{109}
+\abx@aux@number{471}{newman2002spread}{0}{nyt/global//global/global}{110}
+\abx@aux@number{472}{newman-2001}{0}{nyt/global//global/global}{111}
+\abx@aux@number{473}{nowak2019homogeneous}{0}{nyt/global//global/global}{112}
+\abx@aux@number{474}{nowak2020symmetrical}{0}{nyt/global//global/global}{113}
+\abx@aux@number{475}{oh-2018}{0}{nyt/global//global/global}{114}
+\abx@aux@number{476}{de1992isotropic}{0}{nyt/global//global/global}{115}
+\abx@aux@number{477}{online-platforms}{0}{nyt/global//global/global}{116}
+\abx@aux@number{478}{oriol}{0}{nyt/global//global/global}{117}
+\abx@aux@number{479}{ortega-2021.2}{0}{nyt/global//global/global}{118}
+\abx@aux@number{480}{ortega-2021}{0}{nyt/global//global/global}{119}
+\abx@aux@number{481}{pastor2001epidemic}{0}{nyt/global//global/global}{120}
+\abx@aux@number{482}{pastor-satorras-2015}{0}{nyt/global//global/global}{121}
+\abx@aux@number{483}{peralta-2020B}{0}{nyt/global//global/global}{122}
+\abx@aux@number{484}{peralta-2018}{0}{nyt/global//global/global}{123}
+\abx@aux@number{485}{peralta-2020A}{0}{nyt/global//global/global}{124}
+\abx@aux@number{486}{peralta-2020C}{0}{nyt/global//global/global}{125}
+\abx@aux@number{487}{peralta-2020}{0}{nyt/global//global/global}{126}
+\abx@aux@number{488}{pereira2005majority}{0}{nyt/global//global/global}{127}
+\abx@aux@number{489}{perez-2016}{0}{nyt/global//global/global}{128}
+\abx@aux@number{490}{Konstantin}{0}{nyt/global//global/global}{129}
+\abx@aux@number{491}{redner-2019}{0}{nyt/global//global/global}{130}
+\abx@aux@number{492}{rogers2014}{0}{nyt/global//global/global}{131}
+\abx@aux@number{493}{unified}{0}{nyt/global//global/global}{132}
+\abx@aux@number{494}{rosenthal-2015}{0}{nyt/global//global/global}{133}
+\abx@aux@number{495}{rybski-2009}{0}{nyt/global//global/global}{134}
+\abx@aux@number{496}{rybski-2012}{0}{nyt/global//global/global}{135}
+\abx@aux@number{497}{Sassen}{0}{nyt/global//global/global}{136}
+\abx@aux@number{498}{BlumeCapel}{0}{nyt/global//global/global}{137}
+\abx@aux@number{499}{schellingbook}{0}{nyt/global//global/global}{138}
+\abx@aux@number{500}{schelling-1969}{0}{nyt/global//global/global}{139}
+\abx@aux@number{501}{Schelling}{0}{nyt/global//global/global}{140}
+\abx@aux@number{502}{sert-2020}{0}{nyt/global//global/global}{141}
+\abx@aux@number{503}{shrestha-2014}{0}{nyt/global//global/global}{142}
+\abx@aux@number{504}{silver-2021}{0}{nyt/global//global/global}{143}
+\abx@aux@number{505}{silver2016scenescapes}{0}{nyt/global//global/global}{144}
+\abx@aux@number{506}{singh-2013}{0}{nyt/global//global/global}{145}
+\abx@aux@number{507}{sood-2005}{0}{nyt/global//global/global}{146}
+\abx@aux@number{508}{randomwalks}{0}{nyt/global//global/global}{147}
+\abx@aux@number{509}{Stark2008}{0}{nyt/global//global/global}{148}
+\abx@aux@number{510}{stark-2008}{0}{nyt/global//global/global}{149}
+\abx@aux@number{511}{starnini-2017}{0}{nyt/global//global/global}{150}
+\abx@aux@number{512}{stauffer-1994}{0}{nyt/global//global/global}{151}
+\abx@aux@number{513}{stauffer-2007}{0}{nyt/global//global/global}{152}
+\abx@aux@number{514}{stauffer-2013}{0}{nyt/global//global/global}{153}
+\abx@aux@number{515}{steinert-2022}{0}{nyt/global//global/global}{154}
+\abx@aux@number{516}{Suchecki-2005}{0}{nyt/global//global/global}{155}
+\abx@aux@number{517}{unicomb-2018}{0}{nyt/global//global/global}{156}
+\abx@aux@number{518}{valente-1996}{0}{nyt/global//global/global}{157}
+\abx@aux@number{519}{van-mieghem-2013}{0}{nyt/global//global/global}{158}
+\abx@aux@number{520}{vazquez-2008}{0}{nyt/global//global/global}{159}
+\abx@aux@number{521}{vieira-2020}{0}{nyt/global//global/global}{160}
+\abx@aux@number{522}{Vinkovic}{0}{nyt/global//global/global}{161}
+\abx@aux@number{523}{wasserman-2001}{0}{nyt/global//global/global}{162}
+\abx@aux@number{524}{watts-2002}{0}{nyt/global//global/global}{163}
+\abx@aux@number{525}{watts1998collective}{0}{nyt/global//global/global}{164}
+\abx@aux@number{526}{wormald_1999}{0}{nyt/global//global/global}{165}
+\abx@aux@number{527}{wormald1999models}{0}{nyt/global//global/global}{166}
+\abx@aux@number{528}{urban}{0}{nyt/global//global/global}{167}
+\abx@aux@number{529}{spinglassbook}{0}{nyt/global//global/global}{168}
+\abx@aux@number{530}{Zhang}{0}{nyt/global//global/global}{169}
+\abx@aux@number{531}{zignani-2016}{0}{nyt/global//global/global}{170}
+\abx@aux@number{532}{Zimmermann}{0}{nyt/global//global/global}{171}
+\abx@aux@read@bbl@mdfivesum{nohash}
+\abx@aux@defaultrefcontext{0}{abella2023many}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Abella-2022}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Abella-2022-AME}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Abella_2024}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{agarwal-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Interfacial_roughening}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{amato-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{de-arruda-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{artime-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{artime-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{barabasi-2005}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{barabasi2009scale}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{barmpalias-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{bass1969}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{battiston-2021}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{ben-naim-1996}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Heisemberg}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{bianconi2023complex}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{BEG}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{boguna-2014}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{bollinger-2012}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{campos2003small}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{carro-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{castellano2009statistical}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Voter}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{castellano-2009}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{cencetti-2021}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{cencetti-2023}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{centola-2010}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{centola-2007}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{chen-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{chen-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{chetty-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{christakis2007spread}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{clark-2002}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Clark}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{clark-1991}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{clark-2003}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{jstor}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{czaplicka-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Dall_Asta_2008}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{denton1995persistence}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{derrida-1995A}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{derrida-1997}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{derrida-1995B}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{diakonova-2014}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{diakonova-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{diaz-diaz-2022}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{dodds-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{dodds-2004}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{domic-2011}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{erdos1960evolution}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{fernandez-gracia-2011}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{fernandez-gracia-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{fernandez-gracia-2014}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{ferrara-2015}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{8Heisemberg}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{fowler2009cooperative}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{galam-2008}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Gauvin_2009}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Gauvin_2010}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{link_git}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{glauber1963time}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gleeson-2008}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gleeson-2011}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gleeson-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gleeson-2007}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gleeson-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{goncalves-2012}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gracia-lazaro-2009}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{granovetter}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{granovetter-1978}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{granovetter-1985}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{granovetter-1973}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{grauwin-2009}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{guilbeault-2021}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Maxi}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{gunton1983}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{haan2006extreme}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{hackett-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{hackett-2011}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{hegselmann-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{henry-2011}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{holden-2019}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{HoKo}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{unknown-author-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{iacopini-2019}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{moro}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{iribarren-2009}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{jewski-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{jensen-2015}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{jensen-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{jusup2022social}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{karimi-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{karsai-2011}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{karsai-2014}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{karsai-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Leah2022}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{kumar-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{lamanna-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{lenormand-2015}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Voter-original}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{liu-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{mellor2016characterization}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Min-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{min-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{mobilia2015nonlinear}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{molloy-1995}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{mnsted-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{newman2002spread}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{newman-2001}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{nowak2019homogeneous}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{nowak2020symmetrical}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{oh-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{de1992isotropic}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{online-platforms}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{oriol}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{ortega-2021.2}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{ortega-2021}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{pastor2001epidemic}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{pastor-satorras-2015}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{peralta-2020B}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{peralta-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{peralta-2020A}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{peralta-2020C}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{peralta-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{pereira2005majority}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{perez-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Konstantin}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{redner-2019}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{rogers2014}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{unified}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{rosenthal-2015}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{rybski-2009}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{rybski-2012}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Sassen}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{BlumeCapel}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{schellingbook}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{schelling-1969}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Schelling}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{sert-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{shrestha-2014}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{silver-2021}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{silver2016scenescapes}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{singh-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{sood-2005}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{randomwalks}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Stark2008}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{stark-2008}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{starnini-2017}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{stauffer-1994}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{stauffer-2007}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{stauffer-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{steinert-2022}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Suchecki-2005}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{unicomb-2018}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{valente-1996}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{van-mieghem-2013}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{vazquez-2008}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{vieira-2020}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Vinkovic}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{wasserman-2001}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{watts-2002}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{watts1998collective}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{wormald_1999}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{wormald1999models}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{urban}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{spinglassbook}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Zhang}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{zignani-2016}{nyt/global//global/global}
+\abx@aux@defaultrefcontext{0}{Zimmermann}{nyt/global//global/global}
+\gdef \@abspage@last{107}
