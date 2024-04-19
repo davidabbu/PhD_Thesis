@@ -63,11 +63,40 @@ The exploration of this model has been widespread, encompassing studies on vario
 
 \section{\label{sec:The Sakoda-Schelling model} The Sakoda-Schelling model}
 
-- Thomas C. Schelling (1975) proposed a model to study the dynamics of segregation based on the idea that individuals have a threshold that needs to be reached in order to move to a different location. 
+\begin{figure}
+    \centering
+    \captionsetup{font=sf}
+    \includegraphics[width=\textwidth]{Figs/cascade_gleeson.pdf}
+    \caption[]{.}
+    \label{fig:Schelling_fig}
+\end{figure}
 
-- This model become very popular because it was able to reproduce the segregation patterns that are observed in many cities, just as an emergent phenomena from individual decisions.
+Thomas C. Schelling's segregation model \cite{schelling-1969}, introduced in 1969, represents a key innovation in the use of agent-based modeling to explore social phenomena \cite{hegselmann-2017}. Schelling's model illustrates how individual preferences regarding neighbors can inadvertently lead to significant racial segregation in urban areas, even when these preferences are relatively mild. The model utilizes a checkerboard setup where each agent (representing a household) prefers to live in a neighborhood where at least a certain percentage of neighbors are of the same type (see Fig. \ref{fig:Schelling_fig}). Agents move to a new location if their tolerance threshold is not met. This simple rule leads to complex patterns, showing that even a slight preference for similar neighbors can result in highly segregated communities, an insight that has profound implications for understanding social dynamics and urban planning.
+
+\begin{theorem}[Schelling model]
+    An individual time step of the model is defined as follows:
+    \begin{enumerate}
+        \item Each node $i$ has a tolerance threshold $T_i$.
+        \item At each time step, a node $i$ is selected at random.
+        \item If the fraction of different kind neighbors of $i$ is greater than $T_i$, then $i$ moves to a neighboring location where the fraction of different kind neighbors is less than $T_i$.
+            \begin{itemize}
+                \item If there is no available location, then $i$ remains in the same location.
+            \end{itemize}
+    \end{enumerate}
+\end{theorem}
+
+-------------------------------------------------
 
 - On the other hand, this model was already studied by Sakoda in 1971, in a paper that was published in Japanese, and that was not known by the scientific community. In this work, the author proposed a model to study the dynamics of segregation based on the idea that individuals have a threshold that needs to be reached in order to move to a different location.
+
+James M. Sakoda's model, initially conceptualized in his 1949 dissertation and fully introduced in ``The Checkerboard Model of Social Interaction,'' pre-dates Schelling's work and offers a more nuanced approach to modeling social interactions using a similar checkerboard framework. Unlike Schelling's focus solely on segregation dynamics, Sakoda's model incorporates a broader range of social interactions by allowing agents to exhibit positive, neutral, or negative attitudes towards their neighbors. These attitudes influence the agents' movements across the board, aiming to optimize their local environment according to specific utility functions that aggregate the effects of surrounding agents. Sakoda's model is capable of simulating a variety of social phenomena beyond segregation, such as the formation of stable social clusters and the dynamics of group interactions.
+
+Both models employ a checkerboard as the computational space where agents (or tokens) reside and interact according to predefined rules. In Schelling's model, the primary technical aspect is the agents' decision-making process based on neighborhood composition. Agents assess the racial makeup within a defined local neighborhood (typically the eight surrounding cells) and decide to move if the proportion of similar agents falls below a specified threshold. This model is particularly noted for its application of simple rules that lead to complex emergent behaviors, effectively demonstrating how micro-level preferences translate into macro-level patterns.
+
+In contrast, Sakoda's model is distinguished by its incorporation of a wider range of interactions through the use of an attitude matrix that assigns numerical values to represent different types of interactions between agents. This matrix allows for a more detailed specification of social forces at play, including attraction, repulsion, and indifference. The computation in Sakoda's model involves evaluating the total utility for an agent based on the sum of influences from all other agents on the board, weighted by distance. This approach allows for the exploration of more complex dynamics and the potential for more varied and realistic outcomes.
+
+Both models have profoundly influenced the field of computational social science, providing valuable insights into the dynamics of social systems. They highlight the importance of local interactions in shaping global patterns and have applications in areas ranging from urban planning to the study of social networks.
+
 
 \begin{theorem}[Sakoda-Schelling model]
     An individual time step of the model is defined as follows:
