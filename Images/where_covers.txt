@@ -1,6 +1,9 @@
 Where are the covers to edit them?
 
+Introduction - 
+Models - /home/david/SYMETRICAL_GRANOVETTER/PERSISTENCE/SGV_RAND_ws
 Aging Threshold - Thinkbook or Power point one drive
+Aging bipartite - Power point One drive
 Aging Schelling - /home/david/IDEAL/DYNAMIC/PLOT_THESIS
 STM - /home/david/SYMETRICAL_GRANOVETTER/SYM_ANI/SGV_LAT
 Aging STM - /home/david/SYMETRICAL_GRANOVETTER/SYM_ANI/SGV_LAT
