@@ -19,7 +19,7 @@ In the study of social contagion, researchers distinguish between two main types
 \begin{figure}
     \centering
     \captionsetup{font=sf}
-    \includegraphics[width=\textwidth]{Figs/complex_simple.pdf}
+    \includegraphics[width=\textwidth]{Figs/Introduction/complex_simple.pdf}
     \caption[Simple and complex contagion processes]{Comparison between the different types of social interaction. {\bfseries Simple contagion}, where the agent considers just the pairwise interaction with one social contact (interaction highlighted with a dashed red line) and {\bfseries Complex contagion}, where the agent considers the interaction with multiple social contacts. There are two distinguishable types of Complex contagion: {\bfseries Multiple pairwise interactions}, where the agent considers the interaction with multiple social contacts (interactions highlighted with dashed red lines) and {\bfseries Higher-order interactions}, where the agent considers the interaction with a group of social contacts, all at once, in a single interaction (not pairwise). The green, yellow colors represent the state (idea, position, political party...). (The hypergraph representation is from Ref. \cite{de-arruda-2020}).}
     \label{fig:SimpleComplexContagion}
 \end{figure}
@@ -45,7 +45,7 @@ When we talk about threshold models, the model that comes to our minds is the th
 \begin{figure}
     \centering
     \captionsetup{font=sf}
-    \includegraphics[width=\textwidth]{Figs/cascade_gleeson.pdf}
+    \includegraphics[width=\textwidth]{Figs/Introduction/cascade_gleeson.pdf}
     \caption[Cascade diagram of the Granovetter-Watts model]{Average density $n$ of active nodes in a Poisson random graph of mean degree $z$ and uniform threshold value $R$  \textbf{(a)} and threshold distributed is Gaussian with mean $R$ and standard deviation $0.2$ \textbf{(b)} (from Ref. \cite{gleeson-2007}). Seed fraction is set $n_0 = 0.01$. Lines show approximations to the global cascade boundaries. The phase transition is discontinuous.}
     \label{fig:Cascade_gleeson}
 \end{figure}
@@ -68,14 +68,14 @@ The exploration of this model has been widespread, encompassing studies on vario
 \begin{figure}
     \centering
     \captionsetup{font=sf}
-    \includegraphics[width=\textwidth]{Figs/cascade_gleeson.pdf}
-    \caption[]{.}
+    \includegraphics[width=0.7\textwidth]{Figs/Introduction/schelling_diagrams.png}
+    \caption[Schelling and Sakoda checkerboard examples]{\textbf{(a)} Examples of the dynamics in Schelling's Segregation Model (from Schelling's original work \cite{Schelling}). \textbf{(b)} Examples of the dynamics in Sakoda’s Checkerboard Conceptual Model (from Sakoda's original work \cite{sakoda1949minidoka}).}
     \label{fig:Schelling_fig}
 \end{figure}
 
 Thomas C. Schelling's segregation model \cite{schelling-1969}, introduced in 1969, represents a key innovation in the use of agent-based modeling to explore social phenomena \cite{hegselmann-2017}. Schelling's model illustrates how individual preferences regarding neighbors can inadvertently lead to significant racial segregation in urban areas, even when these preferences are relatively mild. The model utilizes a checkerboard setup where each agent (representing a household) prefers to live in a neighborhood where at least a certain percentage of neighbors are of the same type (see Fig. \ref{fig:Schelling_fig}). Agents move to a new location if their tolerance threshold is not met. This simple rule leads to complex patterns, showing that even a slight preference for similar neighbors can result in highly segregated communities, an insight that has profound implications for understanding social dynamics and urban planning.
 
-\begin{theorem}[Schelling model]
+\begin{theorem}[Schelling's model]
     An individual time step of the model is defined as follows:
     \begin{enumerate}
         \item Each node $i$ has a tolerance threshold $T_i$.
@@ -87,44 +87,63 @@ Thomas C. Schelling's segregation model \cite{schelling-1969}, introduced in 196
     \end{enumerate}
 \end{theorem}
 
--------------------------------------------------
+James M. Sakoda's model, initially conceptualized in his 1949 dissertation and fully introduced in Ref. \cite{sakoda1971checkerboard} pre-dates Schelling's work and offers a more nuanced approach to modeling social interactions using a similar checkerboard framework. Unlike Schelling's focus solely on segregation dynamics, Sakoda's model incorporates a broader range of social interactions by allowing agents to exhibit positive, neutral, or negative attitudes towards their neighbors. These attitudes influence the agents' movements across the board, aiming to optimize their local environment according to specific utility functions that aggregate the effects of surrounding agents. Sakoda's model is capable of simulating a variety of social phenomena beyond segregation, such as the formation of stable social clusters and the dynamics of group interactions \cite{hegselmann-2017}. 
 
-- On the other hand, this model was already studied by Sakoda in 1971, in a paper that was published in Japanese, and that was not known by the scientific community. In this work, the author proposed a model to study the dynamics of segregation based on the idea that individuals have a threshold that needs to be reached in order to move to a different location.
+Both models employ a checkerboard as the computational space where agents (or tokens) reside and interact according to predefined rules. The ``hand-made'' simulations performed by Sakoda and Schelling using a checkerboard discrete representation has since become a standard framework for studying agent-based models in social systems \cite{hegselmann-2017}. The checkerboard structure allows for the exploration of local interactions and the emergence of global patterns, providing a powerful tool for understanding the dynamics of social systems.
 
-James M. Sakoda's model, initially conceptualized in his 1949 dissertation and fully introduced in ``The Checkerboard Model of Social Interaction,'' pre-dates Schelling's work and offers a more nuanced approach to modeling social interactions using a similar checkerboard framework. Unlike Schelling's focus solely on segregation dynamics, Sakoda's model incorporates a broader range of social interactions by allowing agents to exhibit positive, neutral, or negative attitudes towards their neighbors. These attitudes influence the agents' movements across the board, aiming to optimize their local environment according to specific utility functions that aggregate the effects of surrounding agents. Sakoda's model is capable of simulating a variety of social phenomena beyond segregation, such as the formation of stable social clusters and the dynamics of group interactions.
-
-Both models employ a checkerboard as the computational space where agents (or tokens) reside and interact according to predefined rules. In Schelling's model, the primary technical aspect is the agents' decision-making process based on neighborhood composition. Agents assess the racial makeup within a defined local neighborhood (typically the eight surrounding cells) and decide to move if the proportion of similar agents falls below a specified threshold. This model is particularly noted for its application of simple rules that lead to complex emergent behaviors, effectively demonstrating how micro-level preferences translate into macro-level patterns.
-
-In contrast, Sakoda's model is distinguished by its incorporation of a wider range of interactions through the use of an attitude matrix that assigns numerical values to represent different types of interactions between agents. This matrix allows for a more detailed specification of social forces at play, including attraction, repulsion, and indifference. The computation in Sakoda's model involves evaluating the total utility for an agent based on the sum of influences from all other agents on the board, weighted by distance. This approach allows for the exploration of more complex dynamics and the potential for more varied and realistic outcomes.
-
-Both models have profoundly influenced the field of computational social science, providing valuable insights into the dynamics of social systems. They highlight the importance of local interactions in shaping global patterns and have applications in areas ranging from urban planning to the study of social networks.
-
-
-\begin{theorem}[Sakoda-Schelling model]
+\begin{theorem}[Sakoda's model]
     An individual time step of the model is defined as follows:
     \begin{enumerate}
-        \item Each node $i$ has a tolerance threshold $T_i$.
+        \item Each node $i$ has an attitude matrix $A_i$.
         \item At each time step, a node $i$ is selected at random.
-        \item If the fraction of different kind neighbors of $i$ is greater than $T_i$, then $i$ moves to a location where the fraction of different kind neighbors is less than $T_i$.
-            \begin{itemize}
-                \item If there is no available location, then $i$ remains in the same location.
-            \end{itemize}
+        \item $i$ evaluates the total utility for each neighboring location based on the sum of influences from all other agents on the board, weighted by distance.
+        \item $i$ moves to the location with the highest utility.
+        \begin{itemize}
+            \item If there is no available location, then $i$ remains in the same location.
+        \end{itemize}
     \end{enumerate}
 \end{theorem}
 
-- Schelling model is a particular case of the Sakoda model.
+The results of the Schelling's model demonstrated how even mild personal preferences can unexpectedly lead to significant societal segregation. Its insights have been applied across economics, sociology, urban planning, and complexity science, profoundly influencing both academic research and practical policy discussions. Schelling's model became a foundational example in agent-based modeling, helping to educate countless researchers and practitioners about the impact of individual actions on broader social patterns. This contribution was one of the key reasons Schelling was awarded the Nobel Prize in Economics in 2005, underscoring the model's enduring influence and importance. Nevertheless, when we check the update rules, we observe that the Schelling's model is a particular case of the previous Sakoda's model, where agents have a negative attitude towards different-kind agents and a fixed tolerance threshold. To honor the original contributions of both authors, we refer to this model as the Sakoda-Schelling model.
 
-- This model exhibits a phase transition from a regime where the segregation is low to a regime where the segregation is high. This phase transition is discontinuous. 
-
-Thomas Schelling introduced a simple segregation model   \cite{schelling-1969,Schelling,schellingbook,hegselmann-2017} in which agents of two colors are distributed randomly on a chess-board, leaving some locations free. Agents are unsatisfied if more than a half of the eight nearest neighbors have different color. Randomly, the unsatisfied agents will move to available satisfying locations of the neighborhood. This model has had a very significant impact for several reasons: The ``hand-made'' simulations performed by T. Schelling by moving pawns on a chessboard are an early precedent of the use of  agent-based simulations in Social Sciences. It is also one of the first social models to show emergent behavior as a result of simple interactions among agents, a characteristic of complex systems.
-
-- Despite the many variants of the model that have been proposed, the phase transition emergent in this model is very robust.
-
-In particular, the Sakoda-Schelling model has been studied from a Statistical Physics point of view due to its close relation to different forms of Kinetic Ising-like models \cite{stauffer-2007,stauffer-2013}, and also addressing general questions of clustering and domain growth phenomena, as well as for the existence of phase transitions from segregated to non-segregated phases. For example, the relation with phase separation in binary mixtures has been considered \cite{Dall_Asta_2008,Vinkovic}, as well as the connection with the phase diagram of spin-1 Hamiltonians \cite{BEG,BlumeCapel,Gauvin_2009,Gauvin_2010}.
-%Moreover, the Sakoda-Schelling model has similarities with various physical models %used to describe phenomena as surface tension or clustering effects. In fact, %Refs. \cite{Dall_Asta_2008,Vinkovic} show relation with binary mixtures in %physics and Ref. \cite{Gauvin_2009} highlight similarities with the phase %diagram of the Blume-Capel model \cite{BlumeCapel}. 
-In this context a useful classification of models is to distinguish between two possible types of dynamics \cite{Dall_Asta_2008}: ``constrained'', where agents just move to satisfying vacancies (if possible), and ``unconstrained'',  where agents' motion does not prevent them to remain unsatisfied. In addition, the motion can be short-range (only to neighboring sites, as in the original model) or long-range. Constrained motion has been named ``solid-like'' because it generally leads to frozen small clusters, while unconstrained motion has been considered ``liquid-like'' because it allows for large growing clusters \cite{Vinkovic}. Including the motion of satisfied agents leads to a noisy effect playing the role of temperature in a statistical physics approach. 
+In particular, the Sakoda-Schelling model has been studied from a Statistical Physics point of view due to its close relation to different forms of Kinetic Ising-like models \cite{stauffer-2007,stauffer-2013}, and also addressing general questions of clustering and domain growth phenomena, as well as for the existence of phase transitions from segregated to non-segregated phases. For example, the relation with phase separation in binary mixtures has been considered \cite{Dall_Asta_2008,Vinkovic}, as well as the connection with the phase diagram of spin-1 Hamiltonians \cite{BEG,BlumeCapel,Gauvin_2009,Gauvin_2010}. In this context a useful classification of models is to distinguish between two possible types of dynamics \cite{Dall_Asta_2008}: ``constrained'', where agents just move to satisfying vacancies (if possible), and ``unconstrained'',  where agents' motion does not prevent them to remain unsatisfied. In addition, the motion can be short-range (only to neighboring sites, as in the original model) or long-range. Constrained motion has been named ``solid-like'' because it generally leads to frozen small clusters, while unconstrained motion has been considered ``liquid-like'' because it allows for large growing clusters \cite{Vinkovic}. Including the motion of satisfied agents leads to a noisy effect playing the role of temperature in a statistical physics approach. 
 
 \section{\label{sec: Bursty Human Dynamics} Bursty Human Dynamics}
+
+Bursty human behavior refers to the irregular and heterogeneously timed activity patterns observed in various human interactions, including communication, mobility, and social dynamics. This manuscript provides an overview of bursty behavior, reviews empirical evidence supporting its existence, and discusses its implications for modeling human behavior within network science.
+
+
+Human activities often exhibit complex temporal patterns that are characterized by bursts—short periods of high activity followed by long periods of inactivity. This non-Poissonian behavior, referred to as burstiness, is a common trait in various human-driven processes and has been widely observed in the dynamics of communication, web browsing, and social interactions \cite{Barabasi2005Bursts, Vazquez2006Bursts}.
+
+The concept of bursty behavior in human dynamics was first significantly highlighted by \cite{Barabasi2005Bursts}, where it was shown that the timing of tasks such as email correspondence does not follow a regular pattern but is instead characterized by bursts. Further studies expanded these findings across different types of data, such as mobile phone calls and text messages, demonstrating that such patterns are ubiquitous in human interactions \cite{Karsai2012Spreading, Miritello2013Capacity}.
+
+\cite{Eckmann2004Entropy} analyzed email communication to demonstrate that the burstiness can be attributed to the structured nature of human dialogue, where the response times play a crucial role in the entropy and coherence of email traffic.
+
+Understanding bursty dynamics is crucial for modeling various phenomena in network science, including the spread of information, disease modeling, and social influence. Traditional models based on Poisson processes often fall short in capturing the real dynamics due to their assumption of uniform activity rates. To address this, models incorporating non-Poissonian statistics have been developed \cite{Vazquez2006Bursts}.
+
+\begin{figure}
+    \centering
+    \captionsetup{font=sf}
+    \includegraphics[width=\textwidth]{Figs/Introduction/bursty.png}
+    \caption[Bursty human dynamics: examples and distribution]{}
+    \label{fig:bursty_human_dynamics}
+\end{figure}
+
+Activity-driven modeling approaches, for instance, incorporate the temporal aspects of human activity by assigning activity potentials to each node in a network, which dictate the likelihood of interactions based on empirical observations of human activity \cite{Perra2012ActivityDriven}. This approach not only captures the burstiness but also allows for the modeling of diffusion processes more accurately.
+
+\cite{Jo2012Circadian} and \cite{Starnini2013FaceToFace} further demonstrated that burstiness could be modulated by circadian rhythms and face-to-face interactions, suggesting the necessity to integrate these factors into predictive models.
+
+The presence of bursty behavior has significant implications for the dynamics of processes conducted over networks. For instance, the spread of epidemics can be heavily influenced by the timing and frequency of human interactions \cite{Rocha2013Bursts}. Similarly, information diffusion, online social contagions, and even the spread of mobile phone viruses are impacted by these temporal patterns \cite{Wang2009Viruses, Lazer2009CompSocSci}.
+
+Moreover, understanding burstiness helps in designing better communication strategies and improving technological infrastructures by aligning them more closely with natural human activity patterns.
+
+Bursty human behavior is a fundamental aspect of human dynamics that affects various processes within network science. Accurate modeling of these behaviors is essential for predicting and managing the complex systems that characterize modern interconnected societies.
+
+Moreover, understanding burstiness helps in designing better communication strategies and improving technological infrastructures by aligning them more closely with natural human activity patterns.
+
+Bursty human behavior is a fundamental aspect of human dynamics that affects various processes within network science. Accurate modeling of these behaviors is essential for predicting and managing the complex systems that characterize modern interconnected societies.
+
+---------------
 
 - All models previously described are based in an important assumption regarding to its dynamics: the interactions between individuals occur at a constant rate.
 
