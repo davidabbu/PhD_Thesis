@@ -141,18 +141,19 @@ The implications of bursty behavior are profound, influencing the dynamics of ne
 
 "Aging" is one form of memory effect on which the rate of interactions depends on the persistence time of an agent in a state, modifying the transition to a different state \cite{fernandez-gracia-2011,perez-2016,boguna-2014}. This concept of aging, or "social inertia" \cite{Stark2008}, constrains the transitions in a way that the longer an agent remains in a given state, the smaller the probability to change it.
 
+\begin{figure}
+    \centering
+    \captionsetup{font=sf}
+    \includegraphics[width=\textwidth]{Figs/Introduction/aging_plot.pdf}
+    \caption[Aging in the Voter model]{\textbf{(a)} Schematic representation of the evolution of the Voter model with aging. The node highlighted in yellow is the one attempting to activate and change state (copying the neighbour via the dashed yellow link). \textbf{(b)} Stationary probability density function (pdf) of the magnetization in the three different regimes. Points come from simulations, solid lines are the theoretical curves. The insets show one typical trajectory of the dynamics, in each of the regimes. \textbf{(c)} Stationary pdf for the noisy voter model with aging, in the different regimes. The insets show 50 trajectories of the magnetization. (from Ref. \cite{artime-2017}).}
+    \label{fig:aging_pdf}
+\end{figure}
+
 To be clear, the aging mechanism is a non-Markovian effect that consists of an activation function that modifies the transition rates between states. This activation function depends on the time since the last transition, and it is a way to include bursty dynamics in the individuals' attempts to interact with others. This activation function is build such that probability of an individual to interact with another individual decreases with the time since the last interaction, even though there are studies that also account for anti-aging mechanisms (probability to interact increases) \cite{peralta-2020,chen-2020}.
 
 The motivation behind the aging mechanism is to capture the tendency of individuals to stick to their previous beliefs or habits, a common feature in human behavior \cite{granovetter-1973}, and this attachment balances the memory-less and purely rational considerations of traditional models \cite{granovetter-1985}.
 
 From the temporal interactions point of view, the aging mechanism is a way to include bursty dynamics in the individuals' attempts to interact with others (an activity-driven model). In this case, the probability of an individual to interact with another individual decreases with the time since the last interaction. It has been shown that the aging mechanism is able to produce the inter-event time distributions observed in empirical data \cite{fernandez-gracia-2011}, given a proper choice of the activation function.
-\begin{figure}[hb]
-    \centering
-    \captionsetup{font=sf}
-    \includegraphics[width=\textwidth]{Figs/Introduction/aging_plot.pdf}
-    \caption[Aging in the Voter model]{\textbf{(a)} Schematic representation of the evolution of the Voter model with aging. The node highlighted in yellow is the one attempting to activate and change state (copying the neighbour via the dashed yellow link). \textbf{(b)} Stationary probability density function (pdf) of the magnetization in the three different regimes. Points come from simulations, solid lines are the theoretical curves. The insets show one typical trajectory of the dynamics, in each of the regimes. \textbf{(c)} Stationary pdf for the noisy voter model with aging, in the different regimes. The insets show 50 trajectories of the magnetization.}
-    \label{fig:aging_pdf}
-\end{figure}
 
 \section{\label{sec:Aging in pairwise interactions} Aging in pairwise interactions}
 
