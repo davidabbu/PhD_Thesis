@@ -10,6 +10,9 @@
    xml:space="preserve"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="bursty.svg"
+   inkscape:export-filename="bursty.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -13220,7 +13223,7 @@ MDA6MDABGvbtAAAAAElFTkSuQmCC
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,53.30458,124.48221)"
        id="text1042"
-       style="font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect1044);fill:#000000;fill-opacity:1;stroke-width:5.91496" /><text
+       style="font-size:21.3333px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect1044);display:inline;fill:#000000;fill-opacity:1;stroke-width:5.91496" /><text
        xml:space="preserve"
        style="font-size:9.87778px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1.565"
        x="64.352097"

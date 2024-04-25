@@ -110,40 +110,43 @@ In particular, the Sakoda-Schelling model has been studied from a Statistical Ph
 
 \section{\label{sec: Bursty Human Dynamics} Bursty Human Dynamics}
 
-Bursty human behavior refers to the irregular and heterogeneously timed activity patterns observed in various human interactions, including communication, mobility, and social dynamics. This manuscript provides an overview of bursty behavior, reviews empirical evidence supporting its existence, and discusses its implications for modeling human behavior within network science.
+Bursty behavior refers to the irregular and sporadically timed patterns of interactions that include natural phenomena, like earthquakes and neuron firing, as well as human activities, such as email communication, mobility, and social dynamics. This section delves into the characteristics of bursty behavior, highlighting by empirical evidence, and discusses its significant implications for modeling human behavior.
+
+Human activities often exhibit complex temporal patterns characterized by bursts---short periods of high activity interspersed with longer periods of inactivity (see examples Fig. \ref{fig:bursty_human_dynamics}(a-c)). This non-Poissonian behavior, referred to as burstiness, manifests across diverse human-driven processes and is extensively documented in communication dynamics, web browsing habits, and social interactions \cite{Barabasi2005Bursts, Vazquez2006Bursts}. The seminal work, by A. L. Barabási \cite{Barabasi2005Bursts}, highlighted the nature of email communications, where activity periods do not follow a regular pattern but are clustered in bursts. This phenomenon has since been observed universally across various platforms such as mobile phone calls, text messaging and social media \cite{karsai-2011, Miritello2013Capacity,moro,artime-2017,rybski-2012,zignani-2016,kumar-2020,iribarren-2009}.
+
+Further research has analyzed temporal patterns, focusing on the persistence and periodicity of human interactions \cite{Clauset2007Proximity} or the effects of circadian rhythms \cite{Jo2012Circadian}, and has extended these analyses to web activity to predict behaviors across different online platforms \cite{Radicchi2009WebActivity}.
+
+An important aspect of bursty dynamics is the distribution of inter-event times, which often exhibits heavy-tailed behavior, indicating that the probability of short inter-event times is higher than expected from a Poisson process (see Fig. \ref{fig:bursty_human_dynamics}(c)). As a result of this bursty human behaviour, there is an emergence of heterogeneus degree distributions \cite{Muchnik2013PowerLaw}, which have been observed in many social systems \cite{barabasi2009scale}. Further insights into the impact of burstiness on system dynamics come from studies linking it to memory and the structured nature of human dialogues, enhancing our understanding of how past interactions influence future activities \cite{karsai2012universal, Goh2008Burstiness, Eckmann2004Entropy}.
+
+Traditional models based on Poisson processes are often inadequate for capturing the real dynamics of human interactions due to the assumption of constant rates. To address these shortcomings, non-Poissonian models have been developed, which provide a better fit for empirical observations \cite{Vazquez2006Bursts}. We differentiate two main approaches to modeling bursty human dynamics:
+
+\begin{itemize}
+    \item \textbf{Activity-driven models:} These models incorporate the temporal aspects of human activity by assigning activity potentials to nodes within a network, dictating the likelihood of interactions based on observed human activity patterns \cite{Perra2012ActivityDriven}.
+    \item \textbf{Temporal networks:} These models incorporate time-stamped interactions, allowing for an in-depth study of temporal patterns and the impact of burstiness on overall network dynamics \cite{Holme2012Temporal}.
+\end{itemize}
+---------------
+Activity-driven modeling approaches, for instance, incorporate the temporal aspects of human activity by assigning activity potentials to nodes within a network, thus dictating the likelihood of interactions based on observed human activity patterns \cite{Perra2012ActivityDriven}.
+
+The utility of temporal networks is also significant in this context, where interactions are time-stamped, allowing for an in-depth study of temporal patterns and the impact of burstiness on overall network dynamics \cite{Holme2012Temporal}. The modulation of burstiness by circadian rhythms and face-to-face interactions also suggests the need to integrate these factors into predictive models \cite{Jo2012Circadian, Starnini2013FaceToFace, Stopczynski2014HighRes,Clauset2007Proximity}.
+
+The implications of bursty behavior are profound, influencing the dynamics of network processes such as the spread of epidemics and information diffusion \cite{Rocha2013Bursts, Wang2009Viruses, Lazer2009CompSocSci}. Understanding these dynamics aids in the design of better communication strategies and the improvement of technological infrastructures, aligning them more closely with natural human activity patterns.
 
 
-Human activities often exhibit complex temporal patterns that are characterized by bursts—short periods of high activity followed by long periods of inactivity. This non-Poissonian behavior, referred to as burstiness, is a common trait in various human-driven processes and has been widely observed in the dynamics of communication, web browsing, and social interactions \cite{Barabasi2005Bursts, Vazquez2006Bursts}.
-
-The concept of bursty behavior in human dynamics was first significantly highlighted by \cite{Barabasi2005Bursts}, where it was shown that the timing of tasks such as email correspondence does not follow a regular pattern but is instead characterized by bursts. Further studies expanded these findings across different types of data, such as mobile phone calls and text messages, demonstrating that such patterns are ubiquitous in human interactions \cite{Karsai2012Spreading, Miritello2013Capacity}.
-
-\cite{Eckmann2004Entropy} analyzed email communication to demonstrate that the burstiness can be attributed to the structured nature of human dialogue, where the response times play a crucial role in the entropy and coherence of email traffic.
-
-Understanding bursty dynamics is crucial for modeling various phenomena in network science, including the spread of information, disease modeling, and social influence. Traditional models based on Poisson processes often fall short in capturing the real dynamics due to their assumption of uniform activity rates. To address this, models incorporating non-Poissonian statistics have been developed \cite{Vazquez2006Bursts}.
+In summary, bursty human behavior is a fundamental aspect of dynamics within network science, and accurate modeling of these behaviors is crucial for predicting and managing the complex systems that characterize modern interconnected societies.
 
 \begin{figure}
     \centering
     \captionsetup{font=sf}
     \includegraphics[width=\textwidth]{Figs/Introduction/bursty.png}
-    \caption[Bursty human dynamics: examples and distribution]{}
+    \caption[Bursty human dynamics: examples and distribution]{\textbf{(a)} Sequence of earthquakes with magnitude larger than two at a single location (South of Chishima Island, 8th–9th October 1994). \textbf{(b)} Firing sequence of a single neuron (from rat's hippocampal). \textbg{(c)} Outgoing mobile phone call sequence of an individual. Shorter the time between the consecutive events darker the color (From Ref. \cite{karsai2012universal}). \textbf{(d)} Distribution of inter-event times for Twitter users. Blue and red dots represent the lin- and log-binned scales in the $\tau$ axis. The localized maxima in the tail of the distribution correspond to circadian rhythms, as shown in the bottom inset  (from Ref. \cite{artime-2017}). The distribution is heavy-tailed, indicating bursty behavior.}
     \label{fig:bursty_human_dynamics}
 \end{figure}
 
-Activity-driven modeling approaches, for instance, incorporate the temporal aspects of human activity by assigning activity potentials to each node in a network, which dictate the likelihood of interactions based on empirical observations of human activity \cite{Perra2012ActivityDriven}. This approach not only captures the burstiness but also allows for the modeling of diffusion processes more accurately.
-
-\cite{Jo2012Circadian} and \cite{Starnini2013FaceToFace} further demonstrated that burstiness could be modulated by circadian rhythms and face-to-face interactions, suggesting the necessity to integrate these factors into predictive models.
-
-The presence of bursty behavior has significant implications for the dynamics of processes conducted over networks. For instance, the spread of epidemics can be heavily influenced by the timing and frequency of human interactions \cite{Rocha2013Bursts}. Similarly, information diffusion, online social contagions, and even the spread of mobile phone viruses are impacted by these temporal patterns \cite{Wang2009Viruses, Lazer2009CompSocSci}.
-
-Moreover, understanding burstiness helps in designing better communication strategies and improving technological infrastructures by aligning them more closely with natural human activity patterns.
-
-Bursty human behavior is a fundamental aspect of human dynamics that affects various processes within network science. Accurate modeling of these behaviors is essential for predicting and managing the complex systems that characterize modern interconnected societies.
-
-Moreover, understanding burstiness helps in designing better communication strategies and improving technological infrastructures by aligning them more closely with natural human activity patterns.
-
-Bursty human behavior is a fundamental aspect of human dynamics that affects various processes within network science. Accurate modeling of these behaviors is essential for predicting and managing the complex systems that characterize modern interconnected societies.
 
 ---------------
+
+
+However, most social simulations, including simulations of variants of the Sakoda-Schelling model, implicitly assume a constant rate of interactions or state updating. 
 
 - All models previously described are based in an important assumption regarding to its dynamics: the interactions between individuals occur at a constant rate.
 
@@ -169,8 +172,7 @@ Bursty human behavior is a fundamental aspect of human dynamics that affects var
 
 - The focus on this approach is to include the bursty dynamics in the individuals attempts to interact with others, rather than in the interactions themselves (as in the activity-driven models or temporal networks).
 
-It is known that human interactions do not occur at a constant rate. They rather show  a bursty character with a non-Poissonian inter-event time distribution that reflects a memory from past interactions. \cite{barabasi-2005,moro,oriol,rybski-2012,zignani-2016,kumar-2020}
-However, most social simulations, including simulations of variants of the Sakoda-Schelling model, implicitly assume a constant rate of interactions or state updating. "Aging" is one form of memory effect on which the rate of interactions depends on the persistence time of an agent in a state, modifying the transition to a different state \cite{fernandez-gracia-2011,perez-2016,boguna-2014}. This concept of aging, or "social inertia" \cite{Stark2008}, constrains the transitions in a way that the longer an agent remains in a given state, the smaller the probability to change it. Aging has been already shown to modify social dynamics very significantly. For example, in opinion dynamics, aging is able to produce coarsening towards a consensus state in the voter model \cite{fernandez-gracia-2011,peralta-2020} or to induce a continuous phase transition in the noisy voter model \cite{artime-2018}.
+"Aging" is one form of memory effect on which the rate of interactions depends on the persistence time of an agent in a state, modifying the transition to a different state \cite{fernandez-gracia-2011,perez-2016,boguna-2014}. This concept of aging, or "social inertia" \cite{Stark2008}, constrains the transitions in a way that the longer an agent remains in a given state, the smaller the probability to change it. Aging has been already shown to modify social dynamics very significantly. For example, in opinion dynamics, aging is able to produce coarsening towards a consensus state in the voter model \cite{fernandez-gracia-2011,peralta-2020} or to induce a continuous phase transition in the noisy voter model \cite{artime-2018}.
 
 Aging is an important non-Markovian effect that we address in this chapter for binary-state models. Aging accounts for the influence that the persistence time of an agent in a given state modifies the transition rate to a different state \cite{stark-2008,fernandez-gracia-2011,perez-2016,boguna-2014,chen-2020}, so that, the longer an agent remains in a given state, the smaller is the probability to change it. 
 
