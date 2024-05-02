@@ -251,7 +251,7 @@ The exponent reported for the power law cascade dynamics $\delta(z,T)$ turns out
 Moreover, from Eq. \eqref{eq:linear}, we can extract the cascade condition for the Granovetter-Watts model in general. Since $\langle p_A \rangle(t)$ is always positive, global cascades occur when $(C_1 - 1) > 0 $, so the cascade condition is:
 \begin{equation}
     \label{eq:umbral}
-    T < T_c = \frac{1}{\sum_{k=0}^{\infty} \frac{k \, (k - 1)}{z}\, p_k}.
+    \sum_{k=0}^{\lfloor 1/T_c \rfloor} \frac{k \, (k - 1)}{z}\, p_k = 1
 \end{equation}
 This cascade condition does not depend on the aging term $\langle p_A \rangle(t)$ and thus, it is the same as for the Granovetter-Watts model without aging. In Fig. \ref{fig:umbral}, the red solid line is the result of this analytical calculation, and it is in good agreement with the numerical results. 
 
