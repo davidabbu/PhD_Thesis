@@ -661,7 +661,7 @@
 	innertopmargin=5pt, % Inside top margin height
 	innerbottommargin=5pt, % Inside bottom margin height
 	leftmargin=0cm, % Outside left margin width
-	rightmargin=0cm % Outside right margin width
+	rightmargin=0cm, % Outside right margin width
 ]{tBox}
 
 % Exercise box

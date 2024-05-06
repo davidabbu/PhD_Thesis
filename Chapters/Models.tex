@@ -51,6 +51,7 @@ When we talk about threshold models, the model that comes to our minds is the th
 \end{figure}
 
 \begin{theorem}[Granovetter-Watts model]
+    \sffamily\small
     An individual time step of the model is defined as follows:
     \begin{enumerate}
         \item Each node $i$ has a threshold $R_i$.
@@ -68,6 +69,7 @@ The exploration of this model has been widespread, encompassing studies on vario
 Thomas C. Schelling's segregation model \cite{schelling-1969}, illustrates how individual preferences regarding neighbors can lead to significant segregation in urban areas, even when these preferences are relatively mild. The model utilizes a checkerboard setup where each agent (representing a household) prefers to live in a neighborhood where at least a certain percentage of neighbors are of the same type (see Fig. \ref{fig:Schelling_fig}). Agents move to a new location if their tolerance threshold is not met \footnote{Note that this  tolerance threshold acts as a measure of a critical mass of different neighbors that the individual tolerates (large tolerance allows for more diverse neighborhood while small tolerance requires several similar neighbors to be satisfied). This threshold definition is complementary to the one in the Granovetter-Watts model, where it is a measure of the number of similar neighbors required to adopt (small threshold allows to adopt with a more diverse neighborhood while large threshold requires several similar neighbors to adopt).}. This simple rule leads to complex patterns, showing that even a slight preference for similar neighbors can result in highly segregated communities, an insight that has profound implications for understanding social dynamics and urban planning. 
 
 \begin{theorem}[Schelling's model]
+    \sffamily\small
     An individual time step of the model is defined as follows:
     \begin{enumerate}
         \item Each node $i$ has a tolerance threshold $T_i$.
@@ -84,6 +86,7 @@ On the other hand, James M. Sakoda's model, initially conceptualized in his 1949
 An important contribution associated to both models is the use of a checkerboard setup as the computational space where agents (or tokens) reside and interact according to predefined rules. The ``hand-made'' simulations performed by Sakoda and Schelling using this discrete spatial representation has since become a standard framework for studying agent-based models in social systems \cite{hegselmann-2017}. This structure allows for the exploration of local interactions, emergence of global patterns and interface analysis, providing a powerful tool for understanding the dynamics of social systems.
 
 \begin{theorem}[Sakoda's model]
+    \sffamily\small
     An individual time step of the model is defined as follows:
     \begin{enumerate}
         \item Each node $i$ has an attitude matrix $A_i$, that defines the attitudes of $i$ towards all other agents on the board.
