@@ -37,9 +37,9 @@ This work introduces a new method to identify the housing market segmentation us
 
 \subsection{Data description}
 
-For Spain, we analyze listings published on the portal \texttt{Idealista.com}~\cite{idealista}. The dataset covers a 2-year time period, from January 2017 to December 2018 and it comprises a comprehensive collection of online listings georeferenced with their (lat, long) coordinates in the Spanish provinces of Balearic Islands, Barcelona, and Madrid. These listings were posted by more than $50,000$ real estate agencies, each identified with its unique id. There are about one million listings for sales, and over $800,000$ for rentals. 
+For Spain, we analyze listings published on the portal \texttt{Idealista.com} \cite{idealista}. The dataset covers a 2-year time period, from January 2017 to December 2018 and it comprises a comprehensive collection of online listings georeferenced with their (lat, long) coordinates in the Spanish provinces of Balearic Islands, Barcelona, and Madrid. These listings were posted by more than $50,000$ real estate agencies, each identified with its unique id. There are about one million listings for sales, and over $800,000$ for rentals. 
 
-French listings were obtained from the portal \texttt{SeLoger.com}~\cite{SeLoger}. The dataset includes all listings posted in the country over a 6-month period from July to December 2019 - representing over 2 million sale listings. Geographical information is only available at the administrative and census levels, such as ZIP codes (``\textit{code postal}''), municipalities (``\textit{communes}''), and census tracts (``\textit{IRIS}''), the finest and basic scale for sub-municipal information in France. We focus on three major urban areas: Paris, Marseilles and Toulouse. 
+French listings were obtained from the portal \texttt{SeLoger.com} \cite{SeLoger}. The dataset includes all listings posted in the country over a 6-month period from July to December 2019 - representing over 2 million sale listings. Geographical information is only available at the administrative and census levels, such as ZIP codes (``\textit{code postal}''), municipalities (``\textit{communes}''), and census tracts (``\textit{IRIS}''), the finest and basic scale for sub-municipal information in France. We focus on three major urban areas: Paris, Marseilles and Toulouse. 
 
 For both datasets, we focus on houses and apartments, and do not consider farms or rural parcels.
 
@@ -89,7 +89,7 @@ In order to compare two partitions $X$ and $Y$, we compute a confusion matrix $C
 \begin{equation}
     C^{XY}_{ij} = | x_i \cap y_j | ,
 \end{equation}
-\begin{figure}
+\begin{figure}[ht]
     \label{fig:agreement_scale_method}
     \centering
     \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/Agreement_method_scale.pdf}
@@ -127,13 +127,13 @@ In this section, we examine how incorporating administrative spatial boundaries 
 
 We aggregate listings into administrative and statistical spatial units to determine if the emergent submarkets are stable and consistent when comparing with the ones observed with the networks built with square cells. In this case, we consider municipalities and census tracts as they are the most common administrative divisions applied to spatial statistics. 
 
-Fig. \ref{fig:political_scales} shows the communities found in the province of Madrid. We observe clear differences between the results obtained using census tracts (Fig. \ref{fig:political_scales}(a)-(b) and using municipalities (Fig. \ref{fig:political_scales}(d)-(e). The results for census tracts are characterized by a large community that covers almost all the territory and the agreement between methods is not significant. In contrast, the results using municipalities have a good and significant OSLOM-Louvain agreement. Keeping Louvain as the reference method, we compare the partitions of the networks originated from $1  \, \textrm{km}$, census tracts, and municipalities in Fig. \ref{fig:political_scales}(c). The communities in the networks using cells and municipalities show significant agreement, while those based on census tracts show non-significant values in Barcelona and Madrid.
+Fig. \ref{fig:political_scales} shows the communities found in the province of Madrid. We observe clear differences between the results obtained using census tracts (Fig. \ref{fig:political_scales}(a)-(b)) and using municipalities (Fig. \ref{fig:political_scales}(d)-(e)). The results for census tracts are characterized by a large community that covers almost all the territory and the agreement between methods is not significant. In contrast, the results using municipalities have a good and significant OSLOM-Louvain agreement. Keeping Louvain as the reference method, we compare the partitions of the networks originated from $1  \, \textrm{km}$, census tracts, and municipalities in Fig. \ref{fig:political_scales}(c). The communities in the networks using cells and municipalities show significant agreement, while those based on census tracts show non-significant values in Barcelona and Madrid.
 
 While the distribution of listings per spatial unit in the other cases follows a heterogeneous distribution, well-described by a Zipf law, the one for census tracts follows a more homogeneous distribution (see Fig. \ref{fig:distribution_announcements}). This effect is a consequence of how the census tracts are built, forcing the population in each unit to be similar by a heterogeneous selection of the space included in each unit. This distribution is directly translated into the network weights and thus impacts the spatial segmentation method. 
 
 \subsection{Recovering the submarkets from census level data}\label{sec:data_agreggation}
 
-Multiple datasets, such as our French data, are avilable at census level. To maintain the broad applicability of our spatial segmentation methodology, we have devised a data aggregative method to recover the results obtained at the cell and municipality levels. This technique enables us to restore the Zipf law pattern using data gathered at the census level and to find similar segmentation results regardless of the basic spatial units.
+Multiple datasets, such as our French data, are available at census level. To maintain the broad applicability of our spatial segmentation methodology, we have devised a data aggregative method to recover the results obtained at the cell and municipality levels. This technique enables us to restore the Zipf law pattern using data gathered at the census level and to find similar segmentation results regardless of the basic spatial units.
 
 \begin{figure}
     \label{fig:stochastic_construction}
@@ -191,4 +191,3 @@ We discovered a limitation of our method when the spatial units exhibit a highly
 To summarize, we have developed a new methodology that uses listings data to evaluate the spatial segmentation of housing markets into spatially-coherent submarkets. This methodology is generally applicable to different datasets of geolocated listings to infer the submarkets that emerge from the uneven presence and influence of real estate agencies across space. The market-based supra-municipal communities that emerge from the data are found to be robust. Future research should investigate how identifying the submarkets created by market intermediaries can inform policymaking and improve price modeling.
 
 The projected networks at the spatial resolution of $1$ km cell, census-tract, and municipality are available at Zenodo \cite{zenodo-2024} and Github \cite{Abella-github-2024}. These links also include the code and additional code to perform the stochastic aggregative method from generic census data.
-
