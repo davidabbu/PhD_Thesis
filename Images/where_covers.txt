@@ -7,5 +7,5 @@ Aging bipartite - Power point One drive
 Aging Schelling - /home/david/IDEAL/DYNAMIC/PLOT_THESIS
 STM - /home/david/SYMETRICAL_GRANOVETTER/SYM_ANI/SGV_LAT
 Aging STM - /home/david/SYMETRICAL_GRANOVETTER/SYM_ANI/SGV_LAT
-Idealista Comm - 
+Idealista Comm - /home/david/IDEAL/STATIC/Plot network thesis/Exploring-the-spatial-segmentation-of-housing-markets-from-online-listings/Networks_Spain
 Idealista Dyn - 
