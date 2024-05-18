@@ -1,12 +1,13 @@
 \documentclass[
-	10pt, % Default font size, select one of 10pt, 11pt or 12pt
+	11pt, % Default font size, select one of 10pt, 11pt or 12pt
 	a4paper,
 	% Paper size, use either 'a4paper' for A4 size or 'letterpaper' for US letter size
 	%oneside, % Uncomment for oneside mode, this doesn't start new chapters and parts on odd pages (adding an empty page if required), this mode is more suitable if the book is to be read on a screen instead of printed
 ]{LegrandOrangeBook}
 
 \usepackage{etoolbox}
-\usepackage[labelfont=bf,font=sf]{caption}
+\DeclareCaptionFont{lmss}{\fontfamily{lmss}\selectfont}
+\usepackage[labelfont=bf, font=lmss]{caption}
 
 
 % Book information for PDF metadata, remove/comment this block if not required 
@@ -253,13 +254,13 @@ Other publications published during the PhD period are also included in the foll
 \chapter{\label{ch:Aging implications in the Symmetrical Threshold model} Symmetrical Threshold model: Aging implications}
 %\input{Chapters/Aging_STMA.tex}
 
-\renewcommand{\thechapter}{\arabic{chapter}} % Change chapter number display
-\setcounter{chapter}{6}
 %----------------------------------------------------------------------------------------
 %	PART 2: REAL ESTATE MARKET DYNAMICS
 %----------------------------------------------------------------------------------------
 
 \part{Real estate market dynamics}
+
+\renewcommand{\thechapter}{7} % Change chapter number display
 %----------------------------------------------------------------------------------------
 %	DYNAMICS OF THE REAL STATE MARKET
 %----------------------------------------------------------------------------------------
@@ -270,6 +271,7 @@ Other publications published during the PhD period are also included in the foll
 \chapter{Dynamics of the real state market}
 %\input{Chapters/Idealista_dynamics.tex}
 
+\renewcommand{\thechapter}{8} % Change chapter number display
 %----------------------------------------------------------------------------------------
 %	ASSESSEING THE REAL STATE MARKET SEGMENTATION	
 %----------------------------------------------------------------------------------------
@@ -278,7 +280,7 @@ Other publications published during the PhD period are also included in the foll
 \chapterspacebelow{7.25cm}
 
 \chapter{Assessing the real state market segmentation}
-%\input{Chapters/Idealista_segmentation.tex}
+\input{Chapters/Idealista_segmentation.tex}
 
 \stopcontents[part] % Manually stop the 'part' table of contents here so the previous Part page table of contents doesn't list the following chapters
 
