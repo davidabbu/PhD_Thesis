@@ -52,18 +52,21 @@ In previous section, we have analyzed the listings' dynamics, just exploring how
 
 To this end, we build a temporal bipartite network between listings and agencies. At each time window, defined by an initial date $t_0$ and a final date $t_f$, we construct a bipartite network where listings are connected to the agency that posted it if the listing is active in any time $t'$, inside the temporal window $t_0 \leq t' \leq t_f$. Does not matter if the listing was removed after $t_f$ or if it was added before $t_0$, we consider active listings in the time window. Note that this network is very simple, as a listing cannot be connected to more than one agency. As it is observed in the schematic representation of the temporal bipartite network in Fig. \ref{fig:temporal_bipartite}, as the window moves in time, the bipartite network changes structure, allowing us to infer the dynamics listings-agencies.
 
-
-
 \subsection{Preferential attachment}
 
+Considering the cumulated network of all the listings posted during the whole period, we can analyze the degree distribution of the agencies. The degree of an agency in this context is the number of listings ever posted by the agency. As shown in Fig. \ref{fig:panel_degree}(a), the degree distribution of the agencies in the 3 regions follows a power-law distribution. This result suggests that agencies follow a preferential attachment mechanism, where the probability of a new listing being attached to an agency is proportional to the number of listings posted by the agency previously. This is a common mechanism in many real-world networks, such as the World Wide Web \cite{barabasi1999emergence}, citation networks \cite{redner1998popular}, and social networks \cite{barabasi1999emergence}. In the case of the housing market, this mechanism is a signature of the reputation of the agencies, as the more listings an agency has, the more likely it is to have new listings attached to it.
+
 \begin{figure}
-    \label{fig:panel_degree}
     \centering
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/panel_degree.pdf}
-	\caption[Preferential attachment to agencies.]{Preferential attachment to agencies. \textbf{(a)} Degree distribution of the agencies in the 3 regions. \textbf{(b)} Average degree increase of an agency as a function of the degree (listings posted) of the agency previously to the attachment. For both plots, different colors and markers indicate different regions or provinces. In \textbf{(a)}, the black dashed line shows a power-law distribution with exponent $\alpha  =-2$, and in \textbf{(b)} shows a linear increase with fitted slope $C = 0.04$.}
+	\caption[Preferential attachment to agencies.]{Preferential attachment to agencies. \textbf{(a)} Degree distribution of the agencies in the 3 regions. \textbf{(b)} Average degree increase of an agency as a function of the degree (listings posted) of the agency previously to the attachment. For both plots, different colors and markers indicate different regions or provinces. In \textbf{(a)}, the black dashed line shows a power-law distribution with exponent $\alpha  =-2$, and in \textbf{(b)} shows a linear increase with fitted slope $C = 0.04$. \label{fig:panel_degree}}
 \end{figure}
 
+To verify if the underlying mechanism is indeed preferential attachment, we analyze the average degree increase of an agency as a function of the degree of the agency previously to the attachment. For this purpose, we build a bipartite network for a time window of 1 month and compute the increase of degree of the agencies after a week. We repeat this process for all the time windows in the period, and we average the results. As shown in Fig. \ref{fig:panel_degree}(b), the average degree increase of an agency is linearly correlated with the degree of the agency previously to the attachment. This result confirms that the agencies follow a preferential attachment mechanism, where the probability of a new listing being attached to an agency is proportional to the number of listings posted by the agency previously. However, the popularity of the agency is not the only key factor in the attachment process. The price of the listings and the location of the listings are also important factors that influence the decision-making process of the house owners.
+
 \subsection{Price correlations}
+
+
 
 \begin{figure}
     \label{fig:sigma_price}
