@@ -41,7 +41,18 @@ This process can be understood with the idea of ``aging'': Listings are added to
 
 \section{Agencies dynamics}
 
-In previous section, we have analyzed the listings dynamics, just focussing on how the total and active adds increase in size. However, the listings are not isolated entities, but they have a price, a location and are posted by a real estate agency. In this section, we focuss on the decision-making process that house owners follow when they decide to sell/rent their properties through a real estate agency. 
+In previous section, we have analyzed the listings' dynamics, just exploring how the total and active adds increase in size. However, the listings are not isolated entities, but they have a price, a location and are posted by a real estate agency. In this section, we focus on the decision-making process that house owners follow when they decide to sell/rent their properties through a real estate agency, and how it is correlated with the pricing and the location of the listings.
+
+\begin{figure}
+    \vspace{0.2 cm}
+    \centering
+    \includegraphics[width = 0.8\textwidth]{Figs/Idealista_dynamics/temporal_bipartite.pdf}
+	\caption[Housing market as a temporal bipartite network.]{Schematic representation of the temporal bipartite network between listings and agencies. On top, there is a temporal period in which the different listings are represented by colored horizontal lines, a representation of the time listings have been active in the platform. The color of the listings represent the real estate agency that posted them. For each time window, represented by purple and grey boxes (from $t_0$ to $t_f$), we build a bipartite network where listings are connected to the agency that posted it if the listing is active inside the temporal window. The colored big circles represent the agencies' nodes and the black small circles, the listings active posted. \label{fig:temporal_bipartite}}
+\end{figure}
+
+To this end, we build a temporal bipartite network between listings and agencies. At each time window, defined by an initial date $t_0$ and a final date $t_f$, we construct a bipartite network where listings are connected to the agency that posted it if the listing is active in any time $t'$, inside the temporal window $t_0 \leq t' \leq t_f$. Does not matter if the listing was removed after $t_f$ or if it was added before $t_0$, we consider active listings in the time window. Note that this network is very simple, as a listing cannot be connected to more than one agency. As it is observed in the schematic representation of the temporal bipartite network in Fig. \ref{fig:temporal_bipartite}, as the window moves in time, the bipartite network changes structure, allowing us to infer the dynamics listings-agencies.
+
+
 
 \subsection{Preferential attachment}
 
