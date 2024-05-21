@@ -12,18 +12,20 @@
 
 \section{Data}
 
-We use the dataset, mentioned in section \ref{sec:Datasets}, of listings published on the portal \texttt{Idealista.com} \cite{idealista}. The dataset covers a 2-year time period, from January 2017 to December 2018 and it comprises a comprehensive collection of online listings georeferenced with their (lat, long) coordinates in the Spanish provinces of Balearic Islands, Barcelona, and Madrid. These listings were posted by real estate agencies for renting or selling residential properties. Posted listings by private individuals are not included into the dataset.
+We use the dataset, mentioned in section \ref{sec:Datasets}, of listings published on the portal \texttt{Idealista.com} \cite{idealista}. The dataset covers a 2-year time period, from January 2017 to December 2018 and it comprises a comprehensive collection of online listings geolocated with their (lat, long) coordinates in the Spanish provinces of Balearic Islands, Barcelona, and Madrid. These listings were posted by real estate agencies for renting or selling residential properties. Posted listings by private individuals are not included into the dataset.
 
-Each listing contains a set of attributes such as the price, the surface area, the real estate agency that posted it, its location and the dates of both the publication and the removal of the listing. The dataset also contains information about the type of property (e.g. flat, house, etc.), what allowed us to filter rural parcels and commercial properties.
+Each listing contains a set of attributes such as the price, the surface area, the real estate agency that posted it, its location and the dates of both the publication and the removal of the listing. The dataset also contains information about the type of property (e.g. flat, house, etc.), what allowed us to filter rural parcels and commercial properties. We also removed listings with missing or inconsistent information, such as irregular prices or surface areas. Through this article, the main results are shown for the selling market, but the same analysis stands for the renting market as well.
 
 \section{Listings dynamics}
 
 \begin{figure}
     \label{fig:active_adds}
     \centering
-    \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/active_adds.pdf}
-	\caption[Active listings evolution.]{Daily number of active listings during the period 2018 - 2020 for the Barcelona province. The inset shows a zoomed view to a 1 month period, where the weekly patterns are more evident.}
+    \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/adds_evo.pdf}
+	\caption[Active listings evolution.]{Daily number of total listings \textbf{(a)} and active \textbf{(b)} listings during the period 2018 - 2020 for the Barcelona province. The inset in (b) shows a zoomed view to a 1 month period, where the weekly patterns are more evident.}
 \end{figure}
+
+We begin by analyzing the temporal dynamics of the listings. To do so, we consider as total listings, the listings that have been posted in the online platform before a given ime $t$, and active listings those that are available in the platform at a given time $t$. Fig. \ref{fig:active_adds} shows the daily number of total listings and active listings for the Barcelona province, which shows a representative behavior for all regions. The total number of listings increases linearly with time during the studied period, with no significant variations, showing that new listings are continuously added to the platform. On the other hand, the number of active listings shows a weekly pattern, with a peak on Wednesday and a minimum on the weekends, consistent with human activity patterns in online platforms \cite{szell2010multirelational}. This weekly pattern is more evident when zooming into a 1-month period, as shown in the inset of Fig. \ref{fig:active_adds}. Moreover, the number of active listings shows an increasing linear trend, which indicates that the number of listings available in the platform is growing over time. This trend is found in all regions for both renting and selling, what highlights the non-stationary nature of the listings' dynamics.
 
 \begin{figure}
     \label{fig:panel_time}
@@ -31,6 +33,10 @@ Each listing contains a set of attributes such as the price, the surface area, t
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/panel_time.pdf}
 	\caption[Temporal statistics of the listing dynamics.]{Temporal statistics of the listing dynamics. Listings life (time posted in the platform) distribution for different time windows at Madrid \textbf{(a)}, Barcelona \textbf{(b)} and Balearic Islands \textbf{(c)}. Different colors indicate different time windows. \textbf{(d)} Inter-activations time distribution for the 3 regions. Different colors indicate different region or province. The dashed black line shows a $\nu^{-2}$ power-law distribution. \textbf{(e)} and \textbf{(f)} show the bar sequence of the adds deactivations and activations, respectively, for the Balearic Islands market. The color intensity indicates the number of adds.}
 \end{figure}
+
+The active listings dynamics is governed by the listings life, defined as the number of days a certain listing has been posted in the platform. 
+
+
 
 \section{Agencies dynamics}
 
@@ -49,21 +55,21 @@ Each listing contains a set of attributes such as the price, the surface area, t
     \label{fig:sigma_price}
     \centering
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/labeled_sigma_price.pdf}
-	\caption[Variance of the agency price vs mean agency price.]{Variance of the listings posted by an agency as a function of its mean price for the price per square meter \textbf{(a)} and the total price \textbf{(b)}. Different colors and markers indicate different regions or provinces. The black dashed line shows a linear fit with $\sigma = p^{{m}^2}$ for both plots.}
+	\caption[Variance of the agency price vs mean agency price.]{Variance of the listings price posted by an agency as a function of its mean price for the price per square meter \textbf{(a)} and the total price \textbf{(b)}. Different colors and markers indicate different regions or provinces. The black dashed line shows a linear fit with $\sigma = p^{{m}^2}$ for both plots.}
 \end{figure}
 
 \begin{figure}
     \label{fig:panel_price}
     \centering
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/panel_price.pdf}
-	\caption[Price segmentation by the degree.]{\textbf{(a)} Average degree (number of listings) of an agency as a function of its mean price per square meter. Different colors and markers indicate different regions or provinces. Degree distribution of the agencies at the different price ranges: \textbf{(b)} $p^{{m}^2} < 800 \euro / m^2$, \textbf{(c)} $800 \textup{\euro}  / m^2 < p^{{m}^2} < 10^4 \textup{\euro}  / m^2$, and \textbf{(d)} $p^{{m}^2} > 10^4 \textup{\euro}  / m^2$.}
+	\caption[Price segmentation by the degree.]{\textbf{(a)} Average degree (number of listings) of an agency as a function of its mean price per square meter. Different colors and markers indicate different regions or provinces. Degree distribution among the agencies \textbf{(b)-(c)-(d)} and price histograms for 60 representative agencies \textbf{(e)-(f)-(g)} at the different price segments: \textbf{(b)-(e)} $p^{{m}^2} < 800 \, \textup{\euro} / m^2$, \textbf{(c)-(f)} $800 \, \textup{\euro}  / m^2 < p^{{m}^2} < 10^4 \, \textup{\euro}  / m^2$, and \textbf{(d)-(g)} $p^{{m}^2} > 10^4 \, \textup{\euro}  / m^2$. These plots correspond to the Madrid housing market. For the price distributions, the colors indicate histograms for different agencies.}
 \end{figure}
 
 \begin{figure}
     \label{fig:attach_price}
     \centering
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/panel_attach_price.pdf}
-	\caption[.]{ . }
+	\caption[Attachment dynamics of new listings by price.]{Attachment of new listings by price. \textbf{(a)} Mean agency price per square meter as a function of the price of the new listing attached to the agency. Different colors and markers indicate different regions or provinces. The black dashed line shows a linear increase $\langle p^{{m}^2} \rangle = p^{{m}^2}$. \textbf{(b)} Distribution of the logarithmic difference between the price of the new listing and the mean price of the agency. Different colors indicate different regions or provinces. Each solid colored line corresponds to a T-student fit for each region. The parameters are: $\mu = 0.02$, $\sigma = 0.5$ for Madrid, $\mu = 0.02$, $\sigma = 0.5$ for Barcelona, and $\mu = 0.02$, $\sigma = 0.5$ for the Balearic Islands.}
 \end{figure}
 
 \subsection{Specialization}
@@ -72,14 +78,14 @@ Each listing contains a set of attributes such as the price, the surface area, t
     \label{fig:distance_panel}
     \centering
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/distance_panel.pdf}
-	\caption[.]{ . }
+	\caption[Distance correlations.]{\textbf{(a)} Distribution of the distance between listings of a certain agency and the agency center of mass (mean location of the listings posted by the agency). Different colors indicate different regions or provinces. \textbf{(b)} Variance of the listings distance to the agency center of mass of an agency as a function of the mean distance of that same agency. Different colors indicate different regions or provinces. The black dashed line shows a linear increase $\sigma(d) = \langle d \rangle$. }
 \end{figure}
 
 \begin{figure}
     \label{fig:distance_attach}
     \centering
     \includegraphics[width =\textwidth]{Figs/Idealista_dynamics/distance_attach.pdf}
-	\caption[.]{ . }
+	\caption[Attachment dynamics of new listings by distance.]{ Attachment dynamics of new listings by distance. \textbf{(a)} Agency radius (mean distance of the listings to the agency center of mass) as a function of the distance of the new listing (to the center of mass) attached to the agency. Different colors indicate different regions or provinces. The black dotted grey line shows a linear increase $R = d_{\rm new}$, while the dashed black line shows a square root dependence $R = C \, d_{\rm new}^{1/2}$ with $C = 120$. \textbf{(b)} Distribution of the logarithmic difference between the distance of the new listing and radius of the agency. Different colors indicate different regions or provinces. Each solid colored line corresponds to a T-student fit for each region. The parameters are: $\mu = 0.02$, $\sigma = 0.5$ for Madrid, $\mu = 0.02$, $\sigma = 0.5$ for Barcelona, and $\mu = 0.02$, $\sigma = 0.5$ for the Balearic Islands.}
 \end{figure}
 
 \section{Conclusions}
