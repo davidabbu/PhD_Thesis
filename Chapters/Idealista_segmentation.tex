@@ -18,16 +18,16 @@ The spatial dimension of housing markets is a crucial aspect for urban studies a
 The spatial division of the real estate market has been studied from different perspectives and with different methods in the literature. Some studies have examined the spatial segmentation of the urban housing market focusing on neighborhood correlations of housing prices \cite{palm1978spatial}, the spatial effects of urban public policies on housing values \cite{baumont2009spatial}, the neighborhood quality and accessibility effects on housing prices \cite{dubin1992spatial}, while others have determined if a specific property market is spatially segmented into submarkets, and whether accounting for the existence of submarkets improves the accuracy of price modeling \cite{keskin2017defining,usman2021priori}. This is especially important for hedonic pricing models that seek to incorporate spatial autocorrelation and heterogeneity \cite{usman2021priori,paez2009recent,bitter2007incorporating, case2004modeling}. Ref. \cite{hu2022NovelApproach} distinguishes two main approaches for spatial segmentation: using pre-defined geographical boundaries based on \textit{a priori} knowledge, such as local administrative boundaries or expert areas used by market stakeholders, or relying on clustering methods to infer patterns from the structure of the data. For the latter, popular statistical approaches to divide space into submarkets are principal component analysis and hierarchical clustering \cite{goodman1998housing,bourassa1999defining,bourassa2003housing}.
 
 \begin{figure}
-    \label{fig:network_construction}
+    
     \centering
     \includegraphics[width =0.98\textwidth]{Figs/Idealista_segmentation/NETWORK.pdf}
-	\caption[Bipartite network construction and projection.]{ \textbf{(a)} A tripartite network is constructed between real estate agencies, listings, and spatial units obtained from geolocalized housing data and the division of space in regular grid cells. In this network, each listing is connected to its real estate agency and the spatial cell where it is located. This simple tripartite network is contracted into a bipartite network linking agencies and cells, where the link weight $\omega^{B}_{\alpha,i}$ corresponds to the number of listings the agency $\alpha$ has in the spatial cell $i$. Finally, the network is then projected over the cells to form a weighed network of spatial units, where the weight $\omega_{i,j}$ of the link between cells $i$ and $j$ quantifies how much they are similar in the market -- $\omega_{i,j}$ is properly defined by Equation \eqref{eq:weight_eq}. Two simple examples of the projection process are shown below: with \textbf{(b)} equal and \textbf{(c)} complementary listings distributions for the agencies in the cells. }
+	\caption[Bipartite network construction and projection.]{ \textbf{(a)} A tripartite network is constructed between real estate agencies, listings, and spatial units obtained from geolocalized housing data and the division of space in regular grid cells. In this network, each listing is connected to its real estate agency and the spatial cell where it is located. This simple tripartite network is contracted into a bipartite network linking agencies and cells, where the link weight $\omega^{B}_{\alpha,i}$ corresponds to the number of listings the agency $\alpha$ has in the spatial cell $i$. Finally, the network is then projected over the cells to form a weighed network of spatial units, where the weight $\omega_{i,j}$ of the link between cells $i$ and $j$ quantifies how much they are similar in the market -- $\omega_{i,j}$ is properly defined by Equation \eqref{eq:weight_eq}. Two simple examples of the projection process are shown below: with \textbf{(b)} equal and \textbf{(c)} complementary listings distributions for the agencies in the cells. \label{fig:network_construction}}
 \end{figure}
 
 
 There is ample evidence underlining how real estate agencies influence market segmentation by determining housing prices, sorting homebuyers into different market channels, and specializing in certain types of neighborhoods and market segments \cite{palm1976RealEstate,palm1978spatial,keskin2017defining,bonneval2017agents,besbris2017investigating}. Furthermore, it has been shown that the definition of submarkets based on agencies is far superior to other segmentation techniques \cite{leishman2013PredictivePerformance}. 
 
-This work introduces a new method to identify the housing market segmentation using geospatial data, complex network analysis techniques, and taking as a basis the local ecosystem of real estate agencies. We build a network structure based on two factors:  the \textit{presence} of an agency within a particular area, and the relative \textit{influence} of an agency in this area, determined by the agency's proportional share of all listings located in the area. Our methodology is applied to the residential property market in 3 Spanish provinces and 3 French urban areas, for which we have a rich, high resolution dataset sourced from property portals. We find that the market in those regions is divided into a hierarchy of subregions. We test the robustness of our results against different community detection algorithms, scales, and administrative boundaries in different countries.
+This chapter introduces a new method to identify the housing market segmentation using geospatial data, complex network analysis techniques, and taking as a basis the local ecosystem of real estate agencies. We build a network structure based on two factors:  the \textit{presence} of an agency within a particular area, and the relative \textit{influence} of an agency in this area, determined by the agency's proportional share of all listings located in the area. Our methodology is applied to the residential property market in 3 Spanish provinces and 3 French urban areas, for which we have a rich, high resolution dataset sourced from property portals. We find that the market in those regions is divided into a hierarchy of subregions. We test the robustness of our results against different community detection algorithms, scales, and administrative boundaries in different countries.
 
 \section{Data}
 
@@ -38,6 +38,12 @@ French listings were obtained from the portal \texttt{SeLoger.com} \cite{SeLoger
 For both datasets, we focus on houses and apartments, and do not consider farms or rural parcels.
 
 \section{Building a network \label{sec:materials_and_methods}}
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/Cell_communities.pdf}
+    \caption[Market segmentation for $1 \; \textrm{km}$ square cells.]{ Communities from the projected network for the three Spanish provinces studied: Balearic Islands \textbf{(a)}, Barcelona \textbf{(b)}, and Madrid \textbf{(c)}. The spatial cells are $1 \; \textrm{km}$ square cells. The communities shown are detected using the Louvain algorithm with a consensus clustering of $1000$ realizations. The underground map data is rendered from OpenStreetMap under ODbL.\label{fig:cell_1000}}
+\end{figure}
 
 We begin by discretizing the space into spatial units (square grid cells, municipalities, districts, postal codes, census-tracts, etc).
 %square grid cells of equal area ($1 \times 1 \, \textrm{km}$), using a cylindrical equal-area projection. 
@@ -55,10 +61,9 @@ where the index $\gamma$ runs over all the agencies operating in $i$. In the pro
 where $\{ \alpha \}_{ij} \equiv \{\alpha\}_i \cap \{\alpha\}_j$ is the subset of agencies operating in $i$ and $j$. The weight $\omega_{i,j} =1 $ if the agencies operating in $i$ and $j$ are the same, and cover an equal fraction of the market in both spatial units. If the market distribution is similar, but not equal, the weight will deviate from $1$. Reciprocally, if no common agency is found across the two spatial units, the weight is zero and there is no link between them. Fig. \ref{fig:network_construction}(b) and \ref{fig:network_construction}(c) show examples of the influence weights between two spatial units with equal distribution of the listings in (b), for which $\omega_{i,j} =1 $, and a complementary distribution in (c) with a value of $\omega_{i,j} = 0.02$. Note that our influence weight is related to the participation ratio introduced by Derrida \textit{et al.} in \cite{Derrida_1987}. 
 
 \begin{figure}
-    \label{fig:cell_1000}
     \centering
-    \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/Cell_communities.pdf}
-    \caption[Market segmentation for $1 \; \textrm{km}$ square cells.]{ Communities from the projected network for the three Spanish provinces studied: Balearic Islands \textbf{(a)}, Barcelona \textbf{(b)}, and Madrid \textbf{(c)}. The spatial cells are $1 \; \textrm{km}$ square cells. The communities shown are detected using the Louvain algorithm with a consensus clustering of $1000$ realizations. The underground map data is rendered from OpenStreetMap under ODbL.}
+    \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/agreement_method.pdf}
+	\caption[Agreement between different partitions.]{ Partition result of the community detection methods at the Balearic Islands using Louvain algorithm \textbf{(a)} and OSLOM method \textbf{(b)} $1 \textrm{km}$ square cells. The confusion matrix $C^{XY}$ of the two partitions \textbf{(c)}, is ordered according to the maximum overlap. The underground map data is rendered from OpenStreetMap, under ODbL. \label{fig:agreement_method}}
 \end{figure}
 
 The projected network is thus built with the spatial units as nodes, which are connected with links weighted according to Equation \ref{eq:weight_eq}. A group of spatial units strongly connected between them implies that they share a common ecosystem of agencies, that operate with a similar market share in these units.
@@ -69,12 +74,6 @@ Searching for clusters in this weighted spatial network should therefore inform 
 
 \subsection{Segmenting the market according to agencies' operations}\label{sec:segmentation_cells}
 
-\begin{figure}
-    \centering
-    \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/agreement_method.pdf}
-	\caption[Agreement between different partitions.]{ Partition result of the community detection methods at the Balearic Islands using Louvain algorithm \textbf{(a)} and OSLOM method \textbf{(b)} $1 \textrm{km}$ square cells. The confusion matrix $C^{XY}$ of the two partitions \textbf{(c)}, is ordered according to the maximum overlap. The underground map data is rendered from OpenStreetMap, under ODbL. \label{fig:agreement_method}}
-\end{figure}
-
 We start by analyzing the spatial segmentation that arises from the data geolocated in the Balearic Islands, Barcelona, and Madrid using $1$ km-sided square cells. Fig. \ref{fig:cell_1000} presents the communities listed according to their size, from larger to smaller. Even though our methodology does not consider spatial proximity, we observe spatial segmentation in adjacent regions with few exceptions. For the Balearic Islands, we observe that spatial constraints, such as insular nature of the environment, affect the segmentation of the housing market: while the same submarket covers Minorca or Ibiza-Formentera, Majorca is divided into four different ones. It is noteworthy that the submarkets that emerge in all these three provinces are slightly larger than municipalities.
 
 To study the robustness of identified submarkets in each of the three provinces, we run several community detection algorithms, and compare the communities obtained across realizations of different algorithms. We define as a network partition the classification of the cells in communities, $X = \{x_0, x_1, \cdots , x_{|X|-1} \}$, where each community $x_i$ is a set of cells. The partition $X$ has $|X|$ communities in this notation. Every cell must be in at least one community, but in some clustering methods a cell may belong to several.
@@ -84,7 +83,7 @@ In order to compare two partitions $X$ and $Y$, we compute a confusion matrix $C
 \end{equation}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/Agreement_method_scale.pdf}
+    \includegraphics[width = 0.8\textwidth]{Figs/Idealista_segmentation/Agreement_method_scale.pdf}
 	\caption[Agreement across three methods and cell sizes.]{ Agreement across the different community detection methods for the network in Balearic Islands \textbf{(a)}, in the province of Barcelona \textbf{(b)} and of Madrid \textbf{(c)}. The metric used to compute the agreement between method partitions is $H(X,Y)$, shown in the lower triangles for each pair of methods, denoted by $X$ and $Y$. The upper triangles display the value $H(X_r,Y_r)$, being $X_r$ and $Y_r$ the partitions randomized (preserving the communities size). In \textbf{(d)}, comparison of partitions obtained with the Louvain method for networks generated with different cell sizes: 500 m-sided vs  1 km-sided cells (top row), and 1 km-sided vs 2 km-sided cells (bottom row). \label{fig:agreement_scale_method}}
 \end{figure}
 where $x_i$ and $y_j$ are communities in the partitions $X$ and $Y$, respectively, and $| . |$ stands for the cardinal (number of elements) of a set. An element $C^{XY}_{ij}$ can be zero if there is no overlap between the communities, and it can be large if the two communities coincide across the partitions. We reorder then the elements of the matrix  $C^{XY}$ to have the largest values in the pseudo-diagonal. Note that $C^{XY}$ is not necessarily a squared matrix because the number of communities in each partition may differ. This process is essentially the identification of the communities in one partition that correspond to the communities in the other. This is a statistical match, given that the cells of a community in $X$ may be distributed in several communities in $Y$. As shown in Fig. \ref{fig:agreement_method}, if the partitions between the two methods are similar, we must observe a strong pseudo-diagonal in the confusion matrix. The sum of the elements of this pseudo-diagonal is the number of cells clustered in the same way in the two partitions. To compute a measure of the agreement between two partitions, we use the fraction $H(X,Y)$ \cite{girvan2002community,hric2014community} defined as 
@@ -93,14 +92,15 @@ H(X,Y) = \sum_{i = 0}^{\textrm{min}(|X|,|Y|)-1} \frac{C^{XY}_{ii}}{N} ,
 \end{equation}
 where the matrix $C^{XY}$ is ordered to maximize the pseudo-diagonal, and $N$ is the total number of cells. $H(X,Y)$ is a metric commonly used in the literature to compute the accuracy between community detection algorithms \cite{danon2005comparing,duch2005community,li2008quantitative,darst2014improving,chen2015deep,saoud2016community,wang2017mitigation,fortunato2016community}, its value is bounded in the interval $(0,1]$, but it has the downside that $H(X,Y)$ depends on the size of the communities. To determine if the value of $H(X,Y)$ is significant, it is necessary to compare it with a randomized version of the partitions, $H(X_r,Y_r)$, in which the cells are reshuffled at random across the communities of each partition respecting the community sizes.
 
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.8\textwidth]{Figs/Idealista_segmentation/Political_Scales_agreement.pdf}
+	\caption[Community detection from networks using administrative spatial units.]{ Communities detected using census areas \textbf{(a)} and municipalities \textbf{(d)} as spatial units to build the network in Madrid. The clustering method employed is the Louvain algorithm. The agreement across the different methods for the census \textbf{(b)} and municipalities \textbf{(e)}. \textbf{(f)} shows the communities' agreement between $1$ km cells and administrative boundaries networks for all Spanish provinces. The agreement in (b)-(c)-(e) is computed using $H(X,Y)$ (lower triangles) compared with the value randomizing the communities (upper triangles).  The underground map data is rendered by OpenStreetMap, under ODbL. \label{fig:political_scales}}
+\end{figure}
+
 Figure \ref{fig:agreement_scale_method}(a-c) compares the three community detection algorithms (Louvain, OSLOM, and Infomap) used for different provinces. In all cases, the agreement between the communities detected from the real partition is higher than that of the randomized communities. The OSLOM-Louvain comparison exhibits the highest agreement, which is significant in all provinces. In the Balearic Islands, a robust and statistically significant agreement is evident among all methods. However, when examining Barcelona and Madrid, Infomap detects a large community probably due to the high density of the network, and this does not compare well with the other methods which detect more communities. In fact, the value of $H(X,Y)$ approaches the one of the randomized model. This issue is absent in the Balearic Islands, where the network has a stronger intrinsic spatial division into different islands.
 
 So far, we have focused on the results for the networks built with $1 \; \textrm{km}$-sided square cells. It is, nevertheless, important to check whether the results may vary depending on the scale of the unit cells. We thus recalculate the networks taking as basis square cells of side $500 \; \textrm{m}$ and $2 \; \textrm{km}$ and compute the communities using the Louvain method with consensus clustering. 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/Political_Scales_agreement.pdf}
-	\caption[Community detection from networks using administrative spatial units.]{ Communities detected using census areas \textbf{(a)} and municipalities \textbf{(d)} as spatial units to build the network in Madrid. The clustering method employed is the Louvain algorithm. The agreement across the different methods for the census \textbf{(b)} and municipalities \textbf{(e)}. \textbf{(f)} shows the communities' agreement between $1$ km cells and administrative boundaries networks for all Spanish provinces. The agreement in (b)-(c)-(e) is computed using $H(X,Y)$ (lower triangles) compared with the value randomizing the communities (upper triangles).  The underground map data is rendered by OpenStreetMap, under ODbL. \label{fig:political_scales}}
-\end{figure}
 The cells of the different scales have been delimited to keep spatial coherence: four $500 \;\rm{m}$ cells form one of the $1  \;\rm{km}$ cells used in the previous figures, and four $1 \; \rm{km}$ cells aggregate to form a $2 \; \rm{km}$ cell. 
 This hierarchical structure allows us to compare communities at various levels because we can identify the cells across scales. For example, if a $2 \;\rm{ km}$ cell belongs to a community, then the four $1 \;\rm{ km}$ cells composing it share the same community label.
 In parallel, we also run the community detection algorithm in the network composed of $1 \; \rm{ km}$ cells, and then we can use the confusion matrix and $H(X,Y)$ to compare the partitions at these two scales using $1 \;\rm{ km}$ cells. Note that the calculation of $H(X,Y)$ requires the same number of basic units in the two partitions. Figure \ref{fig:agreement_scale_method}(d) shows the results of this analysis, where we use $1$ km-sided cells as a reference for comparison with the other scales. In all cases, we notice a consistently high and statistically significant level of agreement. This demonstrates that our methodology generates communities that remain robust across the three spatial scales.
@@ -109,7 +109,7 @@ In parallel, we also run the community detection algorithm in the network compos
 
 \begin{figure}
     \centering
-    \includegraphics[width = 0.9\textwidth]{Figs/Idealista_segmentation/Distribution_adds_census_cell.pdf}
+    \includegraphics[width = 0.7\textwidth]{Figs/Idealista_segmentation/Distribution_adds_census_cell.pdf}
 	\caption[Distribution of listings for different spatial units.]{ Each spatial unit is shown by a different color and marker: green crosses (1 km-sided cells), blue circles (municipalities), and red triangles (census). The dashed black line shows the slope of a Zipf law distribution. \label{fig:distribution_announcements}}
 \end{figure}
 
@@ -136,9 +136,9 @@ We observe that in the final networks the Zipf law distribution of listings per 
 
 Since the assignation of listings to cells is stochastic, the projected network is different each time the process is repeated. To avoid uncertainty, we construct an ensemble of these networks. For each network, we run the community detection algorithm multiple times. Once our cells are labeled with a community, we perform consensus clustering to aggregate all partitions from all aggregated networks of our ensemble into a single consensus aggregated network. We represented this process in detail on Fig. \ref{fig:stochastic_construction}.
 
-\begin{figure}[ht]
+\begin{figure}
     \centering
-    \includegraphics[width = \textwidth]{Figs/Idealista_segmentation/Cells1000_agreement_AggCells.pdf}
+    \includegraphics[width = 0.7\textwidth]{Figs/Idealista_segmentation/Cells1000_agreement_AggCells.pdf}
 	\caption[Comparison between the communities from aggregated cells network and other spatial units.]{ Each column shows the agreement between the communities of the $1 \; \textrm{km}$ aggregated cells networks (from census data) and the networks obtained from the other spatial units: Census, Municipalities, and $1 \; \textrm{km}$ cells from the original latitude longitude coordinate data. Each row shows the results for each province: Balearic Islands, Barcelona and Madrid. The agreement is computed via the fraction of correctly detected cells $H(X,Y)$ (lower triangles) compared with the value randomizing the communities (upper triangles). \label{fig:network_sector_distribution}}
 \end{figure}
 
@@ -150,7 +150,7 @@ In this section, we investigate whether the emergent spatial segmentation reveal
 
 Communities emerge in these French urban areas at aggregated cell level as well (see Fig. \ref{fig:france_comm}). The communities are contiguous in space, similar to the ones observed in Spain, suggesting that listings (as a source of information on listed properties and agencies) allow us to study the spatial segmentation of the housing market through a data-driven, bottom-up method that foregrounds the practices of key market intermediaries.
 
-\begin{figure}[ht]
+\begin{figure}
     \centering
     \includegraphics[width = 0.98\textwidth]{Figs/Idealista_segmentation/Comm_France.pdf}
 	\caption[Spatial segmentation for $1 \; \textrm{km}$ aggregated cells constructed from IRIS level data for France.]{ Communities detected at the stochastic projected network for the 3 French FUA studied: Marseilles-Aix en Provence \textbf{(a)}, Paris \textbf{(b)}, and Toulouse \textbf{(c)}. The communities shown are detected using the Louvain algorithm with a consensus clustering of $200$ clustering method realizations for each of the $100$ stochastic networks generated in the IRIS to cell aggregative process. The underground map data is rendered by OpenStreetMap, under ODbL. \label{fig:france_comm}}
@@ -160,7 +160,7 @@ We repeat the exercise of comparing networks built from different spatial divisi
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width = 0.6\textwidth]{Figs/Idealista_segmentation/Cells_agreement_different_topologies_France.pdf}
+    \includegraphics[width = 0.5\textwidth]{Figs/Idealista_segmentation/Cells_agreement_different_topologies_France.pdf}
 	\caption[Comparison between the $1 \; \textrm{km}$ aggregated cells communities and the political units communities in France.]{ Each column shows the agreement between the $1 \; \textrm{km}$ aggregated cells and the French political spatial units: IRIS and Communes. Each row shows the results for each FUA: Marseilles-Aix en Provence, Paris, and Toulouse. The agreement is computed via the fraction of correctly detected cells (lower triangles) compared with the value randomizing the communities (upper triangles). \label{fig:Compare_france}}
 \end{figure}
 
