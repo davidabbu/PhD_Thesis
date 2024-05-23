@@ -21,8 +21,21 @@
 
 \DeclareUnicodeCharacter{0301}{*************************************}
 
+\makeatletter
+\newcommand{\tempmaxup}[1]{\def\blx@maxcitenames{99}#1}
+\makeatother
+
+\DeclareCiteCommand{\fullcite}[\tempmaxup]
+    {\usebibmacro{prenote}}
+    {\usedriver
+        {}
+        {\thefield{entrytype}}}
+    {\multicitedelim}
+    {\usebibmacro{postnote}}
+
 % Bibliography files
 \addbibresource{Idealista_comm.bib}
+\addbibresource{idealista_dyn.bib}
 \addbibresource{Aging_Schelling.bib}
 \addbibresource{Aging_Threshold.bib}
 \addbibresource{Aging_STM.bib}

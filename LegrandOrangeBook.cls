@@ -457,6 +457,7 @@
 	abbreviate=false, % Suppress abbreviations such as "Ed." for Editor
 	backref=true, % List the page where references were cited in the bibliography
 	defernumbers=true,
+	maxbibnames=99, % Maximum number of names displayed in the bibliography before truncation
 ]{biblatex}
 
 \defbibheading{bibempty}{} % Suppress default bibliography headings
