@@ -125,10 +125,10 @@
 \newcommand{\outputpartpage}[2]{
 	\begin{tikzpicture}[remember picture, overlay]
 		\node[anchor=center, rectangle, fill=ocre!20, inner sep=0pt, minimum height=\paperheight, minimum width=\paperwidth] at (current page.center) {}; % Background color
-		\node[anchor=north west, inner sep=0pt, xshift=\Gm@lmargin, yshift=-\Gm@tmargin] at (current page.north west) {\fontsize{220pt}{220pt}\selectfont\sffamily\bfseries\textcolor{ocre!70}{#1}}; % Part number
-		\node[anchor=north east, inner sep=0pt, xshift=-\Gm@rmargin, yshift=-\Gm@tmargin] at (current page.north east) {\parbox[t][][t]{9.5cm}{\fontsize{30pt}{30pt}\selectfont\sffamily\bfseries\textcolor{ocre!70}{\strut #2}}}; % Part title
+		\node[anchor=north west, inner sep=0pt, xshift=\Gm@lmargin, yshift=-\Gm@tmargin] at (current page.north west) {\fontsize{180pt}{180pt}\selectfont\sffamily\bfseries\textcolor{ocre!70}{#1}}; % Part number
+		\node[anchor=north east, inner sep=0pt, xshift=-\Gm@rmargin, yshift=-\Gm@tmargin] at (current page.north east) {\parbox[t][][t]{9.3cm}{\begin{flushleft}\fontsize{32pt}{32pt}\selectfont\sffamily\bfseries\textcolor{ocre!70}{\strut #2}\end{flushleft}}}; % Part title
 		\node[anchor=south east, inner sep=0pt, xshift=-\Gm@rmargin, yshift=\Gm@bmargin] at (current page.south east) { % Mini table of contents
-			\parbox[t][][t]{8.5cm}{ % Width of box holding the mini ToC
+			\parbox[t][][t]{9.5cm}{ % Width of box holding the mini ToC
 				\printcontents[part]{l}{0}{\setcounter{tocdepth}{1}} % Display the mini table of contents showing chapters and sections, change tocdepth to 2 to also show subsections or 0 to only show chapters
 			}
 		};
