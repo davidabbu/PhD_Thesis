@@ -2,3 +2,4 @@ bursty
 bursty
 burstiness
 heretogeneities
+autocorrelation
