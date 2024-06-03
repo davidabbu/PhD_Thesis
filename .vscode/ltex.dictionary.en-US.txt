@@ -3,3 +3,4 @@ bursty
 burstiness
 heretogeneities
 autocorrelation
+non-Markovian
