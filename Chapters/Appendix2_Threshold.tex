@@ -8,7 +8,7 @@
 \normalsize
 \vspace{0.5 cm}
 
-The Approximate Master Equation (AME) is a general mathematical equation that allows to describe binary state models in complex networks. Here, we extend the traditional mathematical framework to include aging effects, which account for the influence of the persistence time of an agent in a given state on the transition rate to a different state. When aging is considered, the Markovia assumption is no longer valid, and the AME must be modified to include non-Markovian dynamics. We derive the AME for binary-state models with aging effects, including aging and resetting events, and show how it can be reduced to the original Markovian dynamics when the rates are not dependent on the internal time. We also demonstrate how the heterogeneous mean-field approximation can be derived from the master equation. The results presented in this chapter provide a comprehensive framework for studying aging effects in binary-state models, offering a more accurate description of the dynamics of complex networks. In the following chapters of this thesis, we apply this framework to describe the aging implications in two binary-state models: the Granovetter-Watts model and the Symmetrical Threshold model.
+The Approximate Master Equation (AME) is a general mathematical equation that allows to describe binary state models in complex networks. Here, we extend the traditional mathematical framework to include aging effects, which account for the influence of the persistence time of an agent in a given state on the transition rate to a different state. When aging is considered, the Markovian assumption is no longer valid, and the AME must be modified to include non-Markovian dynamics. We derive the AME for binary-state models with aging effects, including aging and resetting events, and show how it can be reduced to the original Markovian dynamics when the rates are not dependent on the internal time. We also demonstrate how the heterogeneous mean-field approximation can be derived from the master equation. The results presented in this chapter provide a comprehensive framework for studying aging effects in binary-state models, offering a more accurate description of the dynamics of complex networks. In the following chapters of this thesis, we apply this framework to describe the aging implications in two binary-state models: the Granovetter-Watts model and the Symmetrical Threshold model.
 
 \section{\label{sec:Introduction_binary} Introduction}
 
@@ -16,7 +16,7 @@ Binary-state models are a versatile tool to describe a variety of natural and so
 
 Theoretical and computational studies of stochastic binary-state models usually rely on a Markovian assumption for its dynamics. This implies that events depend only on the present state, i.e., dynamical rules are memoryless. Markovian processes exhibit exponential distributions in the upcoming events times and the number of events in a given time interval follows a Poisson distribution. However, there is strong empirical evidence against this assumption in human interactions.  For example, bursty non-Markovian dynamics with heavy-tail inter-event time distributions, reflecting temporal activity patterns,  have been reported in many studies \cite{iribarren-2009,karsai-2011,rybski-2012,zignani-2016,artime-2017,kumar-2020}. The understanding of these non-Markovian effects is in general a topic of current interest \cite{van-mieghem-2013,starnini-2017,peralta-2020C,peralta-2020A}. In particular, for the threshold models, memory effects have been included as past exposures' memory \cite{dodds-2004}, message-passing algorithms \cite{shrestha-2014}, memory distributions for retweeting algorithms \cite{gleeson-2016} and timers \cite{oh-2018}.
 
-Aging is an important non-Markovian effect that we address in this chapter for binary-state models. We here provide a general theoretical framework to discuss aging effects building upon a general Markovian approach for binary-state models \cite{gleeson-2011,gleeson-2013}. We build an Approximate Master Equation (AME)\footnote{\sffamily\small We use here the term  ``master equation'' for consistency with  Refs. \cite{gleeson-2011,gleeson-2013}, but the word ``master'' has a different meaning than the one used to describe an equation for the probability distribution \cite{toral2014stochastic, peralta-2020B}} for any binary-state model with aging effects (including aging and resetting events). We show how the AME can be reduced to the original Markovian dynamics when the rates are not dependent on the age of the agents. We also show how the heterogeneous mean-field approximation can be derived from the master equation. The results presented in this chapter provide a solid foundation for future studies on aging effects in binary-state models, offering a more accurate description of the dynamics of complex networks. 
+Aging is an important non-Markovian effect that we address in this chapter for binary-state models. We here provide a general theoretical framework to discuss aging effects building upon a general Markovian approach for binary-state models \cite{gleeson-2011,gleeson-2013}. We build an Approximate Master Equation (AME)\footnote{\sffamily\small We use here the term  ``master equation'' for consistency with  Refs. \cite{gleeson-2011,gleeson-2013}, but the word ``master'' has a different meaning than the one used to describe an equation for the probability distribution \cite{toral2014stochastic, peralta-2020B}} for any binary-state model with aging effects (including aging and resetting events). We show how the AME can be reduced to the original Markovian dynamics when the rates are not dependent on the age of the agents. Moreover, we also show how the heterogeneous mean-field approximation can be derived from the master equation. The results presented in this chapter provide a solid foundation for future studies on aging effects in binary-state models, offering a more accurate description of the dynamics of complex networks. 
 
 \section{Derivation of the Approximate Master Equation for binary-state models with aging \label{sec:Derivation of the Approximate Master Equation for binary-state models with aging}}
     
@@ -34,12 +34,12 @@ where $B_{k,m}[x^{-}_{0}]$ is the binomial distribution with $k$ attempts, $m$ s
     \item An agent remains at its state and ages, with probability $A^{+} (k,m,j)$.
 \end{itemize}
 
-The probability to change state and to age make sense in the context of aging. The reset probability is introduced to account for ``exogenous'' aging, in which an external influence forces the node to attempt a change of state but the node remains in its current state. Moreover, notice that we assume all the probabilities to be a function of the degree $k$, the number of neighbors in state $-1$ $m$ and the time spent in the actual state (or since a reset) $j$.
+The probability to change state and to age make sense in the context of aging. The reset probability is introduced to account for ``exogenous'' aging, in which an external influence forces the node to attempt a change of state, but the node remains in its current state. Moreover, notice that we assume all the probabilities to be a function of the degree $k$, the number of neighbors in state $-1$ $m$ and the time spent in the actual state (or since a reset) $j$.
 \begin{figure}[ht]
     \centering
     \captionsetup{font=sf}
     \includegraphics[width=\columnwidth]{Figs/Aging_Threshold/plot_AME_transitions.png}
-    \caption[Schematic representation of the transitions to or from the set $x^{\pm}_{k,m,j}$]{\label{fig:ame_plot1} Schematic representation of the transitions to or from the set $x^{-}_{k,m,j}$ (left) and $x^{+}_{k,m,j}$ (right) ($j > 0)$. We show the central node with some neighbors ($k = 3$) for different values $m$ and $j$. Purple nodes are in state susceptible or non-adopters or $+1$, and yellow are in state infected or adopters or $-1$.}
+    \caption[Schematic representation of the transitions to or from the set $x^{\pm}_{k,m,j}$]{\label{fig:ame_plot1} Schematic representation of the transitions to or from the set $x^{-}_{k,m,j}$ (left) and $x^{+}_{k,m,j}$ (right) ($j > 0$). We show the central node with some neighbors ($k = 3$) for different values $m$ and $j$. Purple nodes are in state susceptible or non-adopters or $+1$, and yellow are in state infected or adopters or $-1$.}
 \end{figure}
 Now, taking into account this possible events, we write the possible transitions for the set $x^{+}_{k,m,j}$, for $j>0$ (see Fig. \ref{fig:ame_plot1} for a schematic representation of transitions involving $x^{+}_{k,m,j}$ and $x^{-}_{k,m,j}$):
 \begin{flalign} \label{eq:pre_AME}
@@ -88,22 +88,6 @@ where $\beta^{-}$ ($\gamma^{-}$) are time-dependent rates that account for the t
     \beta^{-} = \frac{\sum_{j=0}^{\infty} \sum_{k=0}^{\infty} p_k \sum_{m = 0}^{k} m \, T^{+} (k,m,j) \, x^{+}_{k,m,j}}{\sum_{j=0}^{\infty} \sum_{k=0}^{\infty} p_k \sum_{m = 0}^{k} (k - m)\,  x^{-}_{k,m,j}} \quad \quad \gamma^{-} = \frac{\sum_{j=0}^{\infty} \sum_{k=0}^{\infty} p_k \sum_{m = 0}^{k} m\, T^{-} (k,m,j) \, x^{-}_{k,m,j}}{\sum_{j=0}^{\infty} \sum_{k=0}^{\infty} p_k \sum_{m = 0}^{k} m\,  x^{-}_{k,m,j}}.
 \end{align}
 Equations \ref{eq:AME} define a closed set of deterministic differential equations that can be solved numerically using standard computational methods for any complex network and any model aging via the transition, reset and aging probabilities (a general script in Julia is available in a GitHub repository \cite{link_git}).
-    
-%The binary-state model is introduced via the transition, aging and reset probabilities ($T^{\pm}, A^{\pm}, R^{\pm}$), which may depend on the degree $k$, the number $m$ of neighbors in state $-1$ and the time spent in the actual state (or since a reset) $j$. For the Granovetter-Watts model with aging (chapter \ref{ch:Aging in binary state dynamics: The Granovetter-Watts model}), dynamics are monotonic and there are no age dynamics once the agent is state $-1$ ($T^{-} (k,m,j) = A^{-} (k,m,j) = R^{-} (k,m,j) = 0$). Therefore, the equations for $x^{+}_{k,m,0}$ decouples from the equations for the variables $x^{-}_{k,m,j}$, reducing the equations to:
-%\begin{align}
-%\label{eq:AME_Threshold_AP}
-%    \frac{d x^{+}_{k,m,j}}{dt}  = & \, - \left(T^{+}(k,m,j) + A^{+}(k,m,j) + R^{+} (k,m,j)\right) \, x^{+}_{k,m,j} - (k - m)\, \beta^{+} \,   x^{+}_{k,m,j} \nonumber\\
-%    & + (k-m+1) \, \beta^{+} \,  x^{+}_{k,m-1,j-1} + A^{+} (k,m,j-1)\,  x^{+}_{k,m,j-1},  \\
-%    \frac{d x^{+}_{k,m,0}}{dt}  = & \,  - \left(T^{+}(k,m,0) + A^{+}(k,m,0) + R^{+} (k,m,0)\right) \,x^{+}_{k,m,0} - (k - m)\, \beta^{+} \,  x^{+}_{k,m,0} + \sum_{l = 0}^{\infty} R^{+} (k,m,l) \, x^{+}_{k,m,l} . \nonumber
-%\end{align}
-%For the Symmetrical Threshold model with aging (chapter \ref{ch:Ordering dynamics in the Symmetrical Threshold model}), this monotonic approximation is no longer valid. On the other hand, for this model we do not consider age resetting ($R^{\pm} (k,m,j) = 0$) since aging is "endogenous". Therefore, the equations to solve are:
-%\begin{align}
-%\label{eq:AME_Threshold_SP}
-%    \frac{d x^{\pm}_{k,m,j}}{dt}  = & \, - \left( T^{\pm} (k,m,j) + A^{\pm} (k,m,j) + R^{\pm} (k,m,j) \right) \, x^{\pm}_{k,m,j} - (k - m)\, \beta^{\pm} \,  x^{\pm}_{k,m,j} - m\, \gamma^{\pm} \,  x^{\pm}_{k,m,j} \nonumber\\
-%    & + (k-m+1)\, \beta^{\pm} \,  x^{\pm}_{k,m-1,j-1} \, + (m+1)\, \gamma^{\pm} \,  x^{\pm}_{k,m+1,j-1} + A^{\pm} (k,m,j-1)\,  x^{\pm}_{k,m,j-1},\\
-%    \frac{d x^{\pm}_{k,m,0}}{dt}  = & \, - \left( T^{\pm} (k,m,0) + A^{\pm} (k,m,0) + R^{\pm} (k,m,0) \right) \, x^{\pm}_{k,m,0} - (k - m)\, \beta^{\pm} \,  x^{\pm}_{k,m,0} - m\, \gamma^{\pm} \,  x^{\pm}_{k,m,0}\nonumber\\
-%    &+ \sum_{l = 0}^{\infty} T^{\mp} (k,m,l) \,  x^{\mp}_{k,m,l}.\nonumber 
-%\end{align}
 
 \section{\label{sec:Reduction to Markovian dynamics}  Reduction to Markovian dynamics}
 
@@ -129,12 +113,12 @@ Notice that this reduction is not an approximation and there is no loss of accur
 
 \section{\label{sec:Heterogeneous mean-field approximation}  Heterogeneous mean-field approximation (HMF)}
 
-Moreover, from Eqs. \eqref{eq:AME_noage}, we can perform a heterogeneous mean-field approximation (HMF) to reduce our system to $k_{\rm max}+1$ differential equations \cite{gleeson-2013}. This appoximation assumes a solution $x^{\pm}_{k,m} = x_{k}^{\pm} B_{k,m} [\omega]$, where $\omega = \langle k x^{-}_{k} \rangle / \langle k \rangle$ is the probability that one end of a randomly chosen edge is in state $-1$. Using this ansatz, the AME can be reduced to the following set of equations:
+Moreover, from Eqs. \eqref{eq:AME_noage}, we can perform a heterogeneous mean-field approximation (HMF) to reduce our system to $k_{\rm max}+1$ differential equations \cite{gleeson-2013}. This approximation assumes a solution $x^{\pm}_{k,m} = x_{k}^{\pm} B_{k,m} [\omega]$, where $\omega = \langle k x^{-}_{k} \rangle / \langle k \rangle$ is the probability that one end of a randomly chosen edge is in state $-1$. Using this ansatz, the AME can be reduced to the following set of equations:
 
-\begin{eqnarray}
+\begin{align}
     \frac{d}{d t} x^{-}_{k}= &- x^{-}_{k} \sum_{m=0}^{k} T^{-}_{k, m} B_{k, m}[\omega] +\left(1-x^{-}_{k}\right) \sum_{m=0}^{k} T^{+}_{k, m} B_{k, m}[\omega],
     \label{eq:HMF}
-\end{eqnarray}
+\end{align}
 This system of $(k_{\rm max}+1)$ differential equations, coupled via $\omega$, cannot be solved analytically in general. However, it can be solved numerically using standard computational methods.
 
 %In particular, for the Symmetrical Threshold model, HMF predicts a mixed-ordered transition line that qualitatively captures the critical line dependence but quantitatively differs from the numerical simulations (see the red dashed line in Figs. \ref{ER_REG_PD}a and \ref{ER_REG_PD}b and the dotted colored lines in Fig. \ref{ER_REG_PD}c). Moreover, this approximation does not predict a frozen phase in any of the networks considered. Instead, for high values of $T$, the integrated stationary solutions are always $m_f = \pm 1$, regardless of $m_0$. From this analysis, we conclude that we need sophisticated methods beyond an HMF description to describe the Symmetrical Threshold model's phase diagram (in a random sparse network).

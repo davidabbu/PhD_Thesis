@@ -1,0 +1,4 @@
+{"rule":"REGARDING_TO","sentence":"^\\QRegarding to understand and model human behavior, there are 3 main approaches one can follow: Statistical Models are used to identify correlations and make individualized predictions.\\E$"}
+{"rule":"THE_PUNCT","sentence":"^\\QIn this chapter, we will explore in detail the, so called, threshold models and the concept of aging, which will be fundamental to understand the results in the following chapters of the thesis.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QIn this case, the complex contagion process takes place via a single group interaction.\\E$"}
+{"rule":"FILE_EXTENSIONS_CASE","sentence":"^\\Q(b) Stationary probability density function (pdf) of the magnetization in the three different regimes.\\E$"}
