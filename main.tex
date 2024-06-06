@@ -139,22 +139,6 @@
 \input{Front/Abstract.tex}
 
 %----------------------------------------------------------------------------------------
-%	TABLE OF CONTENTS
-%----------------------------------------------------------------------------------------
-
-\pagestyle{empty} % Disable headers and footers for the following pages
-
-\tableofcontents % Output the table of contents
-
-\listoffigures % Output the list of figures, comment or remove this command if not required
-
-%\listoftables % Output the list of tables, comment or remove this command if not required
-
-\pagestyle{fancy} % Enable default headers and footers again
-
-\cleardoublepage % Start the following content on a new page
-
-%----------------------------------------------------------------------------------------
 %	LIST OF PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
@@ -175,9 +159,9 @@ The list of articles detailed below, in chronological order by date of publicati
 	\vspace{0.5 cm}
 	\item \fullcite{Abella_2024}
 	\vspace{0.5 cm}
-	\item \fullcite{abella2024dynamics}
-	\vspace{0.5 cm}
 	\item \fullcite{abella2024exploring}
+	\vspace{0.5 cm}
+	\item \fullcite{abella2024dynamics}
 	\vspace{0.5 cm}
 \end{enumerate}
 
@@ -194,8 +178,36 @@ Other publications published during the PhD period are also included in the foll
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\pagestyle{empty} % Disable headers and footers for the following pages
+
+\tableofcontents % Output the table of contents
+
+\listoffigures % Output the list of figures, comment or remove this command if not required
+
+%\listoftables % Output the list of tables, comment or remove this command if not required
+
+\pagestyle{fancy} % Enable default headers and footers again
+
+\cleardoublepage % Start the following content on a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF ACRONYMS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{} % Chapter heading image
+\chapterspaceabove{6.75cm} % Whitespace from the top of the page to the chapter title on chapter pages
+\chapterspacebelow{7.25cm} % Amount of vertical whitespace from the top margin to the start of the text on chapter pages
+
+\chapter*{List of acronyms}
+\input{Front/acronyms_list.tex}
+
+%----------------------------------------------------------------------------------------
 %	INTRODUCTION AND POSITIONING
 %----------------------------------------------------------------------------------------
+\mainmatter
 \chapterimage{Images/Cover_Intro.png}
 \chapterspaceabove{6.75cm}
 \chapterspacebelow{7.25cm}
@@ -358,9 +370,6 @@ Other publications published during the PhD period are also included in the foll
 %----------------------------------------------------------------------------------------
 
 \cleardoublepage % Make sure the index starts on an odd (right side) page
-\phantomsection
-\addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}} % Add an Index heading to the table of contents
-\printindex % Output the index
 
 %----------------------------------------------------------------------------------------
 %	APPENDICES
