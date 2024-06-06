@@ -132,7 +132,7 @@
 		\node[anchor=north west, inner sep=0pt, xshift=\Gm@lmargin, yshift=-\Gm@tmargin] at (current page.north west) {\fontsize{180pt}{180pt}\selectfont\sffamily\bfseries\textcolor{ocre!70}{#1}}; % Part number
 		\node[anchor=north east, inner sep=0pt, xshift=-\Gm@rmargin, yshift=-\Gm@tmargin] at (current page.north east) {\parbox[t][][t]{9.3cm}{\begin{flushleft}\fontsize{32pt}{32pt}\selectfont\sffamily\bfseries\textcolor{ocre!70}{\strut #2}\end{flushleft}}}; % Part title
 		\node[anchor=south east, inner sep=0pt, xshift=-\Gm@rmargin, yshift=\Gm@bmargin] at (current page.south east) { % Mini table of contents
-			\parbox[t][][t]{9.5cm}{ % Width of box holding the mini ToC
+			\parbox[t][][t]{9.3cm}{ % Width of box holding the mini ToC
 				\printcontents[part]{l}{0}{\setcounter{tocdepth}{1}} % Display the mini table of contents showing chapters and sections, change tocdepth to 2 to also show subsections or 0 to only show chapters
 			}
 		};

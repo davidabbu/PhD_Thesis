@@ -66,7 +66,7 @@ where $x^{-}_{0}$ is the initial fraction of adopters (seed). This behavior is u
 
 \begin{figure}
 \centering \captionsetup{font=sf}
-\includegraphics[width=0.7\columnwidth]{Figs/Aging_Threshold/EVO_MOD.pdf}
+\includegraphics[width=0.8\columnwidth]{Figs/Aging_Threshold/EVO_MOD.pdf}
 \caption[Cascade dynamics and fall to the full-adopt state ($x^{-} \sim 1$)]{\label{fig:models} Cascade dynamics and fall to the full-adopt state ($x^{-} \sim 1$) of the Granovetter-Watts model without aging \textbf{(a)} and the versions with endogenous \textbf{(b)} and exogenous \textbf{(c)} aging effects. At (b-c), the evolution is plotted as a function of the logarithm of time $\log{(t)}$ in Monte Carlo steps, as in the insets. The underlying network is a 3-regular random graph and the threshold is $T = 0.2$. The exponent values are $\alpha \simeq 1.0$, $\beta \simeq 1.14$, $\gamma \simeq 0.38$ and $\delta \simeq 1.0$. Numerically integrated solutions of Eq. \eqref{eq:AME_Threshold} (solid lines) describe accurately the numerical results. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations in a network of $N = 1.6 \times 10^5$ nodes.}
 \end{figure}
 
@@ -98,11 +98,11 @@ A different question is the dependence of the exponents of the power law and str
 
 \subsection{\label{subsec:Approximate master equation and solutions} General mathematical description}
 
-\begin{figure*}
+\begin{figure}[t]
     \centering \captionsetup{font=sf}
     \includegraphics[width=\linewidth]{Figs/Aging_Threshold/FIG_EVO_EXO_ENDO.pdf}
     \caption[Cascade dynamics of the Granovetter-Watts model in graphs]{\label{fig:exo_endo_evo} Cascade dynamics of the Granovetter-Watts model with endogenous (a - c) and exogenous (d - f) aging. From the left column to the right: a random regular graph with degree $z=5$ (a and d), an Erd\H{o}s-R\'enyi graph with average degree $z = 5$ (b and e) and a Barab\'asi-Albert graph with average degree $z = 8$ (c and f). Different colors indicate different values of $T$ and markers correspond to different system sizes: $N = 2,500$ (plus), $10,000$ (circles), $40,000$ (triangles), $160,000$ (crosses) and $640,000$ (squares). Time is scaled according to the system size for each model: $\tau_{\rm{EXO}} = 2(\log(N)/\beta)^{1/\gamma} - 2$, $\tau_{\rm{ENDO}} = 2N^{1/\delta} - 2$, where $\beta$,$\gamma$ and $\delta$ are the fitted exponents from the behavior according to Eq. \eqref{eq:power law} and \eqref{eq:streched_exp}. Solid lines are obtained from the solutions of Eq. \eqref{eq:PA}. Monte Carlo simulations are averaged over $M = 5 \times 10^4$ realizations.}
-\end{figure*}
+\end{figure}
 
 To account for the non-Markovian dynamics introduced by the aging mechanism, we need to go beyond the standard mathematical descriptions of the Granovetter-Watts model \cite{gleeson-2007,gleeson-2008,gleeson-2013}. We do so using a Markovian description by enlarging the number of variables \cite{peralta-2020C,peralta-2020A}. Namely, we classify the agents with degree $k$, number of adopter neighbors $m$ and age $j$ as different sets in a compartmental model in a general framework for binary-state dynamics in complex networks, as described in chapter \ref{ch:Aging in binary state dynamics}. To write down the AME for the Granovetter-Watts model with aging, we need to consider the following possible transitions:
 \begin{itemize}
