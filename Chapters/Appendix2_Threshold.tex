@@ -35,11 +35,11 @@ where $B_{k,m}[x^{-}_{0}]$ is the binomial distribution with $k$ attempts, $m$ s
 \end{itemize}
 
 The probability to change state and to age make sense in the context of aging. The reset probability is introduced to account for ``exogenous'' aging, in which an external influence forces the node to attempt a change of state, but the node remains in its current state. Moreover, notice that we assume all the probabilities to be a function of the degree $k$, the number of neighbors in state $-1$ $m$ and the time spent in the actual state (or since a reset) $j$.
-\begin{figure}[ht]
+\begin{figure}
     \centering
     \captionsetup{font=sf}
     \includegraphics[width=\columnwidth]{Figs/Aging_Threshold/plot_AME_transitions.png}
-    \caption[Schematic representation of the transitions to or from the set $x^{\pm}_{k,m,j}$]{\label{fig:ame_plot1} Schematic representation of the transitions to or from the set $x^{-}_{k,m,j}$ (left) and $x^{+}_{k,m,j}$ (right) ($j > 0$). We show the central node with some neighbors ($k = 3$) for different values $m$ and $j$. Purple nodes are in state susceptible or non-adopters or $+1$, and yellow are in state infected or adopters or $-1$.}
+    \caption[Schematic representation of the transitions to or from the set $x^{\pm}_{k,m,j}$]{\label{fig:ame_plot1} Schematic representation of the transitions to or from the set $x^{-}_{k,m,j}$ (left) and $x^{+}_{k,m,j}$ (right) ($j > 0$). We show the central node with some neighbors ($k = 3$) for different values $m$ (from left to right) and age $j$ (from bottom to top). Purple nodes are in state susceptible or non-adopters or $+1$, and yellow are in state infected or adopters or $-1$. The transitions are represented by colored arrows: The probability to swap and reset age $T^{\pm}$ (orange/gold), the probability to reset age $R^{\pm}$ (green), the probability to age $A^{\pm}$ (grey). The rates $\beta^{\pm}$ (blue) and $\gamma^{\pm}$ (red) are associated with the change of state of the neighbors.} 
 \end{figure}
 Now, taking into account this possible events, we write the possible transitions for the set $x^{+}_{k,m,j}$, for $j>0$ (see Fig. \ref{fig:ame_plot1} for a schematic representation of transitions involving $x^{+}_{k,m,j}$ and $x^{-}_{k,m,j}$):
 \begin{flalign} \label{eq:pre_AME}
