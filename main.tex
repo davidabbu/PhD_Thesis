@@ -79,7 +79,7 @@
 
 \noindent \textit{Aging and memory effects in social and economic dynamics.} \copyright
 
-\noindent Palma de Mallorca, June 2024
+\noindent Palma de Mallorca, July 2024
 \pagebreak
 
 %----------------------------------------------------------------------------------------
@@ -105,7 +105,6 @@
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
-
 \input{Front/Acknowledgements.tex}
 
 %----------------------------------------------------------------------------------------
@@ -144,6 +143,7 @@
 \chapterspacebelow{7.25cm} % Amount of vertical whitespace from the top margin to the start of the text on chapter pages
 
 \chapter*{List of publications}
+\addcontentsline{toc}{chapter}{List of publications} % Add a List of publications heading to the table of contents
 
 The list of articles detailed below, in chronological order by date of publication, form the basis of the present thesis.
 \vspace{0.5 cm}
@@ -182,7 +182,11 @@ Other publications published during the PhD period are also included in the foll
 
 \tableofcontents % Output the table of contents
 
+\addcontentsline{toc}{chapter}{Contents} % Add a Table of contents heading to the table of contents
+
 \listoffigures % Output the list of figures, comment or remove this command if not required
+
+\addcontentsline{toc}{chapter}{List of figures} % Add a List of figures heading to the table of contents
 
 %\listoftables % Output the list of tables, comment or remove this command if not required
 
@@ -199,6 +203,7 @@ Other publications published during the PhD period are also included in the foll
 \chapterspacebelow{7.25cm} % Amount of vertical whitespace from the top margin to the start of the text on chapter pages
 
 \chapter*{List of acronyms}
+\addcontentsline{toc}{chapter}{List of acronyms} % Add a List of acronyms heading to the table of contents
 \input{Front/acronyms_list.tex}
 
 %----------------------------------------------------------------------------------------
@@ -337,9 +342,12 @@ Other publications published during the PhD period are also included in the foll
 
 \chapter{General conclusions and outlook}
 \input{Chapters/Discussion_and_outlook.tex}
+\fancyhead[LO]{\sffamily\normalsize\bfseries Chapter 10. General conclusions and outlook}
 
 \stopcontents[part] % Manually stop the 'part' table of contents here so the previous Part page table of contents doesn't list the following chapters
-
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
@@ -348,7 +356,8 @@ Other publications published during the PhD period are also included in the foll
 \chapterspaceabove{2.5cm} % Whitespace from the top of the page to the chapter title on chapter pages
 \chapterspacebelow{2cm} % Amount of vertical whitespace from the top margin to the start of the text on chapter pages
 
-\markboth{\sffamily\normalsize\bfseries Bibliography}{\sffamily\normalsize\bfseries Bibliography} % Set the page headers to display a Bibliography chapter name
+\fancyhead[LO]{\sffamily\normalsize\bfseries Bibliography}
+\fancyhead[RE]{\sffamily\normalsize\bfseries Bibliography}
 \printbibliography
 \addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}} % Add a Bibliography heading to the table of contents
 
@@ -371,6 +380,8 @@ Other publications published during the PhD period are also included in the foll
 %----------------------------------------------------------------------------------------
 %	APPENDICES
 %----------------------------------------------------------------------------------------
+\fancyhead[LO]{\rightmark} % Header for left odd pages
+\fancyhead[RE]{\leftmark} % Header for right even pages
 
 \chapterimage{} % Chapter heading image
 \chapterspaceabove{6.75cm} % Whitespace from the top of the page to the chapter title on chapter pages

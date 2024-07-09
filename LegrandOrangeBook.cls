@@ -464,7 +464,13 @@
 	maxbibnames=99, % Maximum number of names displayed in the bibliography before truncation
 ]{biblatex}
 
-%\defbibheading{bibempty}{} % Suppress default bibliography headings
+\defbibheading{bibempty}{} % Suppress default bibliography headings
+
+% Set the bibliography header in both left and right pages with only the chapter title
+\defbibheading{bibliography}[\bibname]{%
+	\chapter*{#1}
+	\markboth{#1}{#1}
+}
 
 %----------------------------------------------------------------------------------------
 %	INDEX
