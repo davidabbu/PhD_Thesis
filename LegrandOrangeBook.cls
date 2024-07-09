@@ -464,7 +464,7 @@
 	maxbibnames=99, % Maximum number of names displayed in the bibliography before truncation
 ]{biblatex}
 
-\defbibheading{bibempty}{} % Suppress default bibliography headings
+%\defbibheading{bibempty}{} % Suppress default bibliography headings
 
 %----------------------------------------------------------------------------------------
 %	INDEX
